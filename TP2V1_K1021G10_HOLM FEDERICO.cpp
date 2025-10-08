@@ -20,6 +20,18 @@
  - Nombre del compilador: Borland C++ V.5.5
  */
 
+// Declaraciones de Structs
+
+// Constantes, Macros y Typedef
+
+// Definiciones de Structs
+
+// Declaraciones de Funciones
+
+// Main
+
 int main() {
   return 0;
 }
+
+// Definiciones de funciones
