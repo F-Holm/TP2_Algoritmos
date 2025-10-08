@@ -9,21 +9,27 @@ from utils import cargar_env, ejecutar_comando, limpiar_cache_python, exist_file
 def detectar_compilador(env):
     if sys.platform.startswith("win"):
         comp_var = env.get("COMPILADOR_WINDOWS")
-    else:
+    elif sys.platform.startswith("linux"):
         comp_var = env.get("COMPILADOR_LINUX")
+    else:
+        print(f"Sistema operativo no soportado: {sys.platform}")
+        return None
+
     if not comp_var:
         print("No se definió el compilador para este sistema operativo.")
         return None
-    # Obtener el comando real del compilador
+
     compilador = env.get(comp_var)
     if not compilador:
         print(f"No se encontró la variable de compilador: {comp_var}")
         return None
+
     return compilador.split()
+
 
 def compilar_src(env):
     src = env.get("SRC")
-    if not src or not os.path.isfile(src):
+    if not src or not exist_file(src):
         print(f"Archivo SRC no encontrado: {src}")
         return
     compilador = detectar_compilador(env)
@@ -38,7 +44,9 @@ def compilar_src(env):
     flags += env.get("ESTANDAR", "").split()
     flags += env.get("EXTRA", "").split()
 
-    modo = env.get("MODO", "D")
+    modo = env.get("MODO")
+    if not modo:
+        print(f"Configuración 'MODO' no encontrada")
     if modo.upper() == "R":
         flags += env.get("RELEASE_FLAGS", "").split()
     else:
