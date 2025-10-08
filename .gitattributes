@@ -1,7 +1,19 @@
-# Regla general: todos los archivos de texto usan CRLF
+# =====================================
+# 🔧 CONFIGURACIÓN GLOBAL DE EOL
+# =====================================
+
+# Por defecto: todos los archivos de texto usan CRLF (Windows)
 * text eol=crlf
 
-# Archivos binarios (nunca tocar EOL)
+# =========================================
+# 🧠 SCRIPTS (deben usar LF para Linux/WSL)
+# =========================================
+*.sh  text eol=lf
+*.py  text eol=lf
+
+# =====================================
+# 📦 ARCHIVOS BINARIOS (no tocar)
+# =====================================
 *.pdf   binary
 *.doc   binary
 *.docx  binary
@@ -21,39 +33,3 @@
 *.tds   binary
 *.dat   binary
 *.Dat   binary
-
-# =====================================
-# 🔧 CONFIGURACIÓN GLOBAL DE EOL
-# =====================================
-
-# Por defecto: todos los archivos de texto usan CRLF (Windows)
-* text eol=crlf
-
-# =====================================
-# 🧠 SCRIPTS (deben usar LF para Linux/WSL)
-# =====================================
-*.sh  text eol=lf
-*.py  text eol=lf
-
-# =====================================
-# 📦 ARCHIVOS BINARIOS (no tocar)
-# =====================================
-*.pdf  binary
-*.doc  binary
-*.docx binary
-*.exe  binary
-*.dll  binary
-*.png  binary
-*.jpg  binary
-*.zip  binary
-*.tar  binary
-*.obj  binary
-*.gz   binary
-*.dat  binary
-*.ilc  binary
-*.ild  binary
-*.ilf  binary
-*.ils  binary
-*.map  binary
-*.tds  binary
-*.Dat  binary
