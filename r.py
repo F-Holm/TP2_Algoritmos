@@ -9,8 +9,13 @@ def restaurar_archivos(env):
     if not rest_ext:
         print("No se definieron extensiones para restaurar en REST_EXT")
         return
+    separador = env.get("SEPARADOR")
+    if not separador:
+        print("No se definieron extensiones para restaurar en SEPARADOR")
+        return
+    
+    extensiones = [ext.strip() for ext in rest_ext.split(separador) if ext.strip()]
 
-    extensiones = [ext.strip().lstrip(".") for ext in rest_ext.split(",") if ext.strip()]
     if not extensiones:
         print("No se encontraron extensiones válidas para restaurar")
         return
