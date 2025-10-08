@@ -8,7 +8,10 @@
 
 ## Aclaraciones:
 
-- Este archivo no va a estar en la entrega final
+- Pueden ignorar los archivos `.py`
+- Los archivos `.py` son script para facilitar trabajar en el proyecto sin tener que usar `Code::Blocks`
+- Los scripts pueden configurarse con el archivo [scripts_conf.env](./scripts_conf.env)
+- Solo el código y archivos `.txt` van a estar en la entrega final
 - Cualquier duda, le pasan esto a `ChatGPT` o me preguntan
 - Si se les hace dificil utilizar GitHub, pueden mandarme por whatsapp las funciones que definan junto con otros cambios. No manden todo el archivo, solo los cambios
 - No hagan commits directo en la branch `main`
@@ -33,7 +36,7 @@ winget install --id LLVM.LLVM --source winget
 La versión final la vamos a compilar con `Borland 5.5` en `Code::Blocks`
 
 
-### Extensiones recomendadas
+### Extensiones recomendadas de VS-Code
 
 - `C/C++ Extension Pack`
 - `vscode-pdf`
@@ -45,9 +48,10 @@ La versión final la vamos a compilar con `Borland 5.5` en `Code::Blocks`
 
 Estos scripts utilizan `clang++` y `clang-format` que se instalan con el comando de arriba
 
-- `c.bat` se encarga de compilar `main.cpp` con el compilador clang++ que es más moderno y tiene mensajes de error más claros
-- `f.bat` se encarga de darle un formato estándar a `main.cpp` con `clang-format`
-- `l.bat` se encarga de eliminar todos los archivos temporales
+- `c.py`: Compila el código con el compilador establecido en [scripts_conf.env](./scripts_conf.env)
+- `f.py`: Le da un formato estándar al código con `clang-format`
+- `l.py`: Elimina todos los archivos temporales
+- `e.py`: Ejecuta el programa
 
 ---
 
@@ -56,7 +60,7 @@ Estos scripts utilizan `clang++` y `clang-format` que se instalan con el comando
 Comandos útilies de git:
 
 ```bash
-git clone https://github.com/F-Holm/TP1_Algoritmos.git
+git clone https://github.com/F-Holm/TP2_Algoritmos.git
 ```
 ```bash
 git add .
@@ -66,9 +70,6 @@ git commit -m "<nombre_commit>"
 ```
 ```bash
 git push origin <nombre_branch>
-```
-```bash
-git reset --hard
 ```
 ```bash
 git status
