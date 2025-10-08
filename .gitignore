@@ -3,9 +3,6 @@
 !/**/
 !*.*
 
-*.docx
-*.doc
-*.pdf
 *.exe
 
 !./TP2V*_K1021G10_HOLM\ FEDERICO.exe
