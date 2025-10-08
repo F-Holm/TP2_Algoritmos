@@ -27,14 +27,15 @@
 // Definiciones de Structs
 
 // Declaraciones de Funciones
+#define NO_SE_EL_TIPO void
 long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
-void Abrir();
-void ProcAeropuertos();
-void ProcVuelos();
-void ConsultasVuelos();
-void ListVueAeropSld();
-void Cerrar();
+NO_SE_EL_TIPO Abrir();
+NO_SE_EL_TIPO ProcAeropuertos();
+NO_SE_EL_TIPO ProcVuelos();
+NO_SE_EL_TIPO ConsultasVuelos();
+NO_SE_EL_TIPO ListVueAeropSld();
+NO_SE_EL_TIPO Cerrar();
 
 // Main
 

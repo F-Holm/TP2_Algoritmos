@@ -33,11 +33,12 @@ def compilar_src(env):
     if not src or not exist_file(src):
         print(f"Archivo SRC no encontrado: {src}")
         return
+    formatear_codigo(src)
     compilador = detectar_compilador(env)
     if not compilador:
         return
 
-    output_file = base_name(srt) + ".exe"
+    output_file = base_name(src) + ".exe"
 
     flags = []
     flags += env.get("INFO_FLAGS", "").split()
@@ -58,7 +59,6 @@ def compilar_src(env):
         print(f"✅ Compilación completada: {output_file}")
 
 def main():
-    formatear_codigo()
     env = cargar_env()
     compilar_src(env)
     limpiar_cache_python()
