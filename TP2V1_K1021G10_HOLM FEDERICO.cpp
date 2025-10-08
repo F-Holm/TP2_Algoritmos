@@ -29,10 +29,22 @@
 // Declaraciones de Funciones
 long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
+void Abrir();
+void ProcAeropuertos();
+void ProcVuelos();
+void ConsultasVuelos();
+void ListVueAeropSld();
+void Cerrar();
 
 // Main
 
 int main() {
+  Abrir();
+  ProcAeropuertos();
+  ProcVuelos();
+  ConsultasVuelos();
+  ListVueAeropSld();
+  Cerrar();
   return 0;
 }
 
