@@ -20,22 +20,55 @@
  - Nombre del compilador: Borland C++ V.5.5
  */
 
+#include <fstream>
+
+using namespace std;
+
 // Declaraciones de Structs
+struct Aeropuertos;
+struct Vuelos;
 
 // Constantes, Macros y Typedef
+#define ARCHIVOS ifstream& Aeropt, ifstream& Vuelos, ifstream& Consultas
+typedef char str3[4];
+typedef char str4[5];
+typedef char str8[9];
+typedef char str9[10];
+typedef char str11[12];
+typedef char str20[21];
+typedef char str25[26];
+typedef char str30[31];
 
 // Definiciones de Structs
+struct Aeropuertos {
+  str20 provin;
+  str25 ciudad;
+  str30 nomAeropto;
+  str4 codOACI;
+  str3 codIATA;
+};  // Sin orden - 57 registros
+
+struct Vuelos {
+  str9 numVuelo;
+  short distKm;  // 4 digitos
+  short velCrucero; // 4 digitos
+  short cantPsj;
+  str8 empresa;
+  str11 marcaAeronv;
+  int fechaSale; // aaaammdd
+  short horaSale; // hhmm
+};  // Sin orden - ? registros
 
 // Declaraciones de Funciones
 #define NO_SE_EL_TIPO void
 long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
-NO_SE_EL_TIPO Abrir();
+void Abrir(ARCHIVOS);
 NO_SE_EL_TIPO ProcAeropuertos();
 NO_SE_EL_TIPO ProcVuelos();
 NO_SE_EL_TIPO ConsultasVuelos();
 NO_SE_EL_TIPO ListVueAeropSld();
-NO_SE_EL_TIPO Cerrar();
+void Cerrar(ARCHIVOS);
 NO_SE_EL_TIPO replicate();
 NO_SE_EL_TIPO SubCad();
 NO_SE_EL_TIPO OrdxBur();
@@ -55,12 +88,14 @@ NO_SE_EL_TIPO SacarPrimerNodo();
 // Main
 
 int main() {
-  Abrir();
+  ifstream Aeropt, Vuelos, Consultas;
+
+  Abrir(Aeropt, Vuelos, Consultas);
   ProcAeropuertos();
   ProcVuelos();
   ConsultasVuelos();
   ListVueAeropSld();
-  Cerrar();
+  Cerrar(Aeropt, Vuelos, Consultas);
   return 0;
 }
 
