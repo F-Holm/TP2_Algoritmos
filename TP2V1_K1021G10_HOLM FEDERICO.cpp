@@ -36,6 +36,21 @@ NO_SE_EL_TIPO ProcVuelos();
 NO_SE_EL_TIPO ConsultasVuelos();
 NO_SE_EL_TIPO ListVueAeropSld();
 NO_SE_EL_TIPO Cerrar();
+NO_SE_EL_TIPO replicate();
+NO_SE_EL_TIPO SubCad();
+NO_SE_EL_TIPO OrdxBur();
+NO_SE_EL_TIPO IntCmb();
+NO_SE_EL_TIPO InsertarEnOrden();
+NO_SE_EL_TIPO BusBinVec();
+NO_SE_EL_TIPO HoraLlega();
+NO_SE_EL_TIPO FormatoHoraMin();
+NO_SE_EL_TIPO VerifEstado();
+NO_SE_EL_TIPO InsertaNodo();
+NO_SE_EL_TIPO InsertaInicio();
+NO_SE_EL_TIPO InsertaEnMedio();
+NO_SE_EL_TIPO InsertaEnLugar();
+NO_SE_EL_TIPO BuscarClvNodo();
+NO_SE_EL_TIPO SacarPrimerNodo();
 
 // Main
 
