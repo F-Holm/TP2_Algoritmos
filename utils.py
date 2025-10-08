@@ -5,6 +5,7 @@ import subprocess
 import shutil
 import sys
 from enum import Enum, auto
+import glob
 
 class SistemaOperativo(Enum):
     WINDOWS = auto()
@@ -70,10 +71,13 @@ def eliminar_directorio(ruta: str) -> bool:
 def limpiar_cache_python() -> None:
     eliminar_directorio("./__pycache__/")
     
-def formatear_codigo(src):
-    if not src or not exist_file(src):
-        print(f"Archivo no encontrado: {src}")
+def formatear_codigo() -> None:
+    archivos = glob.glob("./*.cpp")
+    if not archivos:
+        print("No se encontraron archivos .cpp para formatear.")
         return
-    comando = ["clang-format", "-i", src]
-    if ejecutar_comando(comando):
-        print(f"Archivo formateado: {src}")
+    comando = ["clang-format", "--style=file", "-i", *archivos]
+    try:
+        ejecutar_comando(comando)
+    except:
+        pass

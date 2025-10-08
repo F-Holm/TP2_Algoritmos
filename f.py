@@ -2,12 +2,10 @@
 
 # Script para darle formato estándar al código
 
-from utils import cargar_env, limpiar_cache_python, formatear_codigo
+from utils import limpiar_cache_python, formatear_codigo
 
 def main():
-    env = cargar_env()
-    src = env.get("SRC")
-    formatear_codigo(src)
+    formatear_codigo()
     limpiar_cache_python()
 
 if __name__ == "__main__":

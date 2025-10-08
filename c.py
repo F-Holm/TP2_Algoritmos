@@ -33,7 +33,7 @@ def compilar_src(env):
     if not src or not exist_file(src):
         print(f"Archivo SRC no encontrado: {src}")
         return
-    formatear_codigo(src)
+    formatear_codigo()
     compilador = detectar_compilador(env)
     if not compilador:
         return

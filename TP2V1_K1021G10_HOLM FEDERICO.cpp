@@ -29,7 +29,7 @@ struct Aeropuertos;
 struct Vuelos;
 
 // Constantes, Macros y Typedef
-#define ARCHIVOS ifstream& Aeropt, ifstream& Vuelos, ifstream& Consultas
+#define ARCHIVOS ifstream &Aeropt, ifstream &Vuelos, ifstream &Consultas
 typedef char str3[4];
 typedef char str4[5];
 typedef char str8[9];
@@ -50,13 +50,13 @@ struct Aeropuertos {
 
 struct Vuelos {
   str9 numVuelo;
-  short distKm;  // 4 digitos
-  short velCrucero; // 4 digitos
+  short distKm;      // 4 digitos
+  short velCrucero;  // 4 digitos
   short cantPsj;
   str8 empresa;
   str11 marcaAeronv;
-  int fechaSale; // aaaammdd
-  short horaSale; // hhmm
+  int fechaSale;   // aaaammdd
+  short horaSale;  // hhmm
 };  // Sin orden - ? registros
 
 // Declaraciones de Funciones
