@@ -19,4 +19,5 @@
 *.ils   binary
 *.map   binary
 *.tds   binary
+*.dat   binary
 *.Dat   binary
