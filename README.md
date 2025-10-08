@@ -48,10 +48,11 @@ La versión final la vamos a compilar con `Borland 5.5` en `Code::Blocks`
 
 Estos scripts utilizan `clang++` y `clang-format` que se instalan con el comando de arriba
 
-- `c.py`: Compila el código con el compilador establecido en [scripts_conf.env](./scripts_conf.env)
-- `f.py`: Le da un formato estándar al código con `clang-format`
-- `l.py`: Elimina todos los archivos temporales
-- `e.py`: Ejecuta el programa
+- `r.py` -> Restaura los archivos `.txt` a su forma anterior a la ejecución del programa
+- `c.py` -> Compila el código con el compilador establecido en [scripts_conf.env](./scripts_conf.env)
+- `f.py` -> Le da un formato estándar al código con `clang-format`
+- `l.py` -> Elimina todos los archivos temporales
+- `e.py` -> Ejecuta el programa
 
 ---
 
