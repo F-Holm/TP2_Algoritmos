@@ -3,11 +3,6 @@
 ## Integrantes
 
 - Holm, Federico
-- Incutti, Mateo
-- Almada, Tomas
-- Barcala, Santiago
-- Cejas, Facundo
-
 
 ---
 
