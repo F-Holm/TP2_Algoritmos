@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 
-import os
-import sys
-import subprocess
+# Compilar el código
 
-from utils import cargar_env, ejecutar_comando, limpiar_cache_python, exist_file
+import sys
+
+from utils import cargar_env, ejecutar_comando, limpiar_cache_python, exist_file, detectar_sistema, SistemaOperativo, base_name
 
 def detectar_compilador(env):
-    if sys.platform.startswith("win"):
+    SO = detectar_sistema()
+    if SO == SistemaOperativo.WINDOWS:
         comp_var = env.get("COMPILADOR_WINDOWS")
-    elif sys.platform.startswith("linux"):
+    elif SO == SistemaOperativo.LINUX:
         comp_var = env.get("COMPILADOR_LINUX")
     else:
         print(f"Sistema operativo no soportado: {sys.platform}")
@@ -36,8 +37,7 @@ def compilar_src(env):
     if not compilador:
         return
 
-    base_name = os.path.splitext(os.path.basename(src))[0]
-    output_file = base_name + ".exe"
+    output_file = base_name(srt) + ".exe"
 
     flags = []
     flags += env.get("INFO_FLAGS", "").split()
@@ -47,6 +47,7 @@ def compilar_src(env):
     modo = env.get("MODO")
     if not modo:
         print(f"Configuración 'MODO' no encontrada")
+        return
     if modo.upper() == "R":
         flags += env.get("RELEASE_FLAGS", "").split()
     else:

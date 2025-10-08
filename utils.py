@@ -3,12 +3,34 @@
 import os
 import subprocess
 import shutil
+import sys
+from enum import Enum, auto
+
+class SistemaOperativo(Enum):
+    WINDOWS = auto()
+    LINUX = auto()
+    MACOS = auto()
+    OTRO = auto()
+
+def detectar_sistema() -> SistemaOperativo:
+    plataforma = sys.platform
+    if plataforma.startswith("win"):
+        return SistemaOperativo.WINDOWS
+    elif plataforma.startswith("linux"):
+        return SistemaOperativo.LINUX
+    elif plataforma.startswith("darwin"):
+        return SistemaOperativo.MACOS
+    else:
+        return SistemaOperativo.OTRO
 
 def exist_file(ruta: str) -> bool:
     return os.path.isfile(ruta)
 
 def exist_dir(ruta: str) -> bool:
     return os.path.isdir(ruta)
+
+def base_name(src: str) -> str:
+    return os.path.splitext(os.path.basename(src))[0]
 
 def cargar_env(ruta="scripts_conf.env"):
     env_vars = {}
