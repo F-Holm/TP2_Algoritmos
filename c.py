@@ -4,7 +4,7 @@
 
 import sys
 
-from utils import cargar_env, ejecutar_comando, limpiar_cache_python, exist_file, detectar_sistema, SistemaOperativo, base_name
+from utils import cargar_env, ejecutar_comando, limpiar_cache_python, exist_file, detectar_sistema, SistemaOperativo, base_name, formatear_codigo
 
 def detectar_compilador(env):
     SO = detectar_sistema()
@@ -58,6 +58,7 @@ def compilar_src(env):
         print(f"✅ Compilación completada: {output_file}")
 
 def main():
+    formatear_codigo()
     env = cargar_env()
     compilar_src(env)
     limpiar_cache_python()

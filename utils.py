@@ -69,3 +69,11 @@ def eliminar_directorio(ruta: str) -> bool:
 
 def limpiar_cache_python() -> None:
     eliminar_directorio("./__pycache__/")
+    
+def formatear_codigo(src):
+    if not src or not exist_file(src):
+        print(f"Archivo no encontrado: {src}")
+        return
+    comando = ["clang-format", "-i", src]
+    if ejecutar_comando(comando):
+        print(f"Archivo formateado: {src}")
