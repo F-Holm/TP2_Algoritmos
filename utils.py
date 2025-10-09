@@ -33,6 +33,15 @@ def exist_dir(ruta: str) -> bool:
 def base_name(src: str) -> str:
     return os.path.splitext(os.path.basename(src))[0]
 
+def eliminar_archivo(ruta: str) -> bool:
+    if not os.path.isfile(ruta):
+        return False
+    try:
+        os.remove(ruta)
+        return True
+    except OSError:
+        return False
+
 def cargar_env(ruta="scripts_conf.env"):
     env_vars = {}
     if not exist_file(ruta):
@@ -67,6 +76,15 @@ def eliminar_directorio(ruta: str) -> bool:
         except Exception as e:
             pass # print(f"❌ No se pudo eliminar {ruta}: {e}")
     return False
+
+def git_clean() -> None:
+    if not exist_dir(".git"):
+        print("⚠️ No es un repositorio Git. Saltando limpieza con git...")
+        return
+
+    comando = ["git", "clean", "-Xfd"]
+    if ejecutar_comando(comando):
+        pass # print("✅ Limpieza de Git completada.")
 
 def limpiar_cache_python() -> None:
     eliminar_directorio("./__pycache__/")
@@ -132,3 +150,25 @@ def compilar_src(env, src):
     comando = compilador + [src, "-o", output_file] + flags
     if ejecutar_comando(comando):
         print(f"✅ Compilación completada: {output_file}")
+
+def ejecutar_ejecutable(src):
+    if not src:
+        print("Nombre de archivo nulo")
+        return
+
+    exe_file = base_name(src) + ".exe"
+
+    if not exist_file(exe_file):
+        print(f"No se encontró el ejecutable: {exe_file}")
+        return
+
+    so = detectar_sistema()
+    if so == SistemaOperativo.WINDOWS:
+        comando = [exe_file]
+    elif so == SistemaOperativo.LINUX:
+        comando = ["wine", exe_file]
+    else:
+        print(f"Sistema operativo no soportado: {sys.platform}")
+        return
+
+    ejecutar_comando(comando)

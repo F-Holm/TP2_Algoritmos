@@ -4,7 +4,7 @@
 
 import subprocess
 
-from utils import cargar_env, ejecutar_comando, limpiar_cache_python, exist_dir
+from utils import cargar_env, exist_dir, limpiar_cache_python
 
 
 def restaurar_archivos(env):

@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
-# Compilar los programas para convertir de .txt a .dat
+# Compila, ejecuta y elimina los programas para convertir de .Txt a .Dat
 
-import sys
-
-from utils import cargar_env, limpiar_cache_python, compilar_src
+from utils import cargar_env, compilar_src, ejecutar_ejecutable, base_name, eliminar_archivo, limpiar_cache_python
 
 def main():
     env = cargar_env()
@@ -20,6 +18,8 @@ def main():
     for archivo in archivos:
         archivo.strip()
         compilar_src(env, archivo)
+        ejecutar_ejecutable(archivo)
+        eliminar_archivo(base_name(archivo) + ".exe")
     limpiar_cache_python()
 
 if __name__ == "__main__":

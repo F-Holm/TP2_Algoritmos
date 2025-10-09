@@ -53,6 +53,7 @@ Estos scripts utilizan `clang++` y `clang-format` que se instalan con el comando
 - `f.py` -> Le da un formato estándar al código con `clang-format`
 - `l.py` -> Elimina todos los archivos temporales
 - `e.py` -> Ejecuta el programa
+- `convs.py` -> Compila, ejecuta y elimina los programas para convertir de .Txt a .Dat
 
 ---
 

@@ -2,7 +2,7 @@
 
 # Script para darle formato estándar al código
 
-from utils import limpiar_cache_python, formatear_codigo
+from utils import formatear_codigo, limpiar_cache_python
 
 def main():
     formatear_codigo()

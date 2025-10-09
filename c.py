@@ -2,9 +2,7 @@
 
 # Compilar el código
 
-import sys
-
-from utils import cargar_env, limpiar_cache_python, compilar_src
+from utils import cargar_env, compilar_src, limpiar_cache_python
 
 def main():
     env = cargar_env()
