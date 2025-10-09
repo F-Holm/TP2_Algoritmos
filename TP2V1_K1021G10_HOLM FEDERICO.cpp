@@ -33,7 +33,7 @@ struct sTblAerop;
 
 // Constantes, Macros y Typedef
 const short CANT_AEROP = 57;
-#define ARCHIVOS ifstream &Aerops, ifstream &Vues, ifstream &Consultas
+#define ARCHIVOS fstream &Aerops, fstream &Vues, ifstream &Conslts
 typedef char str3[4];
 typedef char str4[5];
 typedef char str8[9];
@@ -43,7 +43,7 @@ typedef char str20[21];
 typedef char str25[26];
 typedef char str30[31];
 typedef sAerop tvrAerop[CANT_AEROP];
-typedef struct sNodo* tLista;
+typedef struct sNodo *tLista;
 
 // Definiciones de Structs
 struct sAerop {
@@ -55,7 +55,7 @@ struct sAerop {
 };  // Sin orden - 57 registros
 
 struct sVue {
-  str9 numVuelo;
+  str9 numVuelo;     // IATA-3 - NUM-VUELO-3 - IATA-3
   short distKm;      // 4 digitos
   short velCrucero;  // 4 digitos
   short cantPsj;
@@ -64,14 +64,6 @@ struct sVue {
   int fechaSale;   // aaaammdd
   short horaSale;  // hhmm
 };  // Sin orden - ? registros
-
-struct Consulta {
-  str9 numVuelo;
-  str25 ciudad;
-  str30 nomAeropto;
-  str4 codOACI;
-  str3 codIATA;
-};  // Sin orden
 
 // Declaraciones de Funciones
 #define NO_SE_EL_TIPO void
@@ -102,14 +94,16 @@ NO_SE_EL_TIPO SacarPrimerNodo();
 // Main
 
 int main() {
-  ifstream Aerops, Vues, Consultas;
+  fstream Aerops, Vues;
+  ifstream Conslts;
+  tvrAerop vrAerop;
 
-  Abrir(Aerops, Vues, Consultas);
+  Abrir(Aerops, Vues, Conslts);
   ProcAeropuertos();
   ProcVuelos();
   ConsultasVuelos();
   ListVueAeropSld();
-  Cerrar(Aerops, Vues, Consultas);
+  Cerrar(Aerops, Vues, Conslts);
   return 0;
 }
 
@@ -142,9 +136,9 @@ long GetTime(int &hh, int &mm, int &ss) {
 }  // GetTime
 
 void Abrir(ARCHIVOS) {
-  Aerops.open("Aeropuertos.Dat", ios::binary | ios::in);
-  Vues.open("Vuelos.Dat", ios::binary | ios::in);
-  Consultas.open("Consultas.Dat", ios::binary | ios::in);
+  Aerops.open("Aeropuertos.Dat", ios::binary | ios::in | ios::out);
+  Vues.open("Vuelos.Dat", ios::binary | ios::in | ios::out);
+  Conslts.open("Consultas.Dat", ios::binary | ios::in);
 }  // Abrir
 
 NO_SE_EL_TIPO ProcAeropuertos();
@@ -155,7 +149,7 @@ NO_SE_EL_TIPO ListVueAeropSld();
 void Cerrar(ARCHIVOS) {
   Aerops.close();
   Vues.close();
-  Consultas.close();
+  Conslts.close();
 }  // Cerrar
 
 NO_SE_EL_TIPO replicate();
