@@ -20,11 +20,13 @@
  - Nombre del compilador: Borland C++ V.5.5
  */
 
+#include <cstring>
 #include <fstream>
 
 using namespace std;
 
 // Declaraciones de Structs
+
 struct sAerop;
 struct sVue;
 struct tInfo;
@@ -32,6 +34,7 @@ struct sNodo;
 struct sTblAerop;
 
 // Constantes, Macros y Typedef
+
 const short CANT_AEROP = 57;
 #define ARCHIVOS fstream &Aerops, fstream &Vues, ifstream &Conslts
 typedef char str3[4];
@@ -42,7 +45,7 @@ typedef char str11[12];
 typedef char str20[21];
 typedef char str25[26];
 typedef char str30[31];
-typedef sAerop tvrAerop[CANT_AEROP];
+typedef sTblAerop tvrAerop[CANT_AEROP];
 typedef struct sNodo *tLista;
 
 // Definiciones de Structs
@@ -65,31 +68,44 @@ struct sVue {
   short horaSale;  // hhmm
 };  // Sin orden - ? registros
 
+struct tInfo {};
+
+struct sNodo {
+  tInfo info;
+  tLista sgte;
+};
+
+struct sTblAerop {
+  str20 provin;
+  str25 ciudad;
+  str3 codIATA;
+};  // Ordenado por codIATA - 57 registros
+
 // Declaraciones de Funciones
-#define NO_SE_EL_TIPO void
+
 long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
 void Abrir(ARCHIVOS);
-NO_SE_EL_TIPO ProcAeropuertos();
-NO_SE_EL_TIPO ProcVuelos();
-NO_SE_EL_TIPO ConsultasVuelos();
-NO_SE_EL_TIPO ListVueAeropSld();
+void ProcAeropuertos();
+void ProcVuelos();
+void ConsultasVuelos();
+void ListVueAeropSld();
 void Cerrar(ARCHIVOS);
-NO_SE_EL_TIPO replicate();
-NO_SE_EL_TIPO SubCad();
-NO_SE_EL_TIPO OrdxBur();
-NO_SE_EL_TIPO IntCmb();
-NO_SE_EL_TIPO InsertarEnOrden();
-NO_SE_EL_TIPO BusBinVec();
-NO_SE_EL_TIPO HoraLlega();
-NO_SE_EL_TIPO FormatoHoraMin();
-NO_SE_EL_TIPO VerifEstado();
-NO_SE_EL_TIPO InsertaNodo();
-NO_SE_EL_TIPO InsertaInicio();
-NO_SE_EL_TIPO InsertaEnMedio();
-NO_SE_EL_TIPO InsertaEnLugar();
-NO_SE_EL_TIPO BuscarClvNodo();
-NO_SE_EL_TIPO SacarPrimerNodo();
+void OrdxBur(tvrAerop &vrAerop);
+void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2);
+// void replicate();
+// void SubCad();
+// void InsertarEnOrden();
+// void BusBinVec();
+// void HoraLlega();
+// void FormatoHoraMin();
+// void VerifEstado();
+// void InsertaNodo();
+// void InsertaInicio();
+// void InsertaEnMedio();
+// void InsertaEnLugar();
+// void BuscarClvNodo();
+// void SacarPrimerNodo();
 
 // Main
 
@@ -141,10 +157,13 @@ void Abrir(ARCHIVOS) {
   Conslts.open("Consultas.Dat", ios::binary | ios::in);
 }  // Abrir
 
-NO_SE_EL_TIPO ProcAeropuertos();
-NO_SE_EL_TIPO ProcVuelos();
-NO_SE_EL_TIPO ConsultasVuelos();
-NO_SE_EL_TIPO ListVueAeropSld();
+void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop) {
+  OrdxBur(vrAerop);
+}  // ProcAeropuertos
+
+void ProcVuelos();
+void ConsultasVuelos();
+void ListVueAeropSld();
 
 void Cerrar(ARCHIVOS) {
   Aerops.close();
@@ -152,18 +171,39 @@ void Cerrar(ARCHIVOS) {
   Conslts.close();
 }  // Cerrar
 
-NO_SE_EL_TIPO replicate();
-NO_SE_EL_TIPO SubCad();
-NO_SE_EL_TIPO OrdxBur();
-NO_SE_EL_TIPO IntCmb();
-NO_SE_EL_TIPO InsertarEnOrden();
-NO_SE_EL_TIPO BusBinVec();
-NO_SE_EL_TIPO HoraLlega();
-NO_SE_EL_TIPO FormatoHoraMin();
-NO_SE_EL_TIPO VerifEstado();
-NO_SE_EL_TIPO InsertaNodo();
-NO_SE_EL_TIPO InsertaInicio();
-NO_SE_EL_TIPO InsertaEnMedio();
-NO_SE_EL_TIPO InsertaEnLugar();
-NO_SE_EL_TIPO BuscarClvNodo();
-NO_SE_EL_TIPO SacarPrimerNodo();
+void OrdxBur(tvrAerop &vrAerop) {
+  bool hayCambios;
+  ushort k = 0;
+
+  do {
+    hayCambios = false;
+    k++;
+
+    for (ushort i = 0; i < CANT_AEROP - k; i++) {
+      if (strcmp(vrAerop[i].codIATA, vrAerop[i + 1].codIATA) > 0) {
+        IntCmb(vrAerop[i], vrAerop[i + 1]);
+        hayCambios = true;
+      }
+    }
+  } while (hayCambios);
+}  // OrdxBur
+
+void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2) {
+  sTblAerop auxiliar = sElem1;
+  sElem1 = sElem2;
+  sElem2 = auxiliar;
+}  // IntCmb
+
+// void replicate();
+// void SubCad();
+// void InsertarEnOrden();
+// void BusBinVec();
+// void HoraLlega();
+// void FormatoHoraMin();
+// void VerifEstado();
+// void InsertaNodo();
+// void InsertaInicio();
+// void InsertaEnMedio();
+// void InsertaEnLugar();
+// void BuscarClvNodo();
+// void SacarPrimerNodo();
