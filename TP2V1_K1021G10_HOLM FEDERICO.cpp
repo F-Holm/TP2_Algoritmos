@@ -25,11 +25,15 @@
 using namespace std;
 
 // Declaraciones de Structs
-struct Aeropuertos;
-struct Vuelos;
+struct sAerop;
+struct sVue;
+struct tInfo;
+struct sNodo;
+struct sTblAerop;
 
 // Constantes, Macros y Typedef
-#define ARCHIVOS ifstream &Aeropt, ifstream &Vuelos, ifstream &Consultas
+const short CANT_AEROP = 57;
+#define ARCHIVOS ifstream &Aerops, ifstream &Vues, ifstream &Consultas
 typedef char str3[4];
 typedef char str4[5];
 typedef char str8[9];
@@ -38,9 +42,11 @@ typedef char str11[12];
 typedef char str20[21];
 typedef char str25[26];
 typedef char str30[31];
+typedef sAerop tvrAerop[CANT_AEROP];
+typedef struct sNodo* tLista;
 
 // Definiciones de Structs
-struct Aeropuertos {
+struct sAerop {
   str20 provin;
   str25 ciudad;
   str30 nomAeropto;
@@ -48,7 +54,7 @@ struct Aeropuertos {
   str3 codIATA;
 };  // Sin orden - 57 registros
 
-struct Vuelos {
+struct sVue {
   str9 numVuelo;
   short distKm;      // 4 digitos
   short velCrucero;  // 4 digitos
@@ -58,6 +64,14 @@ struct Vuelos {
   int fechaSale;   // aaaammdd
   short horaSale;  // hhmm
 };  // Sin orden - ? registros
+
+struct Consulta {
+  str9 numVuelo;
+  str25 ciudad;
+  str30 nomAeropto;
+  str4 codOACI;
+  str3 codIATA;
+};  // Sin orden
 
 // Declaraciones de Funciones
 #define NO_SE_EL_TIPO void
@@ -88,14 +102,14 @@ NO_SE_EL_TIPO SacarPrimerNodo();
 // Main
 
 int main() {
-  ifstream Aeropt, Vuelos, Consultas;
+  ifstream Aerops, Vues, Consultas;
 
-  Abrir(Aeropt, Vuelos, Consultas);
+  Abrir(Aerops, Vues, Consultas);
   ProcAeropuertos();
   ProcVuelos();
   ConsultasVuelos();
   ListVueAeropSld();
-  Cerrar(Aeropt, Vuelos, Consultas);
+  Cerrar(Aerops, Vues, Consultas);
   return 0;
 }
 
@@ -126,3 +140,36 @@ long GetTime(int &hh, int &mm, int &ss) {
   ss = timeinfo->tm_sec;
   return timeinfo->tm_hour * 10000 + timeinfo->tm_min * 100 + timeinfo->tm_sec;
 }  // GetTime
+
+void Abrir(ARCHIVOS) {
+  Aerops.open("Aeropuertos.Dat", ios::binary | ios::in);
+  Vues.open("Vuelos.Dat", ios::binary | ios::in);
+  Consultas.open("Consultas.Dat", ios::binary | ios::in);
+}  // Abrir
+
+NO_SE_EL_TIPO ProcAeropuertos();
+NO_SE_EL_TIPO ProcVuelos();
+NO_SE_EL_TIPO ConsultasVuelos();
+NO_SE_EL_TIPO ListVueAeropSld();
+
+void Cerrar(ARCHIVOS) {
+  Aerops.close();
+  Vues.close();
+  Consultas.close();
+}  // Cerrar
+
+NO_SE_EL_TIPO replicate();
+NO_SE_EL_TIPO SubCad();
+NO_SE_EL_TIPO OrdxBur();
+NO_SE_EL_TIPO IntCmb();
+NO_SE_EL_TIPO InsertarEnOrden();
+NO_SE_EL_TIPO BusBinVec();
+NO_SE_EL_TIPO HoraLlega();
+NO_SE_EL_TIPO FormatoHoraMin();
+NO_SE_EL_TIPO VerifEstado();
+NO_SE_EL_TIPO InsertaNodo();
+NO_SE_EL_TIPO InsertaInicio();
+NO_SE_EL_TIPO InsertaEnMedio();
+NO_SE_EL_TIPO InsertaEnLugar();
+NO_SE_EL_TIPO BuscarClvNodo();
+NO_SE_EL_TIPO SacarPrimerNodo();
