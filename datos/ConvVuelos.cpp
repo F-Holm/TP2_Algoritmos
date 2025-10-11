@@ -18,7 +18,22 @@ struct sVue {
   short horaSale;  // hhmm
 };  // Sin orden - ? registros
 
+bool LeerLinea(ifstream &Vuelos, sVue &rVue);
+void EscribirBloque(ofstream &Vuelos, sVue rVue);
+
 int main() {
-  cout << "Hola" << endl;
+  ifstream VuelosTxt("datos/Vuelos.Txt");
+  ofstream VuelosDat("Vuelos.Dat");
+  sVue rVue;
+  while (LeerLinea(VuelosTxt, rVue))
+    EscribirBloque(VuelosDat, rVue);
+  VuelosTxt.close();
+  VuelosDat.close();
   return 0;
 }
+
+bool LeerLinea(ifstream &Vuelos, sVue &rVue) {
+}  // LeerLinea
+
+void EscribirBloque(ofstream &Vuelos, sVue rVue) {
+}  // EscribirBloque

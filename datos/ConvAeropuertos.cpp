@@ -17,19 +17,22 @@ struct sAerop {
   str3 codIATA;
 };
 
-void LeerLinea(ifstream& Aerop, sAerop& rAerop);
-void EscribirBloque(ofstream& Aerop, sAerop rAerop);
+bool LeerLinea(ifstream &Aerop, sAerop &rAerop);
+void EscribirBloque(ofstream &Aerop, sAerop rAerop);
 
 int main() {
   ifstream AeropTxt("datos/Aeropuertos.Txt");
   ofstream AeropDat("Aeropuertos.Dat");
+  sAerop rAerop;
+  while (LeerLinea(AeropTxt, rAerop))
+    EscribirBloque(AeropDat, rAerop);
   AeropTxt.close();
   AeropDat.close();
   return 0;
 }
 
-void LeerLinea(ifstream& Aerop, sAerop& rAerop) {
+bool LeerLinea(ifstream &Aerop, sAerop &rAerop) {
 }  // LeerLinea
 
-void EscribirBloque(ofstream& Aerop, sAerop rAerop) {
+void EscribirBloque(ofstream &Aerop, sAerop rAerop) {
 }  // EscribirBloque
