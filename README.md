@@ -8,9 +8,7 @@
 
 ## Aclaraciones:
 
-- Pueden ignorar los archivos `.py`
-- Los archivos `.py` son script para facilitar trabajar en el proyecto sin tener que usar `Code::Blocks`
-- Los scripts pueden configurarse con el archivo [scripts_conf.env](./scripts_conf.env)
+- Pueden ignorar los archivos `.sh`, son scripts específicamente diseñados para mi entorno
 - Solo el código y archivos `.txt` van a estar en la entrega final
 - Cualquier duda, le pasan esto a `ChatGPT` o me preguntan
 - Si se les hace dificil utilizar GitHub, pueden mandarme por whatsapp las funciones que definan junto con otros cambios. No manden todo el archivo, solo los cambios
@@ -48,12 +46,8 @@ La versión final la vamos a compilar con `Borland 5.5` en `Code::Blocks`
 
 Estos scripts utilizan `clang++` y `clang-format` que se instalan con el comando de arriba
 
-- `r.py` -> Restaura los archivos `.txt` a su forma anterior a la ejecución del programa
-- `c.py` -> Compila el código con el compilador establecido en [scripts_conf.env](./scripts_conf.env)
-- `f.py` -> Le da un formato estándar al código con `clang-format`
-- `l.py` -> Elimina todos los archivos temporales
-- `e.py` -> Ejecuta el programa
-- `convs.py` -> Compila, ejecuta y elimina los programas para convertir de .Txt a .Dat
+- `c.sh` -> Compila el código
+- `convs.sh` -> Compila, ejecuta y elimina los programas para convertir de .Txt a .Dat
 
 ---
 
