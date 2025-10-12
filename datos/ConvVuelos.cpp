@@ -8,7 +8,7 @@ typedef char str9[10];
 typedef char str11[12];
 
 struct sVue {
-  str9 numVuelo;
+  str9 nroVuelo;
   short distKm;      // 4 digitos
   short velCrucero;  // 4 digitos
   short cantPsj;
@@ -33,7 +33,7 @@ int main() {
 }
 
 bool LeerLinea(ifstream &Vuelos, sVue &rVue) {
-  Vuelos.get(rVue.numVuelo, 10);
+  Vuelos.get(rVue.nroVuelo, 10);
   Vuelos >> rVue.distKm >> rVue.velCrucero >> rVue.cantPsj;
   Vuelos.ignore();
   Vuelos.get(rVue.empresa, 9);
@@ -45,7 +45,7 @@ bool LeerLinea(ifstream &Vuelos, sVue &rVue) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Vuelos, sVue rVue) {
-  Vuelos.write(rVue.numVuelo, 9);
+  Vuelos.write(rVue.nroVuelo, 9);
   Vuelos.write((const char *)&rVue.distKm, sizeof(rVue.distKm));
   Vuelos.write((const char *)&rVue.velCrucero, sizeof(rVue.velCrucero));
   Vuelos.write((const char *)&rVue.cantPsj, sizeof(rVue.cantPsj));

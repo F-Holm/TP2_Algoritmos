@@ -22,6 +22,7 @@
 
 #include <cstring>
 #include <fstream>
+#include <iomanip>
 
 using namespace std;
 
@@ -36,6 +37,8 @@ struct sTblAerop;
 // Constantes, Macros y Typedef
 
 const short CANT_AEROP = 57;
+const short SIZE_AEROP = 57;
+const short CANT_AEROP = 57;
 #define ARCHIVOS fstream &Aerops, fstream &Vues, ifstream &Conslts
 typedef char str3[4];
 typedef char str4[5];
@@ -47,9 +50,10 @@ typedef char str25[26];
 typedef char str30[31];
 typedef sTblAerop tvrAerop[CANT_AEROP];
 typedef struct sNodo *tLista;
+typedef unsigned short ushort;
 
 // Definiciones de Structs
-struct sAerop {
+struct sAerop { // Size: 82 B
   str20 provin;
   str25 ciudad;
   str30 nomAeropto;
@@ -57,8 +61,8 @@ struct sAerop {
   str3 codIATA;
 };  // Sin orden - 57 registros
 
-struct sVue {
-  str9 numVuelo;     // IATA-3 - NUM-VUELO-3 - IATA-3
+struct sVue { // Size: 40 B
+  str9 nroVuelo;     // IATA-3 - NUM-VUELO-3 - IATA-3
   short distKm;      // 4 digitos
   short velCrucero;  // 4 digitos
   short cantPsj;
@@ -68,7 +72,10 @@ struct sVue {
   short horaSale;  // hhmm
 };  // Sin orden - ? registros
 
-struct tInfo {};
+struct tInfo {
+  str9 nroVuelo;
+  ushort pos;
+};
 
 struct sNodo {
   tInfo info;
@@ -76,9 +83,8 @@ struct sNodo {
 };
 
 struct sTblAerop {
-  str20 provin;
-  str25 ciudad;
   str3 codIATA;
+  ushort pos;
 };  // Ordenado por codIATA - 57 registros
 
 // Declaraciones de Funciones
@@ -113,6 +119,7 @@ int main() {
   fstream Aerops, Vues;
   ifstream Conslts;
   tvrAerop vrAerop;
+  tLista lVues;
 
   Abrir(Aerops, Vues, Conslts);
   ProcAeropuertos();
@@ -158,6 +165,9 @@ void Abrir(ARCHIVOS) {
 }  // Abrir
 
 void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop) {
+  char datos[82];
+  //while(Aerops.read(, 82))
+  //  ;
   OrdxBur(vrAerop);
 }  // ProcAeropuertos
 

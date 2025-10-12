@@ -4,10 +4,10 @@
 using namespace std;
 
 typedef char str9[10];
-typedef str9 tNumVuelo;
+typedef str9 tNroVuelo;
 
-bool LeerLinea(ifstream &Aerop, tNumVuelo &consulta);
-void EscribirBloque(ofstream &Aerop, tNumVuelo consulta);
+bool LeerLinea(ifstream &Aerop, tNroVuelo &consulta);
+void EscribirBloque(ofstream &Aerop, tNroVuelo consulta);
 
 int main() {
   ifstream ConsltTxt("datos/Consultas.Txt");
@@ -20,12 +20,12 @@ int main() {
   return 0;
 }
 
-bool LeerLinea(ifstream &Conslt, tNumVuelo &consulta) {
+bool LeerLinea(ifstream &Conslt, tNroVuelo &consulta) {
   Conslt.get(consulta, 9);
   Conslt.ignore('\n');
   return Conslt.good();
 }  // LeerLinea
 
-void EscribirBloque(ofstream &Conslt, tNumVuelo consulta) {
+void EscribirBloque(ofstream &Conslt, tNroVuelo consulta) {
   Conslt.write(consulta, 9);
 }  // EscribirBloque
