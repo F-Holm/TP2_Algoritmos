@@ -20,10 +20,12 @@
  - Nombre del compilador: Borland C++ V.5.5
  */
 
+#include <cmath>
 #include <cstring>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -93,8 +95,8 @@ long GetTime(int &hh, int &mm, int &ss);
 void Abrir(ARCHIVOS);
 void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop);
 void ProcVuelos(ifstream &Vues, tLista &lVues);
-void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, tLista &lVues,
-                     tvrAerop &vrAerop);
+void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
+                     tLista &lVues, tvrAerop &vrAerop);
 void ListVueAeropSld();
 void Cerrar(ARCHIVOS);
 void OrdxBur(tvrAerop &vrAerop);
@@ -103,11 +105,12 @@ void InsertaNodo(tLista &lista, tInfo valor);
 void InsertaInicio(tLista &lista, tInfo valor);
 void InsertaEnMedio(tLista &lista, tInfo valor);
 int BusBinVec(tvrAerop &vrAerop, str3 codIATA);
-// void replicate();
+void FormatoHoraMin(short hora, short &hh, short &mm);
+void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
+               short &hhVi, short &mmVi, short &hhLl, short &mmLl);
+string Replicate(char car, ushort n);
 // void SubCad();
 // void InsertarEnOrden();
-// void HoraLlega();
-// void FormatoHoraMin();
 // void VerifEstado();
 // void InsertaEnLugar();
 // void BuscarClvNodo();
@@ -123,7 +126,7 @@ int main() {
   Abrir(Aerops, Vues, Conslts);
   ProcAeropuertos(Aerops, vrAerop);
   ProcVuelos(Vues, lVues);
-  ConsultasVuelos(Conslts, Vues, lVues, vrAerop);
+  ConsultasVuelos(Conslts, Vues, Aerops, lVues, vrAerop);
   ListVueAeropSld();
   Cerrar(Aerops, Vues, Conslts);
   return 0;
@@ -186,14 +189,15 @@ void ProcVuelos(ifstream &Vues, tLista &lVues) {
   }
 }  // ProcVuelos
 
-void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, tLista &lVues,
-                     tvrAerop &vrAerop) {
+void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
+                     tLista &lVues, tvrAerop &vrAerop) {
   freopen("Listado Consulta Vuelos.Txt", "w", stdout);
   str9 nroVuelo;
   tLista aux = lVues;
   sVue rVue;
 
-  int anio, mes, dia, ds;
+  int anio, mes, dia, ds, hh, mm, ss;
+  GetTime(hh, mm, ss);
   GetDate(anio, mes, dia, ds);
   const char *meses[] = {"Enero",      "Febrero", "Marzo",     "Abril",
                          "Mayo",       "Junio",   "Julio",     "Agosto",
@@ -215,14 +219,26 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, tLista &lVues,
     Vues.read((char *)&rVue, sizeof(rVue));
 
     sAerop origen, destino;
+    Aerops.clear();
+    Aerops.seekg(BusBinVec(vrAerop, nroVuelo) * sizeof(sAerop));
+    Aerops.read((char *)&origen, sizeof(origen));
+    Aerops.clear();
+    Aerops.seekg(BusBinVec(vrAerop, nroVuelo + 6) * sizeof(sAerop));
+    Aerops.read((char *)&destino, sizeof(destino));
 
-    cout << setw(9) << rVue.nroVuelo << ' ' << setw(9) << rVue.nroVuelo << ' '
-         << setw(16) << rVue.nroVuelo << ' ' << setw(16) << rVue.nroVuelo << ' '
-         << setw(8) << rVue.nroVuelo << ' ' << setw(11) << rVue.nroVuelo << ' '
-         << setw(16) << rVue.nroVuelo << ' ' << setw(16) << rVue.nroVuelo << ' '
-         << setw(15) << rVue.nroVuelo << ' ' << setw(2) << rVue.nroVuelo << ' '
-         << setw(5) << rVue.nroVuelo << ' ' << setw(5) << rVue.nroVuelo << ' '
-         << setw(5) << rVue.nroVuelo << '\n';
+    short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl;
+    FormatoHoraMin(rVue.horaSale, hhSa, mmSa);
+    HoraLlega(rVue.distKm, rVue.velCrucero, hhSa, mmSa, hhVi, mmVi, hhLl, mmLl);
+
+    cout << setw(9) << rVue.nroVuelo << ' ' << setw(16) << origen.ciudad << ' '
+         << setw(16) << origen.nomAeropto << ' ' << setw(8) << rVue.empresa
+         << ' ' << setw(11) << rVue.marcaAeronv << ' ' << setw(16)
+         << destino.ciudad << ' ' << setw(16) << destino.nomAeropto << ' '
+         << setw(15) << destino.provin << ' ' << setw(2) << rVue.fechaSale
+         << ' ' << setw(2) << hh << ':' << setw(2) << mm << ' ' << setw(2)
+         << hhSa << ':' << setw(2) << mmSa << ' ' << setw(2) << hhVi << ':'
+         << setw(2) << mmVi << ' ' << setw(2) << hhLl << ':' << setw(2) << mmLl
+         << '\n';
   }
 }  // ConsultasVuelos
 
@@ -289,7 +305,7 @@ void InsertaEnMedio(tLista &lista, tInfo valor) {
 
 int BusBinVec(tvrAerop &vrAerop, str3 codIATA) {
   int li = 0, ls = CANT_AEROP, pm;
- 
+
   while (li <= ls) {
     pm = (li + ls) / 2;
 
@@ -307,15 +323,30 @@ int BusBinVec(tvrAerop &vrAerop, str3 codIATA) {
   return -1;  // No encontrado
 }  // BusBinVec
 
-// void replicate();
+void FormatoHoraMin(short hora, short &hh, short &mm) {
+  hh = hora / 100;
+  mm = hora - hh * 100;
+}
+
+void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
+               short &hhVi, short &mmVi, short &hhLl, short &mmLl) {
+  float tV = (float)distKm / (float)velCrucero;
+  hhVi = tV;
+  mmVi = (tV - hhVi) * 60;  // + 0.5 para redondear
+  mmLl = (mmSa + mmVi) % 60;
+  hhLl = (hhSa + hhVi + (mmSa + mmVi) / 60) % 24;
+}
+
+string Replicate(char car, ushort n) {
+  string resultado = "";
+  for (ushort i = 0; i < n; i++)
+    resultado += car;
+  return resultado;
+}  // Replicate
+
 // void SubCad();
 // void InsertarEnOrden();
-// void HoraLlega();
-// void FormatoHoraMin();
 // void VerifEstado();
-// void InsertaNodo();
-// void InsertaInicio();
-// void InsertaEnMedio();
 // void InsertaEnLugar();
 // void BuscarClvNodo();
 // void SacarPrimerNodo();
