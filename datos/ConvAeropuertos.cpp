@@ -1,5 +1,4 @@
 #include <fstream>
-#include <iostream>
 
 using namespace std;
 
@@ -22,10 +21,12 @@ void EscribirBloque(ofstream &Aerop, sAerop rAerop);
 
 int main() {
   ifstream AeropTxt("datos/Aeropuertos.Txt");
-  ofstream AeropDat("Aeropuertos.Dat");
+  ofstream AeropDat("Aeropuertos.Dat", ios::binary | ios::out);
   sAerop rAerop;
+
   while (LeerLinea(AeropTxt, rAerop))
     EscribirBloque(AeropDat, rAerop);
+
   AeropTxt.close();
   AeropDat.close();
   return 0;
@@ -46,9 +47,5 @@ bool LeerLinea(ifstream &Aerop, sAerop &rAerop) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Aerop, sAerop rAerop) {
-  Aerop.write(rAerop.provin, 20);
-  Aerop.write(rAerop.ciudad, 25);
-  Aerop.write(rAerop.nomAeropto, 30);
-  Aerop.write(rAerop.codOACI, 4);
-  Aerop.write(rAerop.codIATA, 3);
+  Aerop.write((const char*)&rAerop, sizeof(rAerop));
 }  // EscribirBloque

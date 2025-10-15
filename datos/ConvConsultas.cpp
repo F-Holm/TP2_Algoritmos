@@ -1,5 +1,4 @@
 #include <fstream>
-#include <iostream>
 
 using namespace std;
 
@@ -11,10 +10,12 @@ void EscribirBloque(ofstream &Aerop, tNroVuelo consulta);
 
 int main() {
   ifstream ConsltTxt("datos/Consultas.Txt");
-  ofstream ConsltDat("Consultas.Dat");
+  ofstream ConsltDat("Consultas.Dat", ios::binary | ios::out);
   str9 consulta;
+
   while (LeerLinea(ConsltTxt, consulta))
     EscribirBloque(ConsltDat, consulta);
+
   ConsltTxt.close();
   ConsltDat.close();
   return 0;

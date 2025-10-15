@@ -37,8 +37,6 @@ struct sTblAerop;
 // Constantes, Macros y Typedef
 
 const short CANT_AEROP = 57;
-const short SIZE_AEROP = 57;
-const short CANT_AEROP = 57;
 #define ARCHIVOS fstream &Aerops, fstream &Vues, ifstream &Conslts
 typedef char str3[4];
 typedef char str4[5];
@@ -165,9 +163,9 @@ void Abrir(ARCHIVOS) {
 }  // Abrir
 
 void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop) {
-  char datos[82];
-  //while(Aerops.read(, 82))
-  //  ;
+  sAerop rAerop;
+  while(Aerops.read((char*)&rAerop, sizeof(rAerop))){
+  }
   OrdxBur(vrAerop);
 }  // ProcAeropuertos
 

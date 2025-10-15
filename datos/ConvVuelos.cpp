@@ -1,5 +1,4 @@
 #include <fstream>
-#include <iostream>
 
 using namespace std;
 
@@ -23,10 +22,12 @@ void EscribirBloque(ofstream &Vuelos, sVue rVue);
 
 int main() {
   ifstream VuelosTxt("datos/Vuelos.Txt");
-  ofstream VuelosDat("Vuelos.Dat");
+  ofstream VuelosDat("Vuelos.Dat", ios::binary | ios::out);
   sVue rVue;
+
   while (LeerLinea(VuelosTxt, rVue))
     EscribirBloque(VuelosDat, rVue);
+
   VuelosTxt.close();
   VuelosDat.close();
   return 0;
@@ -45,12 +46,5 @@ bool LeerLinea(ifstream &Vuelos, sVue &rVue) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Vuelos, sVue rVue) {
-  Vuelos.write(rVue.nroVuelo, 9);
-  Vuelos.write((const char *)&rVue.distKm, sizeof(rVue.distKm));
-  Vuelos.write((const char *)&rVue.velCrucero, sizeof(rVue.velCrucero));
-  Vuelos.write((const char *)&rVue.cantPsj, sizeof(rVue.cantPsj));
-  Vuelos.write(rVue.empresa, 8);
-  Vuelos.write(rVue.marcaAeronv, 11);
-  Vuelos.write((const char *)&rVue.fechaSale, sizeof(rVue.fechaSale));
-  Vuelos.write((const char *)&rVue.horaSale, sizeof(rVue.horaSale));
+  Vuelos.write((const char*)&rVue, sizeof(rVue));
 }  // EscribirBloque
