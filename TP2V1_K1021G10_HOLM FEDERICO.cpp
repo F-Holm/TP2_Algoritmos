@@ -202,7 +202,7 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
   const char *meses[] = {"Enero",      "Febrero", "Marzo",     "Abril",
                          "Mayo",       "Junio",   "Julio",     "Agosto",
                          "Septiembre", "Octubre", "Noviembre", "Diciembre"};
-  cout << "Consultas de vuelos del " << dia << " de " << meses[mes] << " de "
+  cout << Replicate(' ', 168 / 2 - 48) << "Consultas de vuelos del " << dia << " de " << meses[mes] << " de "
        << anio
        << "\nNroVuelo Ciudad de origen Nom.Aerop.Orig.  Empresa     Marca     "
           "Ciudad Destino  Nom.Aerop.Dest.      Estado     dia hhAct hhSa  "
