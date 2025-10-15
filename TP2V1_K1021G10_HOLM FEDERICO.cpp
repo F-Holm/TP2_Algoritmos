@@ -23,6 +23,7 @@
 #include <cstring>
 #include <fstream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
@@ -101,10 +102,10 @@ void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2);
 void InsertaNodo(tLista &lista, tInfo valor);
 void InsertaInicio(tLista &lista, tInfo valor);
 void InsertaEnMedio(tLista &lista, tInfo valor);
+int BusBinVec(tvrAerop &vrAerop, str3 codIATA);
 // void replicate();
 // void SubCad();
 // void InsertarEnOrden();
-// void BusBinVec();
 // void HoraLlega();
 // void FormatoHoraMin();
 // void VerifEstado();
@@ -189,11 +190,39 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, tLista &lVues,
                      tvrAerop &vrAerop) {
   freopen("Listado Consulta Vuelos.Txt", "w", stdout);
   str9 nroVuelo;
-  tLista aux;
+  tLista aux = lVues;
   sVue rVue;
-  
+
+  int anio, mes, dia, ds;
+  GetDate(anio, mes, dia, ds);
+  const char *meses[] = {"Enero",      "Febrero", "Marzo",     "Abril",
+                         "Mayo",       "Junio",   "Julio",     "Agosto",
+                         "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+  cout << "Consultas de vuelos del " << dia << " de " << meses[mes] << " de "
+       << anio
+       << "\nNroVuelo Ciudad de origen Nom.Aerop.Orig.  Empresa     Marca     "
+          "Ciudad Destino  Nom.Aerop.Dest.      Estado     dia hhAct hhSa  "
+          "t.V.  hhLl \n";
+
   while (Conslts.read(nroVuelo, 9)) {
-    // if () aux = lVues;
+    if (strcmp(aux->info.nroVuelo, lVues->info.nroVuelo) > 0)
+      aux = lVues;
+    while (strcmp(aux->info.nroVuelo, lVues->info.nroVuelo) < 0)
+      aux = aux->sgte;
+
+    Vues.clear();
+    Vues.seekg(aux->info.pos * sizeof(sVue));
+    Vues.read((char *)&rVue, sizeof(rVue));
+
+    sAerop origen, destino;
+
+    cout << setw(9) << rVue.nroVuelo << ' ' << setw(9) << rVue.nroVuelo << ' '
+         << setw(16) << rVue.nroVuelo << ' ' << setw(16) << rVue.nroVuelo << ' '
+         << setw(8) << rVue.nroVuelo << ' ' << setw(11) << rVue.nroVuelo << ' '
+         << setw(16) << rVue.nroVuelo << ' ' << setw(16) << rVue.nroVuelo << ' '
+         << setw(15) << rVue.nroVuelo << ' ' << setw(2) << rVue.nroVuelo << ' '
+         << setw(5) << rVue.nroVuelo << ' ' << setw(5) << rVue.nroVuelo << ' '
+         << setw(5) << rVue.nroVuelo << '\n';
   }
 }  // ConsultasVuelos
 
@@ -258,10 +287,29 @@ void InsertaEnMedio(tLista &lista, tInfo valor) {
   aux->sgte = nodo;
 }  // InsertaEnMedio
 
+int BusBinVec(tvrAerop &vrAerop, str3 codIATA) {
+  int li = 0, ls = CANT_AEROP, pm;
+ 
+  while (li <= ls) {
+    pm = (li + ls) / 2;
+
+    int cmp = strcmp(codIATA, vrAerop[pm].codIATA);
+
+    if (cmp == 0) {
+      return pm;
+    } else if (cmp < 0) {
+      ls = pm - 1;
+    } else {
+      li = pm + 1;
+    }
+  }
+
+  return -1;  // No encontrado
+}  // BusBinVec
+
 // void replicate();
 // void SubCad();
 // void InsertarEnOrden();
-// void BusBinVec();
 // void HoraLlega();
 // void FormatoHoraMin();
 // void VerifEstado();
