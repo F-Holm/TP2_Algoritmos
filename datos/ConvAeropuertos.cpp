@@ -47,5 +47,5 @@ bool LeerLinea(ifstream &Aerop, sAerop &rAerop) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Aerop, sAerop rAerop) {
-  Aerop.write((const char*)&rAerop, sizeof(rAerop));
+  Aerop.write((const char *)&rAerop, sizeof(rAerop));
 }  // EscribirBloque

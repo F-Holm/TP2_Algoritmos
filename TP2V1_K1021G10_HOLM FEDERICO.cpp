@@ -51,7 +51,7 @@ typedef struct sNodo *tLista;
 typedef unsigned short ushort;
 
 // Definiciones de Structs
-struct sAerop { // Size: 82 B
+struct sAerop {  // Size: 82 B
   str20 provin;
   str25 ciudad;
   str30 nomAeropto;
@@ -59,7 +59,7 @@ struct sAerop { // Size: 82 B
   str3 codIATA;
 };  // Sin orden - 57 registros
 
-struct sVue { // Size: 40 B
+struct sVue {        // Size: 40 B
   str9 nroVuelo;     // IATA-3 - NUM-VUELO-3 - IATA-3
   short distKm;      // 4 digitos
   short velCrucero;  // 4 digitos
@@ -90,7 +90,7 @@ struct sTblAerop {
 long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
 void Abrir(ARCHIVOS);
-void ProcAeropuertos();
+void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop);
 void ProcVuelos();
 void ConsultasVuelos();
 void ListVueAeropSld();
@@ -120,7 +120,7 @@ int main() {
   tLista lVues;
 
   Abrir(Aerops, Vues, Conslts);
-  ProcAeropuertos();
+  ProcAeropuertos(Aerops, vrAerop);
   ProcVuelos();
   ConsultasVuelos();
   ListVueAeropSld();
@@ -164,12 +164,18 @@ void Abrir(ARCHIVOS) {
 
 void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop) {
   sAerop rAerop;
-  while(Aerops.read((char*)&rAerop, sizeof(rAerop))){
+  ushort i = 0;
+  while (Aerops.read((char *)&rAerop, sizeof(rAerop))) {
+    strcpy(vrAerop[i].codIATA, rAerop.codIATA);
+    vrAerop[i].pos = i;
+    i++;
   }
   OrdxBur(vrAerop);
 }  // ProcAeropuertos
 
-void ProcVuelos();
+void ProcVuelos() {
+}  // ProcVuelos
+
 void ConsultasVuelos();
 void ListVueAeropSld();
 

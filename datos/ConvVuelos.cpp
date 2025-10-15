@@ -46,5 +46,5 @@ bool LeerLinea(ifstream &Vuelos, sVue &rVue) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Vuelos, sVue rVue) {
-  Vuelos.write((const char*)&rVue, sizeof(rVue));
+  Vuelos.write((const char *)&rVue, sizeof(rVue));
 }  // EscribirBloque
