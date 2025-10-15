@@ -91,12 +91,15 @@ long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
 void Abrir(ARCHIVOS);
 void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop);
-void ProcVuelos();
+void ProcVuelos(fstream &Vues, tLista &lVues);
 void ConsultasVuelos();
 void ListVueAeropSld();
 void Cerrar(ARCHIVOS);
 void OrdxBur(tvrAerop &vrAerop);
 void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2);
+void InsertaNodo(tLista &lista, tInfo valor);
+void InsertaInicio(tLista &lista, tInfo valor);
+void InsertaEnMedio(tLista &lista, tInfo valor);
 // void replicate();
 // void SubCad();
 // void InsertarEnOrden();
@@ -104,9 +107,6 @@ void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2);
 // void HoraLlega();
 // void FormatoHoraMin();
 // void VerifEstado();
-// void InsertaNodo();
-// void InsertaInicio();
-// void InsertaEnMedio();
 // void InsertaEnLugar();
 // void BuscarClvNodo();
 // void SacarPrimerNodo();
@@ -117,11 +117,11 @@ int main() {
   fstream Aerops, Vues;
   ifstream Conslts;
   tvrAerop vrAerop;
-  tLista lVues;
+  tLista lVues = NULL;
 
   Abrir(Aerops, Vues, Conslts);
   ProcAeropuertos(Aerops, vrAerop);
-  ProcVuelos();
+  ProcVuelos(Vues, lVues);
   ConsultasVuelos();
   ListVueAeropSld();
   Cerrar(Aerops, Vues, Conslts);
@@ -173,7 +173,15 @@ void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop) {
   OrdxBur(vrAerop);
 }  // ProcAeropuertos
 
-void ProcVuelos() {
+void ProcVuelos(fstream &Vues, tLista &lVues) {
+  sVue rVue;
+  tInfo info;
+  ushort i = 0;
+  while (Vues.read((char *)&rVue, sizeof(rVue))) {
+    strcpy(info.nroVuelo, rVue.nroVuelo);
+    info.pos = i;
+    i++;
+  }
 }  // ProcVuelos
 
 void ConsultasVuelos();
@@ -207,6 +215,34 @@ void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2) {
   sElem1 = sElem2;
   sElem2 = auxiliar;
 }  // IntCmb
+
+void InsertaNodo(tLista &lista, tInfo valor) {
+  if (lista || strcmp(valor.nroVuelo, lista->info.nroVuelo) < 0)
+    InsertaInicio(lista, valor);
+  else
+    InsertaEnMedio(lista, valor);
+}  // InsertaNodo
+
+void InsertaInicio(tLista &lista, tInfo valor) {
+  tLista nodo = new sNodo;
+  nodo->info = valor;
+  nodo->sgte = lista;
+  lista = nodo;
+}  // InsertaInicio
+
+void InsertaEnMedio(tLista &lista, tInfo valor) {
+  tLista nodo = new sNodo;
+  nodo->info = valor;
+
+  tLista aux = lista;
+
+  while (aux->sgte != NULL &&
+         strcmp(aux->sgte->info.nroVuelo, valor.nroVuelo) < 0)
+    aux = aux->sgte;
+
+  nodo->sgte = aux->sgte;
+  aux->sgte = nodo;
+}  // InsertaEnMedio
 
 // void replicate();
 // void SubCad();
