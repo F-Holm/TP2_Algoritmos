@@ -181,6 +181,7 @@ void ProcVuelos(fstream &Vues, tLista &lVues) {
     strcpy(info.nroVuelo, rVue.nroVuelo);
     info.pos = i;
     i++;
+    InsertaNodo(lVues, info);
   }
 }  // ProcVuelos
 
