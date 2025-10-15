@@ -97,13 +97,15 @@ void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop);
 void ProcVuelos(ifstream &Vues, tLista &lVues);
 void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
                      tLista &lVues, tvrAerop &vrAerop);
-void ListVueAeropSld();
+void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
+                     tLista &lVues);
 void Cerrar(ARCHIVOS);
 void OrdxBur(tvrAerop &vrAerop);
 void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2);
 void InsertaNodo(tLista &lista, tInfo valor);
 void InsertaInicio(tLista &lista, tInfo valor);
 void InsertaEnMedio(tLista &lista, tInfo valor);
+void SacarPrimerNodo(tLista &lista);
 int BusBinVec(tvrAerop &vrAerop, str3 codIATA);
 void FormatoHoraMin(short hora, short &hh, short &mm);
 void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
@@ -127,7 +129,7 @@ int main() {
   ProcAeropuertos(Aerops, vrAerop);
   ProcVuelos(Vues, lVues);
   ConsultasVuelos(Conslts, Vues, Aerops, lVues, vrAerop);
-  ListVueAeropSld();
+  ListVueAeropSld(Aerops, Vues, vrAerop, lVues);
   Cerrar(Aerops, Vues, Conslts);
   return 0;
 }
@@ -202,8 +204,8 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
   const char *meses[] = {"Enero",      "Febrero", "Marzo",     "Abril",
                          "Mayo",       "Junio",   "Julio",     "Agosto",
                          "Septiembre", "Octubre", "Noviembre", "Diciembre"};
-  cout << Replicate(' ', 168 / 2 - 48) << "Consultas de vuelos del " << dia << " de " << meses[mes] << " de "
-       << anio
+  cout << Replicate(' ', 168 / 2 - 48) << "Consultas de vuelos del " << dia
+       << " de " << meses[mes] << " de " << anio
        << "\nNroVuelo Ciudad de origen Nom.Aerop.Orig.  Empresa     Marca     "
           "Ciudad Destino  Nom.Aerop.Dest.      Estado     dia hhAct hhSa  "
           "t.V.  hhLl \n";
@@ -242,7 +244,34 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
   }
 }  // ConsultasVuelos
 
-void ListVueAeropSld() {
+void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
+                     tLista &lVues) {
+  int anio, mes, dia, ds, hh, mm, ss;
+  GetTime(hh, mm, ss);
+  GetDate(anio, mes, dia, ds);
+
+  sAerop rAerop;
+  sVue rVue;
+
+  Aerops.clear();
+  Vues.clear();
+  Aerops.seekg(0);
+  Vues.seekg(0);
+
+  cout << '\n'
+       << Replicate('=', 200) << "\n\n"
+       << Replicate(' ', 0)
+       << "Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia "
+       << dia << "\n";
+
+  for (ushort i = 0; i < CANT_AEROP; i++) {
+    Aerops.read((char *)&rAerop, sizeof(rAerop));
+    cout << "\nAerop. origen: ";
+    while (lVues && strncmp(lVues->info.nroVuelo, rAerop.codIATA, 3) == 0) {
+      Vues.read((char *)&rVue, sizeof(rVue));
+      SacarPrimerNodo(lVues);
+    }
+  }
   fclose(stdout);
 }  // ListVueAeropSld
 
@@ -303,6 +332,14 @@ void InsertaEnMedio(tLista &lista, tInfo valor) {
   aux->sgte = nodo;
 }  // InsertaEnMedio
 
+void SacarPrimerNodo(tLista &lista) {
+  if (lista != NULL) {
+    tLista nodo = lista;
+    lista = lista->sgte;
+    delete nodo;
+  }
+}  // SacarPrimerNodo
+
 int BusBinVec(tvrAerop &vrAerop, str3 codIATA) {
   int li = 0, ls = CANT_AEROP, pm;
 
@@ -326,7 +363,7 @@ int BusBinVec(tvrAerop &vrAerop, str3 codIATA) {
 void FormatoHoraMin(short hora, short &hh, short &mm) {
   hh = hora / 100;
   mm = hora - hh * 100;
-}
+}  // FormatoHoraMin
 
 void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
                short &hhVi, short &mmVi, short &hhLl, short &mmLl) {
@@ -335,7 +372,7 @@ void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
   mmVi = (tV - hhVi) * 60;  // + 0.5 para redondear
   mmLl = (mmSa + mmVi) % 60;
   hhLl = (hhSa + hhVi + (mmSa + mmVi) / 60) % 24;
-}
+}  // HoraLlega
 
 string Replicate(char car, ushort n) {
   string resultado = "";
@@ -349,4 +386,3 @@ string Replicate(char car, ushort n) {
 // void VerifEstado();
 // void InsertaEnLugar();
 // void BuscarClvNodo();
-// void SacarPrimerNodo();
