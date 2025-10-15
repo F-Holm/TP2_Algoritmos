@@ -37,7 +37,7 @@ struct sTblAerop;
 // Constantes, Macros y Typedef
 
 const short CANT_AEROP = 57;
-#define ARCHIVOS fstream &Aerops, fstream &Vues, ifstream &Conslts
+#define ARCHIVOS ifstream &Aerops, ifstream &Vues, ifstream &Conslts
 typedef char str3[4];
 typedef char str4[5];
 typedef char str8[9];
@@ -90,9 +90,10 @@ struct sTblAerop {
 long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
 void Abrir(ARCHIVOS);
-void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop);
-void ProcVuelos(fstream &Vues, tLista &lVues);
-void ConsultasVuelos();
+void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop);
+void ProcVuelos(ifstream &Vues, tLista &lVues);
+void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, tLista &lVues,
+                     tvrAerop &vrAerop);
 void ListVueAeropSld();
 void Cerrar(ARCHIVOS);
 void OrdxBur(tvrAerop &vrAerop);
@@ -114,15 +115,14 @@ void InsertaEnMedio(tLista &lista, tInfo valor);
 // Main
 
 int main() {
-  fstream Aerops, Vues;
-  ifstream Conslts;
+  ifstream Aerops, Vues, Conslts;
   tvrAerop vrAerop;
   tLista lVues = NULL;
 
   Abrir(Aerops, Vues, Conslts);
   ProcAeropuertos(Aerops, vrAerop);
   ProcVuelos(Vues, lVues);
-  ConsultasVuelos();
+  ConsultasVuelos(Conslts, Vues, lVues, vrAerop);
   ListVueAeropSld();
   Cerrar(Aerops, Vues, Conslts);
   return 0;
@@ -157,12 +157,12 @@ long GetTime(int &hh, int &mm, int &ss) {
 }  // GetTime
 
 void Abrir(ARCHIVOS) {
-  Aerops.open("Aeropuertos.Dat", ios::binary | ios::in | ios::out);
-  Vues.open("Vuelos.Dat", ios::binary | ios::in | ios::out);
+  Aerops.open("Aeropuertos.Dat", ios::binary | ios::in);
+  Vues.open("Vuelos.Dat", ios::binary | ios::in);
   Conslts.open("Consultas.Dat", ios::binary | ios::in);
 }  // Abrir
 
-void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop) {
+void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop) {
   sAerop rAerop;
   ushort i = 0;
   while (Aerops.read((char *)&rAerop, sizeof(rAerop))) {
@@ -173,7 +173,7 @@ void ProcAeropuertos(fstream &Aerops, tvrAerop &vrAerop) {
   OrdxBur(vrAerop);
 }  // ProcAeropuertos
 
-void ProcVuelos(fstream &Vues, tLista &lVues) {
+void ProcVuelos(ifstream &Vues, tLista &lVues) {
   sVue rVue;
   tInfo info;
   ushort i = 0;
@@ -185,8 +185,21 @@ void ProcVuelos(fstream &Vues, tLista &lVues) {
   }
 }  // ProcVuelos
 
-void ConsultasVuelos();
-void ListVueAeropSld();
+void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, tLista &lVues,
+                     tvrAerop &vrAerop) {
+  freopen("Listado Consulta Vuelos.Txt", "w", stdout);
+  str9 nroVuelo;
+  tLista aux;
+  sVue rVue;
+  
+  while (Conslts.read(nroVuelo, 9)) {
+    // if () aux = lVues;
+  }
+}  // ConsultasVuelos
+
+void ListVueAeropSld() {
+  fclose(stdout);
+}  // ListVueAeropSld
 
 void Cerrar(ARCHIVOS) {
   Aerops.close();
