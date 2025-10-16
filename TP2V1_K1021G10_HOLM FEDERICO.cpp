@@ -266,9 +266,54 @@ void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
 
   for (ushort i = 0; i < CANT_AEROP; i++) {
     Aerops.read((char *)&rAerop, sizeof(rAerop));
-    cout << "\nAerop. origen: ";
+    cout << "\nAerop. origen: " << rAerop.codIATA << "  "
+    << rAerop.nomAeropto << "  Ciudad: " << rAerop.ciudad << "\n";
+    cout << "NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl\n";
+
     while (lVues && strncmp(lVues->info.nroVuelo, rAerop.codIATA, 3) == 0) {
+   
+      Vues.clear();
+      Vues.seekg(lVues->info.pos * sizeof(rVue));
       Vues.read((char *)&rVue, sizeof(rVue));
+
+     
+      str3 codDest;
+      strncpy(codDest, rVue.nroVuelo + 6, 3);
+      codDest[3] = '\0';
+
+
+      sAerop aeropDest;
+      Aerops.clear();
+      Aerops.seekg(0, ios::beg);
+      bool encontrado = false;
+      while (Aerops.read((char *)&aeropDest, sizeof(aeropDest))) {
+        if (strncmp(aeropDest.codIATA, codDest, 3) == 0) {
+          encontrado = true;
+          break;
+        }
+      }
+
+
+      short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl;
+      FormatoHoraMin(rVue.horaSale, hhSa, mmSa);
+      HoraLlega(rVue.distKm, rVue.velCrucero, hhSa, mmSa, hhVi, mmVi, hhLl, mmLl);
+
+      cout << left << setw(9) << rVue.nroVuelo << ' '
+          << setw(8) << rVue.empresa << ' '
+          << setw(11) << rVue.marcaAeronv << ' '
+          << setw(16) << (encontrado ? aeropDest.ciudad : "??") << ' '
+          << setw(16) << (encontrado ? aeropDest.nomAeropto : "??") << ' '
+          << setw(10) << "Activo" << ' ' 
+          << setw(2) << dia << ' '
+          << setw(2) << setfill('0') << hh << ':' << setw(2) << mm << setfill(' ')
+          << setw(3) << " "
+          << setw(2) << setfill('0') << hhSa << ':' << setw(2) << mmSa << setfill(' ')
+          << setw(3) << " "
+          << setw(2) << setfill('0') << hhVi << ':' << setw(2) << mmVi << setfill(' ')
+          << setw(3) << " "
+          << setw(2) << setfill('0') << hhLl << ':' << setw(2) << mmLl << setfill(' ')
+          << '\n';
+
       SacarPrimerNodo(lVues);
     }
   }
