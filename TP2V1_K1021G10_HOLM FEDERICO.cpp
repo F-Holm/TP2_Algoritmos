@@ -170,7 +170,7 @@ void Abrir(ARCHIVOS) {
 
 void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop) {
   sAerop rAerop;
-  for (ushort i = 0; Aerops.read((char *)&rAerop, sizeof(rAerop)); i++) {
+  for (ushort i = 0; Aerops.read((char *)&rAerop, sizeof(sAerop)); i++) {
     strcpy(vrAerop[i].codIATA, rAerop.codIATA);
     vrAerop[i].pos = i;
   }

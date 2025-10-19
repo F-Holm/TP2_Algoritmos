@@ -41,8 +41,8 @@ bool LeerLinea(ifstream &Aerop, sAerop &rAerop) {
   Aerop.ignore();
   Aerop.get(rAerop.codOACI, 5);
   Aerop.ignore();
-  Aerop.get(rAerop.codIATA, 3);
-  Aerop.ignore('\n');
+  Aerop.get(rAerop.codIATA, 4);
+  Aerop.ignore(2, '\n');
   return Aerop.good();
 }  // LeerLinea
 

@@ -1,179 +1,180 @@
                                     Consultas de vuelos del 19 de Noviembre de 2025
 NroVuelo Ciudad de origen Nom.Aerop.Orig.  Empresa     Marca     Ciudad Destino  Nom.Aerop.Dest.      Estado     dia hhAct hhSa  t.V.  hhLl 
-SFN384AEP                            @¤÷ A.ARG.   BOING 737                               p9Fø                 -11142 13:04 23:58 15:36 15:34
-SFN384AEP                            @¤÷ A.ARG.   BOING 737                               p9Fø                 -11142 13:04 23:58 15:36 15:34
+SFN384AEP                             (öõÔù A.ARG.   BOING 737                               ‡@Ä            AÄ -11142 13:20 23:58 15:36 15:34
+SFN384AEP                             (öõÔù A.ARG.   BOING 737                               ‡@Ä            AÄ -11142 13:20 23:58 15:36 15:34
 
 ========================================================================================================================================================================================================
 
 Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia 19
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: ROS  Islas Malvinas                  Ciudad: Rosario                  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: CNQ  Dr. Piragine Niveyro            Ciudad: Corrientes               
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RCU  Area Material Rio Cuarto        Ciudad: Rio Cuarto               
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: STT  Santa Teresita                  Ciudad: Santa Teresita           
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RHD  Termas de Rio Hondo             Ciudad: Rio Hondo                
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: CTC  Cnel. Felipe Varela             Ciudad: Catamarca                
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RES  Jose de San Martin              Ciudad: Resistencia              
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: EZE  Ministro Pistarini              Ciudad: Ezeiza                   
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: SLA  Gral. Guemes                    Ciudad: Salta                    
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: REL  Alte. Marcos A. Zar             Ciudad: Trelew                   
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: COR  A.Taravella/Pajas Blancas       Ciudad: Cordoba                  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: AFA  Santiago Germano                Ciudad: San Rafael               
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: NQN  Presidente Peron                Ciudad: Neuquen                  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: OYA  Diego N. Diaz Colodrero         Ciudad: Goya                     
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: BHI  Comandante Espora               Ciudad: Bahia Blanca             
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: AOL  Paso de los Libres              Ciudad: Paso de los Libres       
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: LPG  La Plata                        Ciudad: La Plata                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: PRA  Gral. Justo J.de Urquiza        Ciudad: Parana                   
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: FDO  San Fernando                    Ciudad: San Fernando             
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: FMA  El Pucu                         Ciudad: Formosa                  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: JUJ  Gob. Horacio Guzman             Ciudad: San Salvador de Jujuy    
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: LUQ  Brig. May. Cesar Raul Ojeda     Ciudad: San Luis                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RSA  Santa Rosa                      Ciudad: Santa Rosa               
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: JNI  Junin                           Ciudad: Junin                    
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: USH  Malvinas Argentinas             Ciudad: Ushuaia                  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: IRJ  Cap. Vicente A. Almonacid       Ciudad: La Rioja                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: CRD  Intern.Gral. E. Mosconi         Ciudad: Comodoro Rivadavia       
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: MDZ  Gob. Gabrielli/El Plumerillo    Ciudad: Mendoza                  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: PSS  Lib. Gral. J. de San Martin     Ciudad: Posadas                  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: TDL  Tandil                          Ciudad: Tandil                   
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: SDE  Com. De La Paz Aragones         Ciudad: Sgo. del Estero          
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: CUT  Cutral-Co                       Ciudad: Cutral-Co                
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: EQS  Brig. Gral. Antonio Parodi      Ciudad: Esquel                   
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: CPC  Aviador .Campos/Chapelco        Ciudad: San Martin de los Andes  
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: BRC  Tte. Luis Candelaria            Ciudad: Bariloche                
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: FTE  Comandante Armando Tola         Ciudad: El Calafate              
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: VDM  Gobernador Castello             Ciudad: Viedma                   
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: TUC  Tte. Benjamin Matienzo          Ciudad: San Miguel de Tucuman    
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: NEC  Necochea                        Ciudad: Necochea                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: COC  Comodoro Pierrestegui           Ciudad: Concordia                
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: TTG  Gral. E. Mosconi                Ciudad: Tartagal                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: UAQ  Domingo Faustino Sarmiento      Ciudad: San Juan                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: GPO  General Pico                    Ciudad: General Pico             
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RLO  Valle del Conlara               Ciudad: Merlo                    
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: IGR  My. Carlos E. Krause            Ciudad: Puerto Iguazu            
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RGA  Gob. Ramon Trejo Noel           Ciudad: Rio Grande               
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: VME  Villa Reynolds                  Ciudad: Villa Reynolds           
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: VGL  Villa Gesell                    Ciudad: Villa Gesell             
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RYO  El Turbio/28 de Noviembre       Ciudad: El Turbio                
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: LGS  Cdro. Ricardo Salomon           Ciudad: Malargue                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: AEP  Jorge Newbery                   Ciudad: C.A.B.A.                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: GNR  Arturo Humberto Illia           Ciudad: General Roca             
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RGL  Pil. Civ. Norberto Fernandez    Ciudad: Rio Gallegos             
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: RCQ  Daniel Jukic                    Ciudad: Reconquista              
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: MDQ  Astor Piazzolla                 Ciudad: Mar del Plata            
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: SFN  Sauce Viejo                     Ciudad: Santa Fe                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+SFN384AEP A.ARG.   BOING 737   Rosario                   Islas Malvinas                 Santa Fe             -11142 13:20   23:58   15:36   15:34
 
-Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+Aerop. origen: PMY  El Tehuelche                    Ciudad: Puerto Madryn            
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
