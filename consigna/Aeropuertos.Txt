@@ -8,7 +8,7 @@ Chaco                Resistencia               Jose de San Martin             SA
 Buenos Aires         Ezeiza                    Ministro Pistarini             SAEZ EZE
 Salta                Salta                     Gral. Guemes                   SASA SLA
 Chubut               Trelew                    Alte. Marcos A. Zar            SAVT REL
-Cordoba	             Cordoba                   A.Taravella/Pajas Blancas      SACO COR
+Cordoba              Cordoba                   A.Taravella/Pajas Blancas      SACO COR
 Mendoza              San Rafael                Santiago Germano               SAMR AFA
 Neuquen              Neuquen                   Presidente Peron               SAZN NQN
 Corrientes           Goya                      Diego N. Diaz Colodrero        SATG OYA
