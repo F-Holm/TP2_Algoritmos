@@ -38,7 +38,6 @@ struct sNodo;
 struct sTblAerop;
 
 // Constantes, Macros y Typedef
-
 const short CANT_AEROP = 57;
 #define ARCHIVOS ifstream &Aerops, ifstream &Vues, ifstream &Conslts
 typedef char str3[4];
@@ -49,29 +48,28 @@ typedef char str11[12];
 typedef char str20[21];
 typedef char str25[26];
 typedef char str30[31];
-typedef sTblAerop tvrAerop[CANT_AEROP];
 typedef struct sNodo *tLista;
 typedef unsigned short ushort;
 
 // Definiciones de Structs
-struct sAerop {  // Size: 82 B
+struct sAerop {
   str20 provin;
   str25 ciudad;
   str30 nomAeropto;
   str4 codOACI;
   str3 codIATA;
-};  // Sin orden - 57 registros
+};
 
-struct sVue {        // Size: 40 B
-  str9 nroVuelo;     // IATA-3 - NUM-VUELO-3 - IATA-3
-  short distKm;      // 4 digitos
-  short velCrucero;  // 4 digitos
+struct sVue {
+  str9 nroVuelo;
+  short distKm;
+  short velCrucero;
   short cantPsj;
   str8 empresa;
   str11 marcaAeronv;
-  int fechaSale;   // aaaammdd
-  short horaSale;  // hhmm
-};  // Sin orden - ? registros
+  int fechaSale;
+  short horaSale;
+};
 
 struct tInfo {
   str9 nroVuelo;
@@ -86,10 +84,12 @@ struct sNodo {
 struct sTblAerop {
   str3 codIATA;
   ushort pos;
-};  // Ordenado por codIATA - 57 registros
+};
+
+// Typedef
+typedef sTblAerop tvrAerop[CANT_AEROP];
 
 // Declaraciones de Funciones
-
 long GetDate(int &year, int &mes, int &dia, int &ds);
 long GetTime(int &hh, int &mm, int &ss);
 void Abrir(ARCHIVOS);
@@ -113,7 +113,6 @@ void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
 string Replicate(char car, ushort n);
 
 // Main
-
 int main() {
   ifstream Aerops, Vues, Conslts;
   tvrAerop vrAerop;
@@ -129,7 +128,6 @@ int main() {
 }
 
 // Definiciones de funciones
-
 long GetDate(int &year, int &mes, int &dia, int &ds) {
   time_t rawtime;
   struct tm *timeinfo;
@@ -256,7 +254,7 @@ void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
   sAerop aeropDest;
 
   cout << '\n'
-       << Replicate('=', 200) << "\n\n"
+       << Replicate('=', 141) << "\n\n"
        << Replicate(' ', 0)
        << "Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia "
        << dia << "\n";
@@ -266,10 +264,11 @@ void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
     Aerops.seekg(vrAerop[i].pos * sizeof(sAerop));
     Aerops.read((char *)&rAerop, sizeof(sAerop));
 
-    cout << "\nAerop. origen: " << rAerop.codIATA << "  " << rAerop.nomAeropto
-         << "  Ciudad: " << rAerop.ciudad
-         << "\nNroVue.   Empresa  Marca       Ciu.Dest.       "
-            " Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl\n";
+    if (lVues != NULL && strncmp(lVues->info.nroVuelo, rAerop.codIATA, 3) == 0)
+      cout << "\nAerop. origen: " << rAerop.codIATA << "  " << rAerop.nomAeropto
+           << "  Ciudad: " << rAerop.ciudad
+           << "\nNroVue.   Empresa  Marca       Ciu.Dest.       "
+              " Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl \n";
 
     while (lVues != NULL &&
            strncmp(lVues->info.nroVuelo, rAerop.codIATA, 3) == 0) {
