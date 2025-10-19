@@ -111,12 +111,6 @@ void FormatoHoraMin(short hora, short &hh, short &mm);
 void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
                short &hhVi, short &mmVi, short &hhLl, short &mmLl);
 string Replicate(char car, ushort n);
-// void SubCad();
-// void InsertarEnOrden();
-// void VerifEstado();
-// void InsertaEnLugar();
-// void BuscarClvNodo();
-// void SacarPrimerNodo();
 
 // Main
 
@@ -407,9 +401,3 @@ string Replicate(char car, ushort n) {
     resultado += car;
   return resultado;
 }  // Replicate
-
-// void SubCad();
-// void InsertarEnOrden();
-// void VerifEstado();
-// void InsertaEnLugar();
-// void BuscarClvNodo();

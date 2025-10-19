@@ -1,7 +1,125 @@
                                     Consultas de vuelos del 19 de Noviembre de 2025
 NroVuelo Ciudad de origen Nom.Aerop.Orig.  Empresa     Marca     Ciudad Destino  Nom.Aerop.Dest.      Estado     dia hhAct hhSa  t.V.  hhLl 
-SFN384AEP                             (öõÔù A.ARG.   BOING 737                               ‡@Ä            AÄ -11142 13:20 23:58 15:36 15:34
-SFN384AEP                             (öõÔù A.ARG.   BOING 737                               ‡@Ä            AÄ -11142 13:20 23:58 15:36 15:34
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
+AEP117SLA                                   A.ARG.   AIRBUS A320                                               ¯•Ž -11142 13:38 15:35 01:25 17:00
 
 ========================================================================================================================================================================================================
 
@@ -159,6 +277,27 @@ NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia 
 
 Aerop. origen: AEP  Jorge Newbery                   Ciudad: C.A.B.A.                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+AEP117SLA A.ARG.   AIRBUS A320 Villa Gesell              Villa Gesell                   Buenos Aires         -11142 13:38   15:35   01:25   17:00
+AEP212FTE A.ARG.   AIRBUS A380 La Plata                  La Plata                       Buenos Aires         -11142 13:38   17:35   02:10   19:45
+AEP339MDZ A.ARG.   BOING 787   Mendoza                   Gob. Gabrielli/El Plumerillo   Mendoza              -11142 13:38   14:40   01:05   15:45
+AEP371NQN A.ARG.   BOING 787   Tandil                    Tandil                         Buenos Aires         -11142 13:38   14:40   01:05   15:45
+AEP402LUQ JETSMART AIRBUS A350 La Rioja                  Cap. Vicente A. Almonacid      La Rioja             -11142 13:38   19:50   00:49   20:39
+AEP411GPO A.ARG.   BOING 737   San Fernando              San Fernando                   Buenos Aires         -11142 13:38   13:40   00:30   14:10
+AEP429USH FLYBONDI AIRBUS A320 Reconquista               Daniel Jukic                   Santa Fe             -11142 13:38   13:35   02:45   16:20
+AEP431ROS A.ARG.   AIRBUS A380 General Pico              General Pico                   La Pampa             -11142 13:38   16:35   00:17   16:52
+AEP462USH JETSMART BOING 787   Reconquista               Daniel Jukic                   Santa Fe             -11142 13:38   12:25   02:38   15:03
+AEP483SFN FLYBONDI BOING 737   Villa Reynolds            Villa Reynolds                 San Luis             -11142 13:38   20:05   00:27   20:32
+AEP608UAQ FLYBONDI BOING 787   Rio Gallegos              Pil. Civ. Norberto Fernandez   Santa Cruz           -11142 13:38   14:40   01:09   15:49
+AEP609COR FLYBONDI BOING 787   Ezeiza                    Ministro Pistarini             Buenos Aires         -11142 13:38   16:40   00:43   17:23
+AEP633COR A.ARG.   BOING 787   Ezeiza                    Ministro Pistarini             Buenos Aires         -11142 13:38   08:50   00:43   09:33
+AEP637JUJ FLYBONDI BOING 737   Santa Rosa                Santa Rosa                     La Pampa             -11142 13:38   14:45   01:28   16:13
+AEP639PSS ANDES LA AIRBUS A320 San Martin de los Andes   Aviador .Campos/Chapelco       Neuquen              -11142 13:38   13:20   00:57   14:17
+AEP642CUT FLYBONDI BOING 737   San Rafael                Santiago Germano               Mendoza              -11142 13:38   23:55   01:09   01:04
+AEP789RSA LADE     AIRBUS A320 Merlo                     Valle del Conlara              San Luis             -11142 13:38   16:05   00:20   16:25
+AEP891ROS JETSMART AIRBUS A350 General Pico              General Pico                   La Pampa             -11142 13:38   20:05   00:20   20:25
+AEP905AOL A.ARG.   AIRBUS A380 Rio Cuarto                Area Material Rio Cuarto       Cordoba              -11142 13:38   20:10   00:39   20:49
+AEP973IGR A.ARG.   BOING 787   Formosa                   El Pucu                        Formosa              -11142 13:38   19:25   01:10   20:35
+AEP995SFN A.ARG.   BOING 737   Villa Reynolds            Villa Reynolds                 San Luis             -11142 13:38   17:00   00:27   17:27
 
 Aerop. origen: GNR  Arturo Humberto Illia           Ciudad: General Roca             
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
@@ -174,7 +313,6 @@ NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia 
 
 Aerop. origen: SFN  Sauce Viejo                     Ciudad: Santa Fe                 
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-SFN384AEP A.ARG.   BOING 737   Rosario                   Islas Malvinas                 Santa Fe             -11142 13:20   23:58   15:36   15:34
 
 Aerop. origen: PMY  El Tehuelche                    Ciudad: Puerto Madryn            
 NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
