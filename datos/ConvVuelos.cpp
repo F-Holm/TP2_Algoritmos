@@ -1,4 +1,5 @@
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -41,7 +42,7 @@ bool LeerLinea(ifstream &Vuelos, sVue &rVue) {
   Vuelos.ignore();
   Vuelos.get(rVue.marcaAeronv, 12);
   Vuelos >> rVue.fechaSale >> rVue.horaSale;
-  Vuelos.ignore('\n');
+  Vuelos.ignore(2, '\n');
   return Vuelos.good();
 }  // LeerLinea
 
