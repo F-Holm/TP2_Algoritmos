@@ -1,319 +1,397 @@
                                     Consultas de vuelos del 19 de Noviembre de 2025
 NroVuelo  Ciudad de origen Nom.Aerop.Orig.  Empresa  Marca       Ciudad Destino   Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
 
-JUJ736USH San Salvador de  Gob. Horacio Guz FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 15:50 03:48 19:38
-AEP431ROS C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 Rosario          Islas Malvinas   Santa Fe         2 15:15 16:35 00:17 16:52
-USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 20:45 03:46 00:31
-USH206UAQ Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 San Juan         Domingo Faustino San Juan         2 15:15 22:50 03:40 02:30
-COR409AEP Cordoba          A.Taravella/Paja A.ARG.   AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 14:35 00:45 15:20
-NQN338MDQ Neuquen          Presidente Peron JETSMART BOING 737   Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:15 23:58 11:00 10:58
-AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:15 14:45 01:28 16:13
-IRJ875PRA La Rioja         Cap. Vicente A.  A.ARG.   BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:15 16:10 00:55 17:05
-AOL762AEP Paso de los Libr Paso de los Libr A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 13:25 00:45 14:10
-RSA975NQN Santa Rosa       Santa Rosa       JETSMART BOING 737   Neuquen          Presidente Peron Neuquen          2 15:15 00:09 00:36 00:45
-ROS856AEP Rosario          Islas Malvinas   A.ARG.   AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 14:20 00:17 14:37
-RES653MDQ Resistencia      Jose de San Mart A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:15 23:58 01:32 01:30
-COR525PSS Cordoba          A.Taravella/Paja LADE     BOING 787   Posadas          Lib. Gral. J. de Misiones         2 15:15 09:25 01:04 10:29
-IGR229MDQ Puerto Iguazu    My. Carlos E. Kr A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:15 17:00 01:24 18:24
-AEP639PSS C.A.B.A.         Jorge Newbery    ANDES LA AIRBUS A320 Posadas          Lib. Gral. J. de Misiones         2 15:15 13:20 00:57 14:17
-PRA396MDZ Parana           Gral. Justo J.de LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 12:15 00:48 13:03
-IGR542AEP Puerto Iguazu    My. Carlos E. Kr JETSMART AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 14:50 01:02 15:52
-MDZ229USH Mendoza          Gob. Gabrielli/E FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 13:25 02:45 16:10
-MDZ795USH Mendoza          Gob. Gabrielli/E FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 10:25 02:45 13:10
-ROS274USH Rosario          Islas Malvinas   ANDES LA BOING 737   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 03:15 02:54 06:09
-USH396MDZ Ushuaia          Malvinas Argenti FLYBONDI BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 09:45 02:47 12:32
-NQN363RSA Neuquen          Presidente Peron FLYBONDI AIRBUS A320 Santa Rosa       Santa Rosa       La Pampa         2 15:15 14:40 00:35 15:15
-SLA462NQN Salta            Gral. Guemes     ANDES LA AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:15 15:50 01:45 17:35
-AEP483SFN C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:15 20:05 00:27 20:32
-JUJ102NQN San Salvador de  Gob. Horacio Guz LADE     AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:15 19:20 01:45 21:05
-AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:15 14:45 01:28 16:13
-LUQ203AEP San Luis         Brig. May. Cesar A.ARG.   AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 15:55 00:44 16:39
-MDQ187AEP Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 06:35 00:27 07:02
-MDQ443IGR Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 17:15 01:22 18:37
-SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 10:17 02:10 12:27
-PSS114AEP Posadas          Lib. Gral. J. de FLYBONDI BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 16:15 00:58 17:13
-AEP371NQN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Neuquen          Presidente Peron Neuquen          2 15:15 14:40 01:05 15:45
-SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 19:05 01:03 20:08
-AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:15 14:45 01:28 16:13
-USH646JUJ Ushuaia          Malvinas Argenti JETSMART BOING 787   San Salvador de  Gob. Horacio Guz Jujuy            2 15:15 20:50 03:54 00:44
-NQN201IGR Neuquen          Presidente Peron A.ARG.   BOING 737   Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 20:25 02:15 22:40
-PRA113IRJ Parana           Gral. Justo J.de FLYBONDI AIRBUS A350 La Rioja         Cap. Vicente A.  La Rioja         2 15:15 17:05 00:55 18:00
-AEP789RSA C.A.B.A.         Jorge Newbery    LADE     AIRBUS A320 Santa Rosa       Santa Rosa       La Pampa         2 15:15 16:05 00:20 16:25
-SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 19:05 01:03 20:08
-RSA375MDZ Santa Rosa       Santa Rosa       A.ARG.   BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 16:00 00:40 16:40
-IGR381NQN Puerto Iguazu    My. Carlos E. Kr JETSMART AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:15 14:50 02:11 17:01
-AEP462USH C.A.B.A.         Jorge Newbery    JETSMART BOING 787   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 12:25 02:38 15:03
-AEP212FTE C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 El Calafate      Comandante Arman Santa Cruz       2 15:15 17:35 02:10 19:45
-SFN434MDQ Santa Fe         Sauce Viejo      FLYBONDI AIRBUS A320 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:15 14:20 00:40 15:00
-COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 20:15 00:44 20:59
-SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 19:05 01:03 20:08
-AEP642CUT C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   Cutral-Co        Cutral-Co        Neuquen          2 15:15 23:55 01:09 01:04
-COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 20:15 00:44 20:59
-PRA196IRJ Parana           Gral. Justo J.de A.ARG.   BOING 737   La Rioja         Cap. Vicente A.  La Rioja         2 15:15 11:40 00:55 12:35
-SDE703NQN Sgo. del Estero  Com. De La Paz A LADE     AIRBUS A350 Neuquen          Presidente Peron Neuquen          2 15:15 23:00 01:27 00:27
-MDZ421AEP Mendoza          Gob. Gabrielli/E FLYBONDI AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 21:20 00:58 22:18
-MDZ111RSA Mendoza          Gob. Gabrielli/E A.ARG.   AIRBUS A350 Santa Rosa       Santa Rosa       La Pampa         2 15:15 20:40 00:39 21:19
-AEP995SFN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:15 17:00 00:27 17:27
-IRJ875PRA La Rioja         Cap. Vicente A.  A.ARG.   BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:15 16:10 00:55 17:05
-MDZ375PRA Mendoza          Gob. Gabrielli/E JETSMART BOING 787   Parana           Gral. Justo J.de Entre Rios       2 15:15 16:45 00:47 17:32
-AEP339MDZ C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 14:40 01:05 15:45
-AEP891ROS C.A.B.A.         Jorge Newbery    JETSMART AIRBUS A350 Rosario          Islas Malvinas   Santa Fe         2 15:15 20:05 00:20 20:25
-NQN417USH Neuquen          Presidente Peron A.ARG.   AIRBUS A380 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 01:55 01:38 03:33
-IRJ417PRA La Rioja         Cap. Vicente A.  ANDES LA BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:15 12:25 00:57 13:22
-MDZ639VDM Mendoza          Gob. Gabrielli/E JETSMART BOING 787   Viedma           Gobernador Caste Rio Negro        2 15:15 19:25 01:05 20:30
-IRJ875PRA La Rioja         Cap. Vicente A.  A.ARG.   BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:15 16:10 00:55 17:05
-UAQ309AEP San Juan         Domingo Faustino JETSMART BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 01:30 01:10 02:40
-USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 20:45 03:46 00:31
-SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 10:17 02:10 12:27
-AEP608UAQ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 787   San Juan         Domingo Faustino San Juan         2 15:15 14:40 01:09 15:49
-AEP609COR C.A.B.A.         Jorge Newbery    FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:15 16:40 00:43 17:23
-NQN882JUJ Neuquen          Presidente Peron FLYBONDI AIRBUS A350 San Salvador de  Gob. Horacio Guz Jujuy            2 15:15 13:25 01:47 15:12
-NQN439SLA Neuquen          Presidente Peron JETSMART BOING 787   Salta            Gral. Guemes     Salta            2 15:15 12:25 01:49 14:14
-SDE297COR Sgo. del Estero  Com. De La Paz A FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:15 22:05 00:27 22:32
-GPO506AEP General Pico     General Pico     FLYBONDI AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 15:15 00:30 15:45
-AEP995SFN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:15 17:00 00:27 17:27
-AEP905AOL C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 Paso de los Libr Paso de los Libr Corrientes       2 15:15 20:10 00:39 20:49
-USH206UAQ Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 San Juan         Domingo Faustino San Juan         2 15:15 22:50 03:40 02:30
-PRA725USH Parana           Gral. Justo J.de FLYBONDI AIRBUS A350 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 12:10 02:17 14:27
-SFN384AEP Santa Fe         Sauce Viejo      A.ARG.   BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 23:58 15:36 15:34
-USH322PRA Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 Parana           Gral. Justo J.de Entre Rios       2 15:15 13:35 02:39 16:14
-NQN461AEP Neuquen          Presidente Peron FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 00:11 01:06 01:17
-AEP429USH C.A.B.A.         Jorge Newbery    FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 13:35 02:45 16:20
-AEP411GPO C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   General Pico     General Pico     La Pampa         2 15:15 13:40 00:30 14:10
-USH735VDM Ushuaia          Malvinas Argenti A.ARG.   BOING 787   Viedma           Gobernador Caste Rio Negro        2 15:15 15:50 01:24 17:14
-UAQ630USH San Juan         Domingo Faustino JETSMART AIRBUS A350 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 02:39 03:35 06:14
-NQN942SDE Neuquen          Presidente Peron JETSMART AIRBUS A320 Sgo. del Estero  Com. De La Paz A Santiago del Es  2 15:15 15:00 01:30 16:30
-UAQ309AEP San Juan         Domingo Faustino JETSMART BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 01:30 01:10 02:40
-RSA719SLA Santa Rosa       Santa Rosa       A.ARG.   BOING 787   Salta            Gral. Guemes     Salta            2 15:15 12:20 01:38 13:58
-SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 19:05 01:03 20:08
-MDZ432SLA Mendoza          Gob. Gabrielli/E A.ARG.   BOING 787   Salta            Gral. Guemes     Salta            2 15:15 08:55 00:43 09:38
-COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 20:15 00:44 20:59
-MDQ443IGR Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 17:15 01:22 18:37
-USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 20:45 03:46 00:31
-SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 10:17 02:10 12:27
-COR227USH Cordoba          A.Taravella/Paja JETSMART BOING 737   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 16:10 02:54 19:04
-SLA887NQN Salta            Gral. Guemes     JETSMART AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:15 19:35 01:45 21:20
-COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 20:15 00:44 20:59
-AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:15 14:45 01:28 16:13
-RSA123AEP Santa Rosa       Santa Rosa       FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 14:40 00:20 15:00
-SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 19:05 01:03 20:08
-LUQ962AEP San Luis         Brig. May. Cesar FLYBONDI BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 14:20 00:50 15:10
-AEP117SLA C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A320 Salta            Gral. Guemes     Salta            2 15:15 15:35 01:25 17:00
-USH206UAQ Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 San Juan         Domingo Faustino San Juan         2 15:15 22:50 03:40 02:30
-USH319NQN Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:15 19:05 01:51 20:56
-FTE886AEP El Calafate      Comandante Arman LADE     AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 23:50 02:11 02:01
-CUT112AEP Cutral-Co        Cutral-Co        LADE     AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 08:25 01:12 09:37
-AEP973IGR C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 19:25 01:10 20:35
-SLA762AEP Salta            Gral. Guemes     FLYBONDI BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 14:25 01:24 15:49
-AEP905AOL C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 Paso de los Libr Paso de los Libr Corrientes       2 15:15 20:10 00:39 20:49
-AEP633COR C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:15 08:50 00:43 09:33
-USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:15 20:45 03:46 00:31
-USH342AEP Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 15:35 02:19 17:54
-AEP402LUQ C.A.B.A.         Jorge Newbery    JETSMART AIRBUS A350 San Luis         Brig. May. Cesar San Luis         2 15:15 19:50 00:49 20:39
-SFN612AEP Santa Fe         Sauce Viejo      LADE     AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 15:55 00:27 16:22
-RSA544JUJ Santa Rosa       Santa Rosa       ANDES LA AIRBUS A350 San Salvador de  Gob. Horacio Guz Jujuy            2 15:15 15:50 01:30 17:20
-SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 10:17 02:10 12:27
-AEP995SFN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:15 17:00 00:27 17:27
-VDM761MDZ Viedma           Gobernador Caste A.ARG.   AIRBUS A320 Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 00:15 01:07 01:22
-PSS372MDZ Posadas          Lib. Gral. J. de FLYBONDI BOING 787   Mendoza          Gob. Gabrielli/E Mendoza          2 15:15 17:35 06:30 00:05
-UAQ896NQN San Juan         Domingo Faustino A.ARG.   AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:15 13:30 01:41 15:11
-USH109AEP Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 16:25 02:43 19:08
-SLA741RSA Salta            Gral. Guemes     LADE     BOING 737   Santa Rosa       Santa Rosa       La Pampa         2 15:15 23:55 03:24 03:19
-IGR119USH Puerto Iguazu    My. Carlos E. Kr FLYBONDI AIRBUS A380 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:15 07:17 03:23 10:40
-PMY629AEP Puerto Madryn    El Tehuelche     LADE     AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:15 00:15 01:12 01:27
+JUJ736USH San Salvador de  Gob. Horacio Guz FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 15:50 03:48 19:38
+AEP431ROS C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 Rosario          Islas Malvinas   Santa Fe         2 15:25 16:35 00:17 16:52
+USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 20:45 03:46 00:31
+USH206UAQ Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 San Juan         Domingo Faustino San Juan         2 15:25 22:50 03:40 02:30
+COR409AEP Cordoba          A.Taravella/Paja A.ARG.   AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:35 00:45 15:20
+NQN338MDQ Neuquen          Presidente Peron JETSMART BOING 737   Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 23:58 11:00 10:58
+AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 14:45 01:28 16:13
+IRJ875PRA La Rioja         Cap. Vicente A.  A.ARG.   BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:25 16:10 00:55 17:05
+AOL762AEP Paso de los Libr Paso de los Libr A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 13:25 00:45 14:10
+RSA975NQN Santa Rosa       Santa Rosa       JETSMART BOING 737   Neuquen          Presidente Peron Neuquen          2 15:25 00:09 00:36 00:45
+ROS856AEP Rosario          Islas Malvinas   A.ARG.   AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:20 00:17 14:37
+RES653MDQ Resistencia      Jose de San Mart A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 23:58 01:32 01:30
+COR525PSS Cordoba          A.Taravella/Paja LADE     BOING 787   Posadas          Lib. Gral. J. de Misiones         2 15:25 09:25 01:04 10:29
+IGR229MDQ Puerto Iguazu    My. Carlos E. Kr A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 17:00 01:24 18:24
+AEP639PSS C.A.B.A.         Jorge Newbery    ANDES LA AIRBUS A320 Posadas          Lib. Gral. J. de Misiones         2 15:25 13:20 00:57 14:17
+PRA396MDZ Parana           Gral. Justo J.de LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 12:15 00:48 13:03
+IGR542AEP Puerto Iguazu    My. Carlos E. Kr JETSMART AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:50 01:02 15:52
+MDZ229USH Mendoza          Gob. Gabrielli/E FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 13:25 02:45 16:10
+MDZ795USH Mendoza          Gob. Gabrielli/E FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 10:25 02:45 13:10
+ROS274USH Rosario          Islas Malvinas   ANDES LA BOING 737   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 03:15 02:54 06:09
+USH396MDZ Ushuaia          Malvinas Argenti FLYBONDI BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 09:45 02:47 12:32
+NQN363RSA Neuquen          Presidente Peron FLYBONDI AIRBUS A320 Santa Rosa       Santa Rosa       La Pampa         2 15:25 14:40 00:35 15:15
+SLA462NQN Salta            Gral. Guemes     ANDES LA AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 15:50 01:45 17:35
+AEP483SFN C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:25 20:05 00:27 20:32
+JUJ102NQN San Salvador de  Gob. Horacio Guz LADE     AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 19:20 01:45 21:05
+AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 14:45 01:28 16:13
+LUQ203AEP San Luis         Brig. May. Cesar A.ARG.   AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:55 00:44 16:39
+MDQ187AEP Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 06:35 00:27 07:02
+MDQ443IGR Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 17:15 01:22 18:37
+SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 10:17 02:10 12:27
+PSS114AEP Posadas          Lib. Gral. J. de FLYBONDI BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 16:15 00:58 17:13
+AEP371NQN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Neuquen          Presidente Peron Neuquen          2 15:25 14:40 01:05 15:45
+SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 19:05 01:03 20:08
+AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 14:45 01:28 16:13
+USH646JUJ Ushuaia          Malvinas Argenti JETSMART BOING 787   San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 20:50 03:54 00:44
+NQN201IGR Neuquen          Presidente Peron A.ARG.   BOING 737   Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 20:25 02:15 22:40
+PRA113IRJ Parana           Gral. Justo J.de FLYBONDI AIRBUS A350 La Rioja         Cap. Vicente A.  La Rioja         2 15:25 17:05 00:55 18:00
+AEP789RSA C.A.B.A.         Jorge Newbery    LADE     AIRBUS A320 Santa Rosa       Santa Rosa       La Pampa         2 15:25 16:05 00:20 16:25
+SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 19:05 01:03 20:08
+RSA375MDZ Santa Rosa       Santa Rosa       A.ARG.   BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 16:00 00:40 16:40
+IGR381NQN Puerto Iguazu    My. Carlos E. Kr JETSMART AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 14:50 02:11 17:01
+AEP462USH C.A.B.A.         Jorge Newbery    JETSMART BOING 787   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 12:25 02:38 15:03
+AEP212FTE C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 El Calafate      Comandante Arman Santa Cruz       2 15:25 17:35 02:10 19:45
+SFN434MDQ Santa Fe         Sauce Viejo      FLYBONDI AIRBUS A320 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 14:20 00:40 15:00
+COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 20:15 00:44 20:59
+SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 19:05 01:03 20:08
+AEP642CUT C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   Cutral-Co        Cutral-Co        Neuquen          2 15:25 23:55 01:09 01:04
+COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 20:15 00:44 20:59
+PRA196IRJ Parana           Gral. Justo J.de A.ARG.   BOING 737   La Rioja         Cap. Vicente A.  La Rioja         2 15:25 11:40 00:55 12:35
+SDE703NQN Sgo. del Estero  Com. De La Paz A LADE     AIRBUS A350 Neuquen          Presidente Peron Neuquen          2 15:25 23:00 01:27 00:27
+MDZ421AEP Mendoza          Gob. Gabrielli/E FLYBONDI AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 21:20 00:58 22:18
+MDZ111RSA Mendoza          Gob. Gabrielli/E A.ARG.   AIRBUS A350 Santa Rosa       Santa Rosa       La Pampa         2 15:25 20:40 00:39 21:19
+AEP995SFN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:25 17:00 00:27 17:27
+IRJ875PRA La Rioja         Cap. Vicente A.  A.ARG.   BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:25 16:10 00:55 17:05
+MDZ375PRA Mendoza          Gob. Gabrielli/E JETSMART BOING 787   Parana           Gral. Justo J.de Entre Rios       2 15:25 16:45 00:47 17:32
+AEP339MDZ C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 14:40 01:05 15:45
+AEP891ROS C.A.B.A.         Jorge Newbery    JETSMART AIRBUS A350 Rosario          Islas Malvinas   Santa Fe         2 15:25 20:05 00:20 20:25
+NQN417USH Neuquen          Presidente Peron A.ARG.   AIRBUS A380 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 01:55 01:38 03:33
+IRJ417PRA La Rioja         Cap. Vicente A.  ANDES LA BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:25 12:25 00:57 13:22
+MDZ639VDM Mendoza          Gob. Gabrielli/E JETSMART BOING 787   Viedma           Gobernador Caste Rio Negro        2 15:25 19:25 01:05 20:30
+IRJ875PRA La Rioja         Cap. Vicente A.  A.ARG.   BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:25 16:10 00:55 17:05
+UAQ309AEP San Juan         Domingo Faustino JETSMART BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 01:30 01:10 02:40
+USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 20:45 03:46 00:31
+SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 10:17 02:10 12:27
+AEP608UAQ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 787   San Juan         Domingo Faustino San Juan         2 15:25 14:40 01:09 15:49
+AEP609COR C.A.B.A.         Jorge Newbery    FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:25 16:40 00:43 17:23
+NQN882JUJ Neuquen          Presidente Peron FLYBONDI AIRBUS A350 San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 13:25 01:47 15:12
+NQN439SLA Neuquen          Presidente Peron JETSMART BOING 787   Salta            Gral. Guemes     Salta            2 15:25 12:25 01:49 14:14
+SDE297COR Sgo. del Estero  Com. De La Paz A FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:25 22:05 00:27 22:32
+GPO506AEP General Pico     General Pico     FLYBONDI AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:15 00:30 15:45
+AEP995SFN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:25 17:00 00:27 17:27
+AEP905AOL C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 Paso de los Libr Paso de los Libr Corrientes       2 15:25 20:10 00:39 20:49
+USH206UAQ Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 San Juan         Domingo Faustino San Juan         2 15:25 22:50 03:40 02:30
+PRA725USH Parana           Gral. Justo J.de FLYBONDI AIRBUS A350 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 12:10 02:17 14:27
+SFN384AEP Santa Fe         Sauce Viejo      A.ARG.   BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 23:58 15:36 15:34
+USH322PRA Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 Parana           Gral. Justo J.de Entre Rios       2 15:25 13:35 02:39 16:14
+NQN461AEP Neuquen          Presidente Peron FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 00:11 01:06 01:17
+AEP429USH C.A.B.A.         Jorge Newbery    FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 13:35 02:45 16:20
+AEP411GPO C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   General Pico     General Pico     La Pampa         2 15:25 13:40 00:30 14:10
+USH735VDM Ushuaia          Malvinas Argenti A.ARG.   BOING 787   Viedma           Gobernador Caste Rio Negro        2 15:25 15:50 01:24 17:14
+UAQ630USH San Juan         Domingo Faustino JETSMART AIRBUS A350 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 02:39 03:35 06:14
+NQN942SDE Neuquen          Presidente Peron JETSMART AIRBUS A320 Sgo. del Estero  Com. De La Paz A Santiago del Es  2 15:25 15:00 01:30 16:30
+UAQ309AEP San Juan         Domingo Faustino JETSMART BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 01:30 01:10 02:40
+RSA719SLA Santa Rosa       Santa Rosa       A.ARG.   BOING 787   Salta            Gral. Guemes     Salta            2 15:25 12:20 01:38 13:58
+SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 19:05 01:03 20:08
+MDZ432SLA Mendoza          Gob. Gabrielli/E A.ARG.   BOING 787   Salta            Gral. Guemes     Salta            2 15:25 08:55 00:43 09:38
+COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 20:15 00:44 20:59
+MDQ443IGR Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 17:15 01:22 18:37
+USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 20:45 03:46 00:31
+SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 10:17 02:10 12:27
+COR227USH Cordoba          A.Taravella/Paja JETSMART BOING 737   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 16:10 02:54 19:04
+SLA887NQN Salta            Gral. Guemes     JETSMART AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 19:35 01:45 21:20
+COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 20:15 00:44 20:59
+AEP637JUJ C.A.B.A.         Jorge Newbery    FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 14:45 01:28 16:13
+RSA123AEP Santa Rosa       Santa Rosa       FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:40 00:20 15:00
+SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 19:05 01:03 20:08
+LUQ962AEP San Luis         Brig. May. Cesar FLYBONDI BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:20 00:50 15:10
+AEP117SLA C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A320 Salta            Gral. Guemes     Salta            2 15:25 15:35 01:25 17:00
+USH206UAQ Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 San Juan         Domingo Faustino San Juan         2 15:25 22:50 03:40 02:30
+USH319NQN Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 19:05 01:51 20:56
+FTE886AEP El Calafate      Comandante Arman LADE     AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 23:50 02:11 02:01
+CUT112AEP Cutral-Co        Cutral-Co        LADE     AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 08:25 01:12 09:37
+AEP973IGR C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 19:25 01:10 20:35
+SLA762AEP Salta            Gral. Guemes     FLYBONDI BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:25 01:24 15:49
+AEP905AOL C.A.B.A.         Jorge Newbery    A.ARG.   AIRBUS A380 Paso de los Libr Paso de los Libr Corrientes       2 15:25 20:10 00:39 20:49
+AEP633COR C.A.B.A.         Jorge Newbery    A.ARG.   BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:25 08:50 00:43 09:33
+USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 20:45 03:46 00:31
+USH342AEP Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:35 02:19 17:54
+AEP402LUQ C.A.B.A.         Jorge Newbery    JETSMART AIRBUS A350 San Luis         Brig. May. Cesar San Luis         2 15:25 19:50 00:49 20:39
+SFN612AEP Santa Fe         Sauce Viejo      LADE     AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:55 00:27 16:22
+RSA544JUJ Santa Rosa       Santa Rosa       ANDES LA AIRBUS A350 San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 15:50 01:30 17:20
+SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 10:17 02:10 12:27
+AEP995SFN C.A.B.A.         Jorge Newbery    A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:25 17:00 00:27 17:27
+VDM761MDZ Viedma           Gobernador Caste A.ARG.   AIRBUS A320 Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 00:15 01:07 01:22
+PSS372MDZ Posadas          Lib. Gral. J. de FLYBONDI BOING 787   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 17:35 06:30 00:05
+UAQ896NQN San Juan         Domingo Faustino A.ARG.   AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 13:30 01:41 15:11
+USH109AEP Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 16:25 02:43 19:08
+SLA741RSA Salta            Gral. Guemes     LADE     BOING 737   Santa Rosa       Santa Rosa       La Pampa         2 15:25 23:55 03:24 03:19
+IGR119USH Puerto Iguazu    My. Carlos E. Kr FLYBONDI AIRBUS A380 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 07:17 03:23 10:40
+PMY629AEP Puerto Madryn    El Tehuelche     LADE     AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 00:15 01:12 01:27
 
 ========================================================================================================================================================================================================
 
 Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia 19
 
-Aerop. origen: ROS  Islas Malvinas                  Ciudad: Rosario                  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: CNQ  Dr. Piragine Niveyro            Ciudad: Corrientes               
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: RCU  Area Material Rio Cuarto        Ciudad: Rio Cuarto               
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: STT  Santa Teresita                  Ciudad: Santa Teresita           
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: RHD  Termas de Rio Hondo             Ciudad: Rio Hondo                
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: CTC  Cnel. Felipe Varela             Ciudad: Catamarca                
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: RES  Jose de San Martin              Ciudad: Resistencia              
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: EZE  Ministro Pistarini              Ciudad: Ezeiza                   
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: SLA  Gral. Guemes                    Ciudad: Salta                    
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: REL  Alte. Marcos A. Zar             Ciudad: Trelew                   
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: COR  A.Taravella/Pajas Blancas       Ciudad: Cordoba                  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: AEP  Jorge Newbery                   Ciudad: C.A.B.A.                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+AEP117SLA A.ARG.   AIRBUS A320 Salta            Gral. Guemes     Salta            2 15:25 15:35 01:25 17:00
+AEP212FTE A.ARG.   AIRBUS A380 El Calafate      Comandante Arman Santa Cruz       2 15:25 17:35 02:10 19:45
+AEP339MDZ A.ARG.   BOING 787   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 14:40 01:05 15:45
+AEP371NQN A.ARG.   BOING 787   Neuquen          Presidente Peron Neuquen          2 15:25 14:40 01:05 15:45
+AEP402LUQ JETSMART AIRBUS A350 San Luis         Brig. May. Cesar San Luis         2 15:25 19:50 00:49 20:39
+AEP411GPO A.ARG.   BOING 737   General Pico     General Pico     La Pampa         2 15:25 13:40 00:30 14:10
+AEP429USH FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 13:35 02:45 16:20
+AEP431ROS A.ARG.   AIRBUS A380 Rosario          Islas Malvinas   Santa Fe         2 15:25 16:35 00:17 16:52
+AEP462USH JETSMART BOING 787   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 12:25 02:38 15:03
+AEP483SFN FLYBONDI BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:25 20:05 00:27 20:32
+AEP608UAQ FLYBONDI BOING 787   San Juan         Domingo Faustino San Juan         2 15:25 14:40 01:09 15:49
+AEP609COR FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:25 16:40 00:43 17:23
+AEP633COR A.ARG.   BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:25 08:50 00:43 09:33
+AEP637JUJ FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 14:45 01:28 16:13
+AEP639PSS ANDES LA AIRBUS A320 Posadas          Lib. Gral. J. de Misiones         2 15:25 13:20 00:57 14:17
+AEP642CUT FLYBONDI BOING 737   Cutral-Co        Cutral-Co        Neuquen          2 15:25 23:55 01:09 01:04
+AEP789RSA LADE     AIRBUS A320 Santa Rosa       Santa Rosa       La Pampa         2 15:25 16:05 00:20 16:25
+AEP891ROS JETSMART AIRBUS A350 Rosario          Islas Malvinas   Santa Fe         2 15:25 20:05 00:20 20:25
+AEP905AOL A.ARG.   AIRBUS A380 Paso de los Libr Paso de los Libr Corrientes       2 15:25 20:10 00:39 20:49
+AEP973IGR A.ARG.   BOING 787   Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 19:25 01:10 20:35
+AEP995SFN A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Santa Fe         2 15:25 17:00 00:27 17:27
 
 Aerop. origen: AFA  Santiago Germano                Ciudad: San Rafael               
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: NQN  Presidente Peron                Ciudad: Neuquen                  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: OYA  Diego N. Diaz Colodrero         Ciudad: Goya                     
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: BHI  Comandante Espora               Ciudad: Bahia Blanca             
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
 Aerop. origen: AOL  Paso de los Libres              Ciudad: Paso de los Libres       
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+AOL762AEP A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 13:25 00:45 14:10
 
-Aerop. origen: LPG  La Plata                        Ciudad: La Plata                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: PRA  Gral. Justo J.de Urquiza        Ciudad: Parana                   
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: FDO  San Fernando                    Ciudad: San Fernando             
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: FMA  El Pucu                         Ciudad: Formosa                  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: JUJ  Gob. Horacio Guzman             Ciudad: San Salvador de Jujuy    
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: LUQ  Brig. May. Cesar Raul Ojeda     Ciudad: San Luis                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: RSA  Santa Rosa                      Ciudad: Santa Rosa               
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: JNI  Junin                           Ciudad: Junin                    
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: USH  Malvinas Argentinas             Ciudad: Ushuaia                  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: IRJ  Cap. Vicente A. Almonacid       Ciudad: La Rioja                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: CRD  Intern.Gral. E. Mosconi         Ciudad: Comodoro Rivadavia       
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: MDZ  Gob. Gabrielli/El Plumerillo    Ciudad: Mendoza                  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: PSS  Lib. Gral. J. de San Martin     Ciudad: Posadas                  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: TDL  Tandil                          Ciudad: Tandil                   
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: SDE  Com. De La Paz Aragones         Ciudad: Sgo. del Estero          
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: CUT  Cutral-Co                       Ciudad: Cutral-Co                
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: EQS  Brig. Gral. Antonio Parodi      Ciudad: Esquel                   
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: CPC  Aviador .Campos/Chapelco        Ciudad: San Martin de los Andes  
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: BHI  Comandante Espora               Ciudad: Bahia Blanca             
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
 Aerop. origen: BRC  Tte. Luis Candelaria            Ciudad: Bariloche                
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: FTE  Comandante Armando Tola         Ciudad: El Calafate              
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: VDM  Gobernador Castello             Ciudad: Viedma                   
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: TUC  Tte. Benjamin Matienzo          Ciudad: San Miguel de Tucuman    
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: NEC  Necochea                        Ciudad: Necochea                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: CNQ  Dr. Piragine Niveyro            Ciudad: Corrientes               
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
 Aerop. origen: COC  Comodoro Pierrestegui           Ciudad: Concordia                
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: TTG  Gral. E. Mosconi                Ciudad: Tartagal                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: COR  A.Taravella/Pajas Blancas       Ciudad: Cordoba                  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+COR227USH JETSMART BOING 737   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 16:10 02:54 19:04
+COR409AEP A.ARG.   AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:35 00:45 15:20
+COR525PSS LADE     BOING 787   Posadas          Lib. Gral. J. de Misiones         2 15:25 09:25 01:04 10:29
+COR741AEP JETSMART BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 20:15 00:44 20:59
 
-Aerop. origen: UAQ  Domingo Faustino Sarmiento      Ciudad: San Juan                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: CPC  Aviador .Campos/Chapelco        Ciudad: San Martin de los Andes  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: GPO  General Pico                    Ciudad: General Pico             
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: CRD  Intern.Gral. E. Mosconi         Ciudad: Comodoro Rivadavia       
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: RLO  Valle del Conlara               Ciudad: Merlo                    
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: CTC  Cnel. Felipe Varela             Ciudad: Catamarca                
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: IGR  My. Carlos E. Krause            Ciudad: Puerto Iguazu            
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: CUT  Cutral-Co                       Ciudad: Cutral-Co                
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+CUT112AEP LADE     AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 08:25 01:12 09:37
 
-Aerop. origen: RGA  Gob. Ramon Trejo Noel           Ciudad: Rio Grande               
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: EQS  Brig. Gral. Antonio Parodi      Ciudad: Esquel                   
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: VME  Villa Reynolds                  Ciudad: Villa Reynolds           
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: EZE  Ministro Pistarini              Ciudad: Ezeiza                   
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: VGL  Villa Gesell                    Ciudad: Villa Gesell             
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: FDO  San Fernando                    Ciudad: San Fernando             
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: RYO  El Turbio/28 de Noviembre       Ciudad: El Turbio                
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: FMA  El Pucu                         Ciudad: Formosa                  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: LGS  Cdro. Ricardo Salomon           Ciudad: Malargue                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-
-Aerop. origen: AEP  Jorge Newbery                   Ciudad: C.A.B.A.                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
-AEP117SLA A.ARG.   AIRBUS A320 Salta                     Gral. Guemes                   Salta                -11142 15:15   15:35   01:25   17:00
-AEP212FTE A.ARG.   AIRBUS A380 El Calafate               Comandante Armando Tola        Santa Cruz           -11142 15:15   17:35   02:10   19:45
-AEP339MDZ A.ARG.   BOING 787   Mendoza                   Gob. Gabrielli/El Plumerillo   Mendoza              -11142 15:15   14:40   01:05   15:45
-AEP371NQN A.ARG.   BOING 787   Neuquen                   Presidente Peron               Neuquen              -11142 15:15   14:40   01:05   15:45
-AEP402LUQ JETSMART AIRBUS A350 San Luis                  Brig. May. Cesar Raul Ojeda    San Luis             -11142 15:15   19:50   00:49   20:39
-AEP411GPO A.ARG.   BOING 737   General Pico              General Pico                   La Pampa             -11142 15:15   13:40   00:30   14:10
-AEP429USH FLYBONDI AIRBUS A320 Ushuaia                   Malvinas Argentinas            Tierra del Fuego     -11142 15:15   13:35   02:45   16:20
-AEP431ROS A.ARG.   AIRBUS A380 Rosario                   Islas Malvinas                 Santa Fe             -11142 15:15   16:35   00:17   16:52
-AEP462USH JETSMART BOING 787   Ushuaia                   Malvinas Argentinas            Tierra del Fuego     -11142 15:15   12:25   02:38   15:03
-AEP483SFN FLYBONDI BOING 737   Santa Fe                  Sauce Viejo                    Santa Fe             -11142 15:15   20:05   00:27   20:32
-AEP608UAQ FLYBONDI BOING 787   San Juan                  Domingo Faustino Sarmiento     San Juan             -11142 15:15   14:40   01:09   15:49
-AEP609COR FLYBONDI BOING 787   Cordoba                   A.Taravella/Pajas Blancas      Cordoba	             -11142 15:15   16:40   00:43   17:23
-AEP633COR A.ARG.   BOING 787   Cordoba                   A.Taravella/Pajas Blancas      Cordoba	             -11142 15:15   08:50   00:43   09:33
-AEP637JUJ FLYBONDI BOING 737   San Salvador de Jujuy     Gob. Horacio Guzman            Jujuy                -11142 15:15   14:45   01:28   16:13
-AEP639PSS ANDES LA AIRBUS A320 Posadas                   Lib. Gral. J. de San Martin    Misiones             -11142 15:15   13:20   00:57   14:17
-AEP642CUT FLYBONDI BOING 737   Cutral-Co                 Cutral-Co                      Neuquen              -11142 15:15   23:55   01:09   01:04
-AEP789RSA LADE     AIRBUS A320 Santa Rosa                Santa Rosa                     La Pampa             -11142 15:15   16:05   00:20   16:25
-AEP891ROS JETSMART AIRBUS A350 Rosario                   Islas Malvinas                 Santa Fe             -11142 15:15   20:05   00:20   20:25
-AEP905AOL A.ARG.   AIRBUS A380 Paso de los Libres        Paso de los Libres             Corrientes           -11142 15:15   20:10   00:39   20:49
-AEP973IGR A.ARG.   BOING 787   Puerto Iguazu             My. Carlos E. Krause           Misiones             -11142 15:15   19:25   01:10   20:35
-AEP995SFN A.ARG.   BOING 737   Santa Fe                  Sauce Viejo                    Santa Fe             -11142 15:15   17:00   00:27   17:27
+Aerop. origen: FTE  Comandante Armando Tola         Ciudad: El Calafate              
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+FTE886AEP LADE     AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 23:50 02:11 02:01
 
 Aerop. origen: GNR  Arturo Humberto Illia           Ciudad: General Roca             
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
-Aerop. origen: RGL  Pil. Civ. Norberto Fernandez    Ciudad: Rio Gallegos             
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: GPO  General Pico                    Ciudad: General Pico             
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+GPO506AEP FLYBONDI AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:15 00:30 15:45
 
-Aerop. origen: RCQ  Daniel Jukic                    Ciudad: Reconquista              
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: IGR  My. Carlos E. Krause            Ciudad: Puerto Iguazu            
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+IGR119USH FLYBONDI AIRBUS A380 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 07:17 03:23 10:40
+IGR229MDQ A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 17:00 01:24 18:24
+IGR381NQN JETSMART AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 14:50 02:11 17:01
+IGR542AEP JETSMART AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:50 01:02 15:52
+
+Aerop. origen: IRJ  Cap. Vicente A. Almonacid       Ciudad: La Rioja                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+IRJ417PRA ANDES LA BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:25 12:25 00:57 13:22
+IRJ875PRA A.ARG.   BOING 737   Parana           Gral. Justo J.de Entre Rios       2 15:25 16:10 00:55 17:05
+
+Aerop. origen: JNI  Junin                           Ciudad: Junin                    
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: JUJ  Gob. Horacio Guzman             Ciudad: San Salvador de Jujuy    
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+JUJ102NQN LADE     AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 19:20 01:45 21:05
+JUJ736USH FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 15:50 03:48 19:38
+JUJ881AEP A.ARG.   BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 13:35 01:32 15:07
+
+Aerop. origen: LGS  Cdro. Ricardo Salomon           Ciudad: Malargue                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: LPG  La Plata                        Ciudad: La Plata                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: LUQ  Brig. May. Cesar Raul Ojeda     Ciudad: San Luis                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+LUQ203AEP A.ARG.   AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:55 00:44 16:39
+LUQ962AEP FLYBONDI BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:20 00:50 15:10
 
 Aerop. origen: MDQ  Astor Piazzolla                 Ciudad: Mar del Plata            
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+MDQ187AEP FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 06:35 00:27 07:02
+MDQ443IGR FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 17:15 01:22 18:37
 
-Aerop. origen: SFN  Sauce Viejo                     Ciudad: Santa Fe                 
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+Aerop. origen: MDZ  Gob. Gabrielli/El Plumerillo    Ciudad: Mendoza                  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+MDZ111RSA A.ARG.   AIRBUS A350 Santa Rosa       Santa Rosa       La Pampa         2 15:25 20:40 00:39 21:19
+MDZ229USH FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 13:25 02:45 16:10
+MDZ375PRA JETSMART BOING 787   Parana           Gral. Justo J.de Entre Rios       2 15:25 16:45 00:47 17:32
+MDZ421AEP FLYBONDI AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 21:20 00:58 22:18
+MDZ432SLA A.ARG.   BOING 787   Salta            Gral. Guemes     Salta            2 15:25 08:55 00:43 09:38
+MDZ639VDM JETSMART BOING 787   Viedma           Gobernador Caste Rio Negro        2 15:25 19:25 01:05 20:30
+MDZ795USH FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 10:25 02:45 13:10
+
+Aerop. origen: NEC  Necochea                        Ciudad: Necochea                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: NQN  Presidente Peron                Ciudad: Neuquen                  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+NQN201IGR A.ARG.   BOING 737   Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 20:25 02:15 22:40
+NQN338MDQ JETSMART BOING 737   Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 23:58 11:00 10:58
+NQN363RSA FLYBONDI AIRBUS A320 Santa Rosa       Santa Rosa       La Pampa         2 15:25 14:40 00:35 15:15
+NQN417USH A.ARG.   AIRBUS A380 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 01:55 01:38 03:33
+NQN439SLA JETSMART BOING 787   Salta            Gral. Guemes     Salta            2 15:25 12:25 01:49 14:14
+NQN461AEP FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 00:11 01:06 01:17
+NQN882JUJ FLYBONDI AIRBUS A350 San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 13:25 01:47 15:12
+NQN942SDE JETSMART AIRBUS A320 Sgo. del Estero  Com. De La Paz A Santiago del Es  2 15:25 15:00 01:30 16:30
+
+Aerop. origen: OYA  Diego N. Diaz Colodrero         Ciudad: Goya                     
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
 
 Aerop. origen: PMY  El Tehuelche                    Ciudad: Puerto Madryn            
-NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+PMY629AEP LADE     AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 00:15 01:12 01:27
+
+Aerop. origen: PRA  Gral. Justo J.de Urquiza        Ciudad: Parana                   
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+PRA113IRJ FLYBONDI AIRBUS A350 La Rioja         Cap. Vicente A.  La Rioja         2 15:25 17:05 00:55 18:00
+PRA196IRJ A.ARG.   BOING 737   La Rioja         Cap. Vicente A.  La Rioja         2 15:25 11:40 00:55 12:35
+PRA396MDZ LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 12:15 00:48 13:03
+PRA725USH FLYBONDI AIRBUS A350 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 12:10 02:17 14:27
+
+Aerop. origen: PSS  Lib. Gral. J. de San Martin     Ciudad: Posadas                  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+PSS114AEP FLYBONDI BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 16:15 00:58 17:13
+PSS372MDZ FLYBONDI BOING 787   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 17:35 06:30 00:05
+
+Aerop. origen: RCQ  Daniel Jukic                    Ciudad: Reconquista              
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: RCU  Area Material Rio Cuarto        Ciudad: Rio Cuarto               
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: REL  Alte. Marcos A. Zar             Ciudad: Trelew                   
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: RES  Jose de San Martin              Ciudad: Resistencia              
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+RES653MDQ A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 23:58 01:32 01:30
+
+Aerop. origen: RGA  Gob. Ramon Trejo Noel           Ciudad: Rio Grande               
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: RGL  Pil. Civ. Norberto Fernandez    Ciudad: Rio Gallegos             
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: RHD  Termas de Rio Hondo             Ciudad: Rio Hondo                
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: RLO  Valle del Conlara               Ciudad: Merlo                    
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: ROS  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+ROS274USH ANDES LA BOING 737   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 03:15 02:54 06:09
+ROS856AEP A.ARG.   AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:20 00:17 14:37
+ROS915AEP FLYBONDI AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 13:50 00:20 14:10
+
+Aerop. origen: RSA  Santa Rosa                      Ciudad: Santa Rosa               
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+RSA123AEP FLYBONDI AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:40 00:20 15:00
+RSA375MDZ A.ARG.   BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 16:00 00:40 16:40
+RSA544JUJ ANDES LA AIRBUS A350 San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 15:50 01:30 17:20
+RSA719SLA A.ARG.   BOING 787   Salta            Gral. Guemes     Salta            2 15:25 12:20 01:38 13:58
+RSA975NQN JETSMART BOING 737   Neuquen          Presidente Peron Neuquen          2 15:25 00:09 00:36 00:45
+
+Aerop. origen: RYO  El Turbio/28 de Noviembre       Ciudad: El Turbio                
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: SDE  Com. De La Paz Aragones         Ciudad: Sgo. del Estero          
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+SDE297COR FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:25 22:05 00:27 22:32
+SDE384AEP A.ARG.   AIRBUS A320 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 19:05 01:03 20:08
+SDE703NQN LADE     AIRBUS A350 Neuquen          Presidente Peron Neuquen          2 15:25 23:00 01:27 00:27
+
+Aerop. origen: SFN  Sauce Viejo                     Ciudad: Santa Fe                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+SFN384AEP A.ARG.   BOING 737   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 23:58 15:36 15:34
+SFN434MDQ FLYBONDI AIRBUS A320 Mar del Plata    Astor Piazzolla  Buenos Aires     2 15:25 14:20 00:40 15:00
+SFN612AEP LADE     AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:55 00:27 16:22
+
+Aerop. origen: SLA  Gral. Guemes                    Ciudad: Salta                    
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+SLA462NQN ANDES LA AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 15:50 01:45 17:35
+SLA741RSA LADE     BOING 737   Santa Rosa       Santa Rosa       La Pampa         2 15:25 23:55 03:24 03:19
+SLA762AEP FLYBONDI BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 14:25 01:24 15:49
+SLA812MDZ LADE     BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 10:17 02:10 12:27
+SLA887NQN JETSMART AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 19:35 01:45 21:20
+
+Aerop. origen: STT  Santa Teresita                  Ciudad: Santa Teresita           
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: TDL  Tandil                          Ciudad: Tandil                   
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: TTG  Gral. E. Mosconi                Ciudad: Tartagal                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: TUC  Tte. Benjamin Matienzo          Ciudad: San Miguel de Tucuman    
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: UAQ  Domingo Faustino Sarmiento      Ciudad: San Juan                 
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+UAQ309AEP JETSMART BOING 787   C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 01:30 01:10 02:40
+UAQ630USH JETSMART AIRBUS A350 Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 02:39 03:35 06:14
+UAQ896NQN A.ARG.   AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 13:30 01:41 15:11
+
+Aerop. origen: USH  Malvinas Argentinas             Ciudad: Ushuaia                  
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+USH109AEP A.ARG.   AIRBUS A350 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 16:25 02:43 19:08
+USH206UAQ FLYBONDI AIRBUS A350 San Juan         Domingo Faustino San Juan         2 15:25 22:50 03:40 02:30
+USH319NQN FLYBONDI AIRBUS A320 Neuquen          Presidente Peron Neuquen          2 15:25 19:05 01:51 20:56
+USH322PRA FLYBONDI AIRBUS A350 Parana           Gral. Justo J.de Entre Rios       2 15:25 13:35 02:39 16:14
+USH342AEP FLYBONDI AIRBUS A380 C.A.B.A.         Jorge Newbery    Buenos Aires     2 15:25 15:35 02:19 17:54
+USH374IGR A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Misiones         2 15:25 20:45 03:46 00:31
+USH396MDZ FLYBONDI BOING 737   Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 09:45 02:47 12:32
+USH646JUJ JETSMART BOING 787   San Salvador de  Gob. Horacio Guz Jujuy            2 15:25 20:50 03:54 00:44
+USH682COR FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Cordoba	         2 15:25 07:40 02:56 10:36
+USH735VDM A.ARG.   BOING 787   Viedma           Gobernador Caste Rio Negro        2 15:25 15:50 01:24 17:14
+
+Aerop. origen: VDM  Gobernador Castello             Ciudad: Viedma                   
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+VDM338USH FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Tierra del Fueg  2 15:25 14:45 01:26 16:11
+VDM761MDZ A.ARG.   AIRBUS A320 Mendoza          Gob. Gabrielli/E Mendoza          2 15:25 00:15 01:07 01:22
+
+Aerop. origen: VGL  Villa Gesell                    Ciudad: Villa Gesell             
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
+
+Aerop. origen: VME  Villa Reynolds                  Ciudad: Villa Reynolds           
+NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa  t.V.  hhLl
