@@ -22,8 +22,8 @@ int main() {
 }
 
 bool LeerLinea(ifstream &Conslt, tNroVuelo &consulta) {
-  Conslt.get(consulta, 9);
-  Conslt.ignore('\n');
+  Conslt.get(consulta, 10);
+  Conslt.ignore(2, '\n');
   return Conslt.good();
 }  // LeerLinea
 
