@@ -28,5 +28,5 @@ bool LeerLinea(ifstream &Conslt, tNroVuelo &consulta) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Conslt, tNroVuelo consulta) {
-  Conslt.write(consulta, 9);
+  Conslt.write(consulta, sizeof(tNroVuelo));
 }  // EscribirBloque

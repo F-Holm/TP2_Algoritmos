@@ -189,41 +189,49 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
   str9 nroVuelo;
   tLista aux = lVues;
   sVue rVue;
-
   int anio, mes, dia, ds, hh, mm, ss;
-  GetTime(hh, mm, ss);
-  GetDate(anio, mes, dia, ds);
   const char *meses[] = {"Enero",      "Febrero", "Marzo",     "Abril",
                          "Mayo",       "Junio",   "Julio",     "Agosto",
                          "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+
+  GetTime(hh, mm, ss);
+  GetDate(anio, mes, dia, ds);
   cout << Replicate(' ', 168 / 2 - 48) << "Consultas de vuelos del " << dia
        << " de " << meses[mes] << " de " << anio
-       << "\nNroVuelo Ciudad de origen Nom.Aerop.Orig.  Empresa     Marca     "
-          "Ciudad Destino  Nom.Aerop.Dest.      Estado     dia hhAct hhSa  "
-          "t.V.  hhLl \n";
+       << "\nNroVuelo  Ciudad de origen Nom.Aerop.Orig.  Empresa  Marca     "
+          "  Ciudad Destino   Nom.Aerop.Dest.  Estado          dia hhAct hhSa "
+          "t.V.  hhLl \n\n";
 
-  while (Conslts.read(nroVuelo, 9)) {
-    if (strcmp(aux->info.nroVuelo, lVues->info.nroVuelo) > 0)
+  while (Conslts.read(nroVuelo, sizeof(str9))) {
+    if (strcmp(aux->info.nroVuelo, nroVuelo) > 0)
       aux = lVues;
-    while (strcmp(aux->info.nroVuelo, lVues->info.nroVuelo) < 0)
+    while (strcmp(aux->info.nroVuelo, nroVuelo) != 0)
       aux = aux->sgte;
 
     Vues.clear();
     Vues.seekg(aux->info.pos * sizeof(sVue));
-    Vues.read((char *)&rVue, sizeof(rVue));
+    Vues.read((char *)&rVue, sizeof(sVue));
 
     sAerop origen, destino;
-    Aerops.clear();
-    Aerops.seekg(BusBinVec(vrAerop, nroVuelo) * sizeof(sAerop));
-    Aerops.read((char *)&origen, sizeof(origen));
-    Aerops.clear();
-    Aerops.seekg(BusBinVec(vrAerop, nroVuelo + 6) * sizeof(sAerop));
-    Aerops.read((char *)&destino, sizeof(destino));
 
-    short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl,
-        diaSa = rVue.fechaSale - (rVue.fechaSale / 1000000 * 1000000);
+    Aerops.clear();
+    Aerops.seekg(vrAerop[BusBinVec(vrAerop, nroVuelo)].pos * sizeof(sAerop));
+    Aerops.read((char *)&origen, sizeof(sAerop));
+
+    Aerops.clear();
+    Aerops.seekg(vrAerop[BusBinVec(vrAerop, nroVuelo + 6)].pos *
+                 sizeof(sAerop));
+    Aerops.read((char *)&destino, sizeof(sAerop));
+
+    short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl, diaSa = rVue.fechaSale % 100;
     FormatoHoraMin(rVue.horaSale, hhSa, mmSa);
     HoraLlega(rVue.distKm, rVue.velCrucero, hhSa, mmSa, hhVi, mmVi, hhLl, mmLl);
+
+    origen.ciudad[16] = '\0';
+    origen.nomAeropto[16] = '\0';
+    destino.ciudad[16] = '\0';
+    destino.nomAeropto[16] = '\0';
+    destino.provin[15] = '\0';
 
     cout << setw(9) << rVue.nroVuelo << ' ' << setw(16) << origen.ciudad << ' '
          << setw(16) << origen.nomAeropto << ' ' << setw(8) << rVue.empresa
@@ -273,7 +281,7 @@ void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
       codDest[3] = '\0';
 
       Aerops.clear();
-      Aerops.seekg(BusBinVec(vrAerop, codDest) * sizeof(sAerop));
+      Aerops.seekg(vrAerop[BusBinVec(vrAerop, codDest)].pos * sizeof(sAerop));
       Aerops.read((char *)&aeropDest, sizeof(sAerop));
 
       short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl,
@@ -362,20 +370,19 @@ void SacarPrimerNodo(tLista &lista) {
 }  // SacarPrimerNodo
 
 int BusBinVec(tvrAerop &vrAerop, str3 codIATA) {
-  int li = 0, ls = CANT_AEROP, pm;
+  int li = 0, ls = CANT_AEROP - 1, pm;
 
   while (li <= ls) {
     pm = (li + ls) / 2;
 
-    int cmp = strcmp(codIATA, vrAerop[pm].codIATA);
+    int cmp = strncmp(codIATA, vrAerop[pm].codIATA, 3);
 
-    if (cmp == 0) {
+    if (cmp == 0)
       return pm;
-    } else if (cmp < 0) {
+    else if (cmp < 0)
       ls = pm - 1;
-    } else {
+    else
       li = pm + 1;
-    }
   }
 
   return -1;  // No encontrado
