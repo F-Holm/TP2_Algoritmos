@@ -1,0 +1,179 @@
+                                    Consultas de vuelos del 19 de Noviembre de 2025
+NroVuelo Ciudad de origen Nom.Aerop.Orig.  Empresa     Marca     Ciudad Destino  Nom.Aerop.Dest.      Estado     dia hhAct hhSa  t.V.  hhLl 
+SFN384AEP                            @¤÷ A.ARG.   BOING 737                               p9Fø                 -11142 13:04 23:58 15:36 15:34
+SFN384AEP                            @¤÷ A.ARG.   BOING 737                               p9Fø                 -11142 13:04 23:58 15:36 15:34
+
+========================================================================================================================================================================================================
+
+Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia 19
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl
+
+Aerop. origen: RO  Islas Malvinas                  Ciudad: Rosario                  
+NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl

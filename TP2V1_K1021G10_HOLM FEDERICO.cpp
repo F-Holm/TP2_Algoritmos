@@ -170,11 +170,9 @@ void Abrir(ARCHIVOS) {
 
 void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop) {
   sAerop rAerop;
-  ushort i = 0;
-  while (Aerops.read((char *)&rAerop, sizeof(rAerop))) {
+  for (ushort i = 0; Aerops.read((char *)&rAerop, sizeof(rAerop)); i++) {
     strcpy(vrAerop[i].codIATA, rAerop.codIATA);
     vrAerop[i].pos = i;
-    i++;
   }
   OrdxBur(vrAerop);
 }  // ProcAeropuertos
@@ -183,7 +181,7 @@ void ProcVuelos(ifstream &Vues, tLista &lVues) {
   sVue rVue;
   tInfo info;
   ushort i = 0;
-  while (Vues.read((char *)&rVue, sizeof(rVue))) {
+  while (Vues.read((char *)&rVue, sizeof(sVue))) {
     strcpy(info.nroVuelo, rVue.nroVuelo);
     info.pos = i;
     i++;
@@ -267,9 +265,9 @@ void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
     Aerops.read((char *)&rAerop, sizeof(rAerop));
 
     cout << "\nAerop. origen: " << rAerop.codIATA << "  " << rAerop.nomAeropto
-         << "  Ciudad: " << rAerop.ciudad << "\n";
-    cout << "NroVue.   Empresa   Marca        Ciu.Dest.       Nom.Aerop.Dest.  "
-            " Estado   dia  hhAct  hhSa  t.V.  hhLl\n";
+         << "  Ciudad: " << rAerop.ciudad
+         << "\nNroVue.   Empresa   Marca        Ciu.Dest.       "
+            "Nom.Aerop.Dest.   Estado   dia  hhAct  hhSa  t.V.  hhLl\n";
 
     while (lVues && strncmp(lVues->info.nroVuelo, rAerop.codIATA, 3) == 0) {
       Vues.clear();
@@ -335,7 +333,7 @@ void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2) {
 }  // IntCmb
 
 void InsertaNodo(tLista &lista, tInfo valor) {
-  if (lista || strcmp(valor.nroVuelo, lista->info.nroVuelo) < 0)
+  if (lista == NULL || strcmp(valor.nroVuelo, lista->info.nroVuelo) < 0)
     InsertaInicio(lista, valor);
   else
     InsertaEnMedio(lista, valor);
@@ -351,7 +349,6 @@ void InsertaInicio(tLista &lista, tInfo valor) {
 void InsertaEnMedio(tLista &lista, tInfo valor) {
   tLista nodo = new sNodo;
   nodo->info = valor;
-
   tLista aux = lista;
 
   while (aux->sgte != NULL &&
