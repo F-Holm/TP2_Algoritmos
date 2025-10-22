@@ -1,13 +1,10 @@
 /*
  - Nombre  del  programa: TP2V1_K1021G10_HOLM FEDERICO.cpp
- - fecha  entrega: 03/09/2025
+ - fecha  entrega: 29/10/2025
  - Nro. versión: 1
  - Breve comentario del objetivo del programa:
-   Este programa gestiona un sistema de ventas de artículos, permitiendo
-   registrar artículos, rubros, descripciones y compras. Genera tickets
-   de compra y listados de artículos por rubro, aplicando descuentos según
-   promociones. Utiliza archivos para almacenar y recuperar datos.
-
+   Este programa permite hacer Consultas Remotas de los Vuelos de un día del
+   mes actual
 
  - Curso: Algoritmos y Estructuras de Datos
  - Comision: K1021
@@ -15,7 +12,13 @@
  - Docente: Lic. Hugo A. Cuello
 
  Integrantes (Apellido, Nombre):
+    Almada, Tomas
+    Barcala Roca, Santiago
+    Cejas, Facundo Javier
+    Dominguez, Joaquín Ezequiel
     Holm, Federico
+    Incutti, Mateo
+    Mampaso Romero, Brayan
 
  - Nombre del compilador: Borland C++ V.5.5
  */
@@ -45,6 +48,7 @@ typedef char str4[5];
 typedef char str8[9];
 typedef char str9[10];
 typedef char str11[12];
+typedef char str15[16];
 typedef char str20[21];
 typedef char str25[26];
 typedef char str30[31];
@@ -111,6 +115,8 @@ void FormatoHoraMin(short hora, short &hh, short &mm);
 void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
                short &hhVi, short &mmVi, short &hhLl, short &mmLl);
 string Replicate(char car, ushort n);
+void VerifEstado(str15 &estado, ushort hhSa, ushort mmSa, ushort hhLl,
+                 ushort mmLl, ushort diaSa, ushort mesSa, ushort anioSa);
 
 // Main
 int main() {
@@ -194,7 +200,7 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
 
   GetTime(hh, mm, ss);
   GetDate(anio, mes, dia, ds);
-  cout << Replicate(' ', 168 / 2 - 48) << "Consultas de vuelos del " << dia
+  cout << Replicate(' ', 141 / 2 - 48) << "Consultas de vuelos del " << dia
        << " de " << meses[mes] << " de " << anio
        << "\nNroVuelo  Ciudad de origen Nom.Aerop.Orig.  Empresa  Marca     "
           "  Ciudad Destino   Nom.Aerop.Dest.  Estado          dia hhAct hhSa "
@@ -221,25 +227,28 @@ void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
                  sizeof(sAerop));
     Aerops.read((char *)&destino, sizeof(sAerop));
 
-    short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl, diaSa = rVue.fechaSale % 100;
+    short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl,
+        diaSa = rVue.fechaSale % 100, mesSa = rVue.fechaSale / 100 % 100,
+        anioSa = rVue.fechaSale / 10000;
     FormatoHoraMin(rVue.horaSale, hhSa, mmSa);
     HoraLlega(rVue.distKm, rVue.velCrucero, hhSa, mmSa, hhVi, mmVi, hhLl, mmLl);
 
+    str15 estado;
+    VerifEstado(estado, hhSa, mmSa, hhLl, mmLl, diaSa, mesSa, anioSa);
     origen.ciudad[16] = '\0';
     origen.nomAeropto[16] = '\0';
     destino.ciudad[16] = '\0';
     destino.nomAeropto[16] = '\0';
-    destino.provin[15] = '\0';
 
     cout << setw(9) << rVue.nroVuelo << ' ' << setw(16) << origen.ciudad << ' '
          << setw(16) << origen.nomAeropto << ' ' << setw(8) << rVue.empresa
          << ' ' << setw(11) << rVue.marcaAeronv << ' ' << setw(16)
          << destino.ciudad << ' ' << setw(16) << destino.nomAeropto << ' '
-         << setw(15) << destino.provin << ' ' << setw(2) << diaSa << ' '
+         << setw(15) << left << estado << ' ' << right << setw(2) << dia << ' '
          << setfill('0') << setw(2) << hh << ':' << setw(2) << mm << ' '
          << setw(2) << hhSa << ':' << setw(2) << mmSa << ' ' << setw(2) << hhVi
          << ':' << setw(2) << mmVi << ' ' << setw(2) << hhLl << ':' << setw(2)
-         << mmLl << setfill(' ') << '\n';
+         << mmLl << setfill(' ') << left << '\n';
   }
 }  // ConsultasVuelos
 
@@ -255,7 +264,7 @@ void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
 
   cout << '\n'
        << Replicate('=', 141) << "\n\n"
-       << Replicate(' ', 0)
+       << Replicate(' ', (107 - 64) / 2)
        << "Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia "
        << dia << "\n";
 
@@ -281,23 +290,26 @@ void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
                    sizeof(sAerop));
       Aerops.read((char *)&aeropDest, sizeof(sAerop));
 
-      short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl, diaSa = rVue.fechaSale % 100;
+      short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl,
+          diaSa = rVue.fechaSale % 100, mesSa = rVue.fechaSale / 100 % 100,
+          anioSa = rVue.fechaSale / 10000;
       FormatoHoraMin(rVue.horaSale, hhSa, mmSa);
       HoraLlega(rVue.distKm, rVue.velCrucero, hhSa, mmSa, hhVi, mmVi, hhLl,
                 mmLl);
 
+      str15 estado;
+      VerifEstado(estado, hhSa, mmSa, hhLl, mmLl, diaSa, mesSa, anioSa);
       aeropDest.ciudad[16] = '\0';
       aeropDest.nomAeropto[16] = '\0';
-      aeropDest.provin[15] = '\0';
 
       cout << setw(9) << rVue.nroVuelo << ' ' << setw(8) << rVue.empresa << ' '
            << setw(11) << rVue.marcaAeronv << ' ' << setw(16)
            << aeropDest.ciudad << ' ' << setw(16) << aeropDest.nomAeropto << ' '
-           << setw(15) << aeropDest.provin << ' ' << setw(2) << diaSa << ' '
-           << setfill('0') << setw(2) << hh << ':' << setw(2) << mm << ' '
-           << setw(2) << hhSa << ':' << setw(2) << mmSa << ' ' << setw(2)
+           << setw(15) << left << estado << ' ' << right << setw(2) << dia
+           << ' ' << setfill('0') << setw(2) << hh << ':' << setw(2) << mm
+           << ' ' << setw(2) << hhSa << ':' << setw(2) << mmSa << ' ' << setw(2)
            << hhVi << ':' << setw(2) << mmVi << ' ' << setw(2) << hhLl << ':'
-           << setw(2) << mmLl << setfill(' ') << '\n';
+           << setw(2) << mmLl << setfill(' ') << left << '\n';
 
       SacarPrimerNodo(lVues);
     }
@@ -408,3 +420,34 @@ string Replicate(char car, ushort n) {
     resultado += car;
   return resultado;
 }  // Replicate
+
+void VerifEstado(str15 &estado, ushort hhSa, ushort mmSa, ushort hhLl,
+                 ushort mmLl, ushort diaSa, ushort mesSa, ushort anioSa) {
+  int anio, mes, dia, ds, hh, mm, ss;
+  GetTime(hh, mm, ss);
+  GetDate(anio, mes, dia, ds);
+
+  if (anio < anioSa ||
+      (anio == anioSa &&
+       (mes < mesSa ||
+        (mes == mesSa &&
+         (dia < diaSa ||
+          (dia == diaSa && (hh < hhSa || (hh == hhSa && mm < mmSa))))))))
+    strcpy(estado, "Programado");
+  else if (anio > anioSa ||
+           (anio == anioSa &&
+            (mes > mesSa ||
+             (mes == mesSa &&
+              (dia > diaSa ||
+               (dia == diaSa && (hh > hhLl || (hh == hhLl && mm > mmLl))))))))
+    strcpy(estado, "Arribo");
+  else {
+    strcpy(estado, "Estimado->");
+    estado[10] = (hhLl / 10) + 48;
+    estado[11] = (hhLl % 10) + 48;
+    estado[12] = ':';
+    estado[13] = (mmLl / 10) + 48;
+    estado[14] = (mmLl % 10) + 48;
+    estado[15] = '\0';
+  }
+}  // VerifEstado

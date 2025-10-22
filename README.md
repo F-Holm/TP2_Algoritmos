@@ -2,7 +2,13 @@
 
 ## Integrantes
 
+- Almada, Tomas
+- Barcala Roca, Santiago
+- Cejas, Facundo Javier
+- Dominguez, Joaquín Ezequiel
 - Holm, Federico
+- Incutti, Mateo
+- Mampaso Romero, Brayan
 
 ---
 
