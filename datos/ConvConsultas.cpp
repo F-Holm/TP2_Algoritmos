@@ -1,4 +1,5 @@
 #include <fstream>
+// #include <iostream>
 
 using namespace std;
 
@@ -28,5 +29,6 @@ bool LeerLinea(ifstream &Conslt, tNroVuelo &consulta) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Conslt, tNroVuelo consulta) {
+  // cout << consulta << endl;
   Conslt.write(consulta, sizeof(tNroVuelo));
 }  // EscribirBloque

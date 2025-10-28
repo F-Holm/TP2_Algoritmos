@@ -1,4 +1,5 @@
 #include <fstream>
+// #include <iostream>
 
 using namespace std;
 
@@ -47,5 +48,7 @@ bool LeerLinea(ifstream &Aerop, sAerop &rAerop) {
 }  // LeerLinea
 
 void EscribirBloque(ofstream &Aerop, sAerop rAerop) {
+  // cout << rAerop.provin << ' ' << rAerop.ciudad << ' ' << rAerop.nomAeropto
+  //      << ' ' << rAerop.codOACI << ' ' << rAerop.codIATA << endl;
   Aerop.write((const char *)&rAerop, sizeof(rAerop));
 }  // EscribirBloque
