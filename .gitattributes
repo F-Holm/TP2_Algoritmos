@@ -33,3 +33,4 @@
 *.tds   binary
 *.dat   binary
 *.Dat   binary
+*.odg   binary
