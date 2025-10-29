@@ -1,0 +1,452 @@
+001: /*
+002:  - Nombre  del  programa: TP2V1_K1021G10_HOLM FEDERICO.cpp
+003:  - fecha  entrega: 29/10/2025
+004:  - Nro. versión: 1
+005:  - Breve comentario del objetivo del programa:
+006:    Este programa permite hacer Consultas Remotas de los Vuelos de un día del
+007:    mes actual
+008: 
+009:  - Curso: Algoritmos y Estructuras de Datos
+010:  - Comision: K1021
+011:  - Turno: Mañana
+012:  - Docente: Lic. Hugo A. Cuello
+013: 
+014:  Integrantes (Apellido, Nombre):
+015:     Almada, Tomas
+016:     Barcala Roca, Santiago
+017:     Cejas, Facundo Javier
+018:     Dominguez, Joaquín Ezequiel
+019:     Holm, Federico
+020:     Incutti, Mateo
+021:     Mampaso Romero, Brayan
+022: 
+023:  - Nombre del compilador: Borland C++ V.5.5
+024:  */
+025: 
+026: #include <cstring>
+027: #include <fstream>
+028: #include <iomanip>
+029: #include <iostream>
+030: #include <string>
+031: 
+032: using namespace std;
+033: 
+034: // Declaraciones de Structs
+035: 
+036: struct sAerop;
+037: struct sVue;
+038: struct tInfo;
+039: struct sNodo;
+040: struct sTblAerop;
+041: 
+042: // Constantes, Macros y Typedef
+043: const short CANT_AEROP = 57;
+044: #define ARCHIVOS ifstream &Aerops, ifstream &Vues, ifstream &Conslts
+045: typedef char str3[4];
+046: typedef char str4[5];
+047: typedef char str8[9];
+048: typedef char str9[10];
+049: typedef char str11[12];
+050: typedef char str15[16];
+051: typedef char str20[21];
+052: typedef char str25[26];
+053: typedef char str30[31];
+054: typedef struct sNodo *tLista;
+055: typedef unsigned short ushort;
+056: 
+057: // Definiciones de Structs
+058: struct sAerop {
+059:   str20 provin;
+060:   str25 ciudad;
+061:   str30 nomAeropto;
+062:   str4 codOACI;
+063:   str3 codIATA;
+064: };
+065: 
+066: struct sVue {
+067:   str9 nroVuelo;
+068:   short distKm;
+069:   short velCrucero;
+070:   short cantPsj;
+071:   str8 empresa;
+072:   str11 marcaAeronv;
+073:   int fechaSale;
+074:   short horaSale;
+075: };
+076: 
+077: struct tInfo {
+078:   str9 nroVuelo;
+079:   ushort pos;
+080: };
+081: 
+082: struct sNodo {
+083:   tInfo info;
+084:   tLista sgte;
+085: };
+086: 
+087: struct sTblAerop {
+088:   str3 codIATA;
+089:   ushort pos;
+090: };
+091: 
+092: // Typedef
+093: typedef sTblAerop tvrAerop[CANT_AEROP];
+094: 
+095: // Declaraciones de Funciones
+096: long GetDate(int &year, int &mes, int &dia, int &ds);
+097: long GetTime(int &hh, int &mm, int &ss);
+098: void Abrir(ARCHIVOS);
+099: void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop);
+100: void ProcVuelos(ifstream &Vues, tLista &lVues);
+101: void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
+102:                      tLista &lVues, tvrAerop &vrAerop);
+103: void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
+104:                      tLista &lVues);
+105: void Cerrar(ARCHIVOS);
+106: void OrdxBur(tvrAerop &vrAerop);
+107: void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2);
+108: void InsertaNodo(tLista &lista, tInfo valor);
+109: void InsertaInicio(tLista &lista, tInfo valor);
+110: void InsertaEnMedio(tLista &lista, tInfo valor);
+111: void SacarPrimerNodo(tLista &lista);
+112: int BusBinVec(tvrAerop &vrAerop, str3 codIATA);
+113: void FormatoHoraMin(short hora, short &hh, short &mm);
+114: void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
+115:                short &hhVi, short &mmVi, short &hhLl, short &mmLl);
+116: string Replicate(char car, ushort n);
+117: void VerifEstado(str15 &estado, ushort hhSa, ushort mmSa, ushort hhLl,
+118:                  ushort mmLl, ushort diaSa, ushort mesSa, ushort anioSa);
+119: 
+120: // Main
+121: int main() {
+122:   ifstream Aerops, Vues, Conslts;
+123:   tvrAerop vrAerop;
+124:   tLista lVues = NULL;
+125: 
+126:   Abrir(Aerops, Vues, Conslts);
+127:   ProcAeropuertos(Aerops, vrAerop);
+128:   ProcVuelos(Vues, lVues);
+129:   ConsultasVuelos(Conslts, Vues, Aerops, lVues, vrAerop);
+130:   ListVueAeropSld(Aerops, Vues, vrAerop, lVues);
+131:   Cerrar(Aerops, Vues, Conslts);
+132:   return 0;
+133: }
+134: 
+135: // Definiciones de funciones
+136: long GetDate(int &year, int &mes, int &dia, int &ds) {
+137:   time_t rawtime;
+138:   struct tm *timeinfo;
+139: 
+140:   time(&rawtime);
+141:   timeinfo = localtime(&rawtime);
+142:   year = 1900 + timeinfo->tm_year;
+143:   mes = 1 + timeinfo->tm_mon;
+144:   dia = timeinfo->tm_mday;
+145:   ds = 1 + timeinfo->tm_wday;
+146:   return (1900 + timeinfo->tm_year) * 10000 + (1 + timeinfo->tm_mon) * 100 +
+147:          timeinfo->tm_mday;
+148: }  // GetDate
+149: 
+150: long GetTime(int &hh, int &mm, int &ss) {
+151:   time_t rawtime;
+152:   struct tm *timeinfo;
+153: 
+154:   time(&rawtime);
+155:   timeinfo = localtime(&rawtime);
+156:   hh = timeinfo->tm_hour;
+157:   mm = timeinfo->tm_min;
+158:   ss = timeinfo->tm_sec;
+159:   return timeinfo->tm_hour * 10000 + timeinfo->tm_min * 100 + timeinfo->tm_sec;
+160: }  // GetTime
+161: 
+162: void Abrir(ARCHIVOS) {
+163:   Aerops.open("Aeropuertos.Dat", ios::binary | ios::in);
+164:   Vues.open("Vuelos.Dat", ios::binary | ios::in);
+165:   Conslts.open("Consultas.Dat", ios::binary | ios::in);
+166: }  // Abrir
+167: 
+168: void ProcAeropuertos(ifstream &Aerops, tvrAerop &vrAerop) {
+169:   sAerop rAerop;
+170:   for (ushort i = 0; Aerops.read((char *)&rAerop, sizeof(sAerop)); i++) {
+171:     strcpy(vrAerop[i].codIATA, rAerop.codIATA);
+172:     vrAerop[i].pos = i;
+173:   }
+174:   OrdxBur(vrAerop);
+175: }  // ProcAeropuertos
+176: 
+177: void ProcVuelos(ifstream &Vues, tLista &lVues) {
+178:   sVue rVue;
+179:   tInfo info;
+180:   ushort i = 0;
+181:   while (Vues.read((char *)&rVue, sizeof(sVue))) {
+182:     strcpy(info.nroVuelo, rVue.nroVuelo);
+183:     info.pos = i;
+184:     i++;
+185:     InsertaNodo(lVues, info);
+186:   }
+187: }  // ProcVuelos
+188: 
+189: void ConsultasVuelos(ifstream &Conslts, ifstream &Vues, ifstream &Aerops,
+190:                      tLista &lVues, tvrAerop &vrAerop) {
+191:   freopen("Listado Consulta Vuelos.Txt", "w", stdout);
+192:   str9 nroVuelo;
+193:   tLista aux = lVues;
+194:   sVue rVue;
+195:   int anio, mes, dia, ds, hh, mm, ss;
+196:   const char *meses[] = {"Enero",      "Febrero", "Marzo",     "Abril",
+197:                          "Mayo",       "Junio",   "Julio",     "Agosto",
+198:                          "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+199: 
+200:   GetTime(hh, mm, ss);
+201:   GetDate(anio, mes, dia, ds);
+202:   cout << Replicate(' ', 141 / 2 - 48) << "Consultas de vuelos del " << dia
+203:        << " de " << meses[mes] << " de " << anio
+204:        << "\nNroVuelo  Ciudad de origen Nom.Aerop.Orig.  Empresa  Marca     "
+205:           "  Ciudad Destino   Nom.Aerop.Dest.  Estado          dia hhAct hhSa "
+206:           "t.V.  hhLl \n\n";
+207: 
+208:   while (Conslts.read(nroVuelo, sizeof(str9))) {
+209:     if (strcmp(aux->info.nroVuelo, nroVuelo) > 0)
+210:       aux = lVues;
+211:     while (strcmp(aux->info.nroVuelo, nroVuelo) != 0)
+212:       aux = aux->sgte;
+213: 
+214:     Vues.clear();
+215:     Vues.seekg(aux->info.pos * sizeof(sVue));
+216:     Vues.read((char *)&rVue, sizeof(sVue));
+217: 
+218:     sAerop origen, destino;
+219: 
+220:     Aerops.clear();
+221:     Aerops.seekg(vrAerop[BusBinVec(vrAerop, nroVuelo)].pos * sizeof(sAerop));
+222:     Aerops.read((char *)&origen, sizeof(sAerop));
+223: 
+224:     Aerops.clear();
+225:     Aerops.seekg(vrAerop[BusBinVec(vrAerop, nroVuelo + 6)].pos *
+226:                  sizeof(sAerop));
+227:     Aerops.read((char *)&destino, sizeof(sAerop));
+228: 
+229:     short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl,
+230:         diaSa = rVue.fechaSale % 100, mesSa = rVue.fechaSale / 100 % 100,
+231:         anioSa = rVue.fechaSale / 10000;
+232:     FormatoHoraMin(rVue.horaSale, hhSa, mmSa);
+233:     HoraLlega(rVue.distKm, rVue.velCrucero, hhSa, mmSa, hhVi, mmVi, hhLl, mmLl);
+234: 
+235:     str15 estado;
+236:     VerifEstado(estado, hhSa, mmSa, hhLl, mmLl, diaSa, mesSa, anioSa);
+237:     origen.ciudad[16] = '\0';
+238:     origen.nomAeropto[16] = '\0';
+239:     destino.ciudad[16] = '\0';
+240:     destino.nomAeropto[16] = '\0';
+241: 
+242:     cout << setw(9) << rVue.nroVuelo << ' ' << setw(16) << origen.ciudad << ' '
+243:          << setw(16) << origen.nomAeropto << ' ' << setw(8) << rVue.empresa
+244:          << ' ' << setw(11) << rVue.marcaAeronv << ' ' << setw(16)
+245:          << destino.ciudad << ' ' << setw(16) << destino.nomAeropto << ' '
+246:          << setw(15) << left << estado << ' ' << right << setw(2) << dia << ' '
+247:          << setfill('0') << setw(2) << hh << ':' << setw(2) << mm << ' '
+248:          << setw(2) << hhSa << ':' << setw(2) << mmSa << ' ' << setw(2) << hhVi
+249:          << ':' << setw(2) << mmVi << ' ' << setw(2) << hhLl << ':' << setw(2)
+250:          << mmLl << setfill(' ') << left << '\n';
+251:   }
+252: }  // ConsultasVuelos
+253: 
+254: void ListVueAeropSld(ifstream &Aerops, ifstream &Vues, tvrAerop &vrAerop,
+255:                      tLista &lVues) {
+256:   int anio, mes, dia, ds, hh, mm, ss;
+257:   GetTime(hh, mm, ss);
+258:   GetDate(anio, mes, dia, ds);
+259: 
+260:   sAerop rAerop;
+261:   sVue rVue;
+262:   sAerop aeropDest;
+263: 
+264:   cout << '\n'
+265:        << Replicate('=', 141) << "\n\n"
+266:        << Replicate(' ', (107 - 64) / 2)
+267:        << "Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia "
+268:        << dia << "\n";
+269: 
+270:   for (ushort i = 0; i < CANT_AEROP; i++) {
+271:     Aerops.clear();
+272:     Aerops.seekg(vrAerop[i].pos * sizeof(sAerop));
+273:     Aerops.read((char *)&rAerop, sizeof(sAerop));
+274: 
+275:     if (lVues != NULL && strncmp(lVues->info.nroVuelo, rAerop.codIATA, 3) == 0)
+276:       cout << "\nAerop. origen: " << rAerop.codIATA << "  " << rAerop.nomAeropto
+277:            << "  Ciudad: " << rAerop.ciudad
+278:            << "\nNroVue.   Empresa  Marca       Ciu.Dest.       "
+279:               " Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl \n";
+280: 
+281:     while (lVues != NULL &&
+282:            strncmp(lVues->info.nroVuelo, rAerop.codIATA, 3) == 0) {
+283:       Vues.clear();
+284:       Vues.seekg(lVues->info.pos * sizeof(sVue));
+285:       Vues.read((char *)&rVue, sizeof(sVue));
+286: 
+287:       Aerops.clear();
+288:       Aerops.seekg(vrAerop[BusBinVec(vrAerop, rVue.nroVuelo + 6)].pos *
+289:                    sizeof(sAerop));
+290:       Aerops.read((char *)&aeropDest, sizeof(sAerop));
+291: 
+292:       short hhSa, mmSa, hhVi, mmVi, hhLl, mmLl,
+293:           diaSa = rVue.fechaSale % 100, mesSa = rVue.fechaSale / 100 % 100,
+294:           anioSa = rVue.fechaSale / 10000;
+295:       FormatoHoraMin(rVue.horaSale, hhSa, mmSa);
+296:       HoraLlega(rVue.distKm, rVue.velCrucero, hhSa, mmSa, hhVi, mmVi, hhLl,
+297:                 mmLl);
+298: 
+299:       str15 estado;
+300:       VerifEstado(estado, hhSa, mmSa, hhLl, mmLl, diaSa, mesSa, anioSa);
+301:       aeropDest.ciudad[16] = '\0';
+302:       aeropDest.nomAeropto[16] = '\0';
+303: 
+304:       cout << setw(9) << rVue.nroVuelo << ' ' << setw(8) << rVue.empresa << ' '
+305:            << setw(11) << rVue.marcaAeronv << ' ' << setw(16)
+306:            << aeropDest.ciudad << ' ' << setw(16) << aeropDest.nomAeropto << ' '
+307:            << setw(15) << left << estado << ' ' << right << setw(2) << dia
+308:            << ' ' << setfill('0') << setw(2) << hh << ':' << setw(2) << mm
+309:            << ' ' << setw(2) << hhSa << ':' << setw(2) << mmSa << ' ' << setw(2)
+310:            << hhVi << ':' << setw(2) << mmVi << ' ' << setw(2) << hhLl << ':'
+311:            << setw(2) << mmLl << setfill(' ') << left << '\n';
+312: 
+313:       SacarPrimerNodo(lVues);
+314:     }
+315:   }
+316:   fclose(stdout);
+317: }  // ListVueAeropSld
+318: 
+319: void Cerrar(ARCHIVOS) {
+320:   Aerops.close();
+321:   Vues.close();
+322:   Conslts.close();
+323: }  // Cerrar
+324: 
+325: void OrdxBur(tvrAerop &vrAerop) {
+326:   bool hayCambios;
+327:   ushort k = 0;
+328: 
+329:   do {
+330:     hayCambios = false;
+331:     k++;
+332: 
+333:     for (ushort i = 0; i < CANT_AEROP - k; i++) {
+334:       if (strcmp(vrAerop[i].codIATA, vrAerop[i + 1].codIATA) > 0) {
+335:         IntCmb(vrAerop[i], vrAerop[i + 1]);
+336:         hayCambios = true;
+337:       }
+338:     }
+339:   } while (hayCambios);
+340: }  // OrdxBur
+341: 
+342: void IntCmb(sTblAerop &sElem1, sTblAerop &sElem2) {
+343:   sTblAerop auxiliar = sElem1;
+344:   sElem1 = sElem2;
+345:   sElem2 = auxiliar;
+346: }  // IntCmb
+347: 
+348: void InsertaNodo(tLista &lista, tInfo valor) {
+349:   if (lista == NULL || strcmp(valor.nroVuelo, lista->info.nroVuelo) < 0)
+350:     InsertaInicio(lista, valor);
+351:   else
+352:     InsertaEnMedio(lista, valor);
+353: }  // InsertaNodo
+354: 
+355: void InsertaInicio(tLista &lista, tInfo valor) {
+356:   tLista nodo = new sNodo;
+357:   nodo->info = valor;
+358:   nodo->sgte = lista;
+359:   lista = nodo;
+360: }  // InsertaInicio
+361: 
+362: void InsertaEnMedio(tLista &lista, tInfo valor) {
+363:   tLista nodo = new sNodo;
+364:   nodo->info = valor;
+365:   tLista aux = lista;
+366: 
+367:   while (aux->sgte != NULL &&
+368:          strcmp(aux->sgte->info.nroVuelo, valor.nroVuelo) < 0)
+369:     aux = aux->sgte;
+370: 
+371:   nodo->sgte = aux->sgte;
+372:   aux->sgte = nodo;
+373: }  // InsertaEnMedio
+374: 
+375: void SacarPrimerNodo(tLista &lista) {
+376:   if (lista != NULL) {
+377:     tLista nodo = lista;
+378:     lista = lista->sgte;
+379:     delete nodo;
+380:   }
+381: }  // SacarPrimerNodo
+382: 
+383: int BusBinVec(tvrAerop &vrAerop, str3 codIATA) {
+384:   int li = 0, ls = CANT_AEROP - 1, pm;
+385: 
+386:   while (li <= ls) {
+387:     pm = (li + ls) / 2;
+388: 
+389:     int cmp = strncmp(codIATA, vrAerop[pm].codIATA, 3);
+390: 
+391:     if (cmp == 0)
+392:       return pm;
+393:     else if (cmp < 0)
+394:       ls = pm - 1;
+395:     else
+396:       li = pm + 1;
+397:   }
+398: 
+399:   return -1;  // No encontrado
+400: }  // BusBinVec
+401: 
+402: void FormatoHoraMin(short hora, short &hh, short &mm) {
+403:   hh = hora / 100;
+404:   mm = hora - hh * 100;
+405: }  // FormatoHoraMin
+406: 
+407: void HoraLlega(short distKm, short velCrucero, short hhSa, short mmSa,
+408:                short &hhVi, short &mmVi, short &hhLl, short &mmLl) {
+409:   float tV = (float)distKm / (float)velCrucero;
+410:   hhVi = tV;
+411:   mmVi = (tV - hhVi) * 60;  // + 0.5 para redondear
+412:   mmLl = (mmSa + mmVi) % 60;
+413:   hhLl = (hhSa + hhVi + (mmSa + mmVi) / 60) % 24;
+414: }  // HoraLlega
+415: 
+416: string Replicate(char car, ushort n) {
+417:   string resultado = "";
+418:   for (ushort i = 0; i < n; i++)
+419:     resultado += car;
+420:   return resultado;
+421: }  // Replicate
+422: 
+423: void VerifEstado(str15 &estado, ushort hhSa, ushort mmSa, ushort hhLl,
+424:                  ushort mmLl, ushort diaSa, ushort mesSa, ushort anioSa) {
+425:   int anio, mes, dia, ds, hh, mm, ss;
+426:   GetTime(hh, mm, ss);
+427:   GetDate(anio, mes, dia, ds);
+428: 
+429:   if (anio < anioSa ||
+430:       (anio == anioSa &&
+431:        (mes < mesSa ||
+432:         (mes == mesSa &&
+433:          (dia < diaSa ||
+434:           (dia == diaSa && (hh < hhSa || (hh == hhSa && mm < mmSa))))))))
+435:     strcpy(estado, "Programado");
+436:   else if (anio > anioSa ||
+437:            (anio == anioSa &&
+438:             (mes > mesSa ||
+439:              (mes == mesSa &&
+440:               (dia > diaSa ||
+441:                (dia == diaSa && (hh > hhLl || (hh == hhLl && mm > mmLl))))))))
+442:     strcpy(estado, "Arribo");
+443:   else {
+444:     strcpy(estado, "Estimado->");
+445:     estado[10] = (hhLl / 10) + 48;
+446:     estado[11] = (hhLl % 10) + 48;
+447:     estado[12] = ':';
+448:     estado[13] = (mmLl / 10) + 48;
+449:     estado[14] = (mmLl % 10) + 48;
+450:     estado[15] = '\0';
+451:   }
+452: }  // VerifEstado

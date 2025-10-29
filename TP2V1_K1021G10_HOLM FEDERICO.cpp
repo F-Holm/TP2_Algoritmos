@@ -23,7 +23,6 @@
  - Nombre del compilador: Borland C++ V.5.5
  */
 
-#include <cmath>
 #include <cstring>
 #include <fstream>
 #include <iomanip>

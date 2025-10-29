@@ -1,0 +1,304 @@
+001:                       Consultas de vuelos del 28 de Noviembre de 2025
+002: NroVuelo  Ciudad de origen Nom.Aerop.Orig.  Empresa  Marca       Ciudad Destino   Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+003: 
+004: AEP117SLA C.A.B.A.         Islas Malvinas   A.ARG.   AIRBUS A320 Salta            Gral. Guemes     Arribo          28 17:11 06:35 01:25 08:00
+005: AEP212FTE C.A.B.A.         Islas Malvinas   A.ARG.   AIRBUS A380 El Calafate      Comandante Arman Arribo          28 17:11 07:45 02:10 09:55
+006: AEP339MDZ C.A.B.A.         Islas Malvinas   A.ARG.   BOING 787   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 08:50 01:05 09:55
+007: AEP371NQN C.A.B.A.         Islas Malvinas   A.ARG.   BOING 787   Neuquen          Presidente Peron Arribo          28 17:11 09:55 01:05 11:00
+008: AEP402LUQ C.A.B.A.         Islas Malvinas   JETSMART AIRBUS A350 San Luis         Brig. May. Cesar Arribo          28 17:11 11:00 00:49 11:49
+009: AEP411GPO C.A.B.A.         Islas Malvinas   A.ARG.   BOING 737   General Pico     General Pico     Arribo          28 17:11 12:05 00:30 12:35
+010: AEP429USH C.A.B.A.         Islas Malvinas   FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Arribo          28 17:11 13:10 02:45 15:55
+011: AEP431ROS C.A.B.A.         Islas Malvinas   A.ARG.   AIRBUS A380 Rosario          Islas Malvinas   Arribo          28 17:11 14:15 00:17 14:32
+012: AEP462USH C.A.B.A.         Islas Malvinas   JETSMART BOING 787   Ushuaia          Malvinas Argenti Estimado->17:58 28 17:11 15:20 02:38 17:58
+013: AEP483SFN C.A.B.A.         Islas Malvinas   FLYBONDI BOING 737   Santa Fe         Sauce Viejo      Arribo          28 17:11 16:25 00:27 16:52
+014: AEP608UAQ C.A.B.A.         Islas Malvinas   FLYBONDI BOING 787   San Juan         Domingo Faustino Programado      28 17:11 17:30 01:09 18:39
+015: AEP609COR C.A.B.A.         Islas Malvinas   FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Programado      28 17:11 18:35 00:43 19:18
+016: AEP633COR C.A.B.A.         Islas Malvinas   A.ARG.   BOING 787   Cordoba          A.Taravella/Paja Programado      28 17:11 19:40 00:43 20:23
+017: AEP637JUJ C.A.B.A.         Islas Malvinas   FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Programado      28 17:11 20:45 01:28 22:13
+018: AEP639PSS C.A.B.A.         Islas Malvinas   ANDES LA AIRBUS A320 Posadas          Lib. Gral. J. de Programado      28 17:11 21:50 00:57 22:47
+019: AEP642CUT C.A.B.A.         Islas Malvinas   FLYBONDI BOING 737   Cutral-Co        Cutral-Co        Programado      28 17:11 22:55 01:09 00:04
+020: AEP789RSA C.A.B.A.         Islas Malvinas   LADE     AIRBUS A320 Santa Rosa       Santa Rosa       Arribo          28 17:11 07:15 00:20 07:35
+021: AEP891ROS C.A.B.A.         Islas Malvinas   JETSMART AIRBUS A350 Rosario          Islas Malvinas   Arribo          28 17:11 08:20 00:20 08:40
+022: AEP905AOL C.A.B.A.         Islas Malvinas   A.ARG.   AIRBUS A380 Paso de los Libr Paso de los Libr Arribo          28 17:11 09:25 00:39 10:04
+023: AEP973IGR C.A.B.A.         Islas Malvinas   A.ARG.   BOING 787   Puerto Iguazu    My. Carlos E. Kr Arribo          28 17:11 10:30 01:10 11:40
+024: AEP995SFN C.A.B.A.         Islas Malvinas   A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Arribo          28 17:11 11:35 00:27 12:02
+025: AOL762AEP Paso de los Libr Paso de los Libr A.ARG.   AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 12:40 00:45 13:25
+026: COR227USH Cordoba          A.Taravella/Paja JETSMART BOING 737   Ushuaia          Malvinas Argenti Arribo          28 17:11 13:45 02:54 16:39
+027: COR409AEP Cordoba          A.Taravella/Paja A.ARG.   AIRBUS A350 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 14:50 00:45 15:35
+028: COR525PSS Cordoba          A.Taravella/Paja LADE     BOING 787   Posadas          Lib. Gral. J. de Arribo          28 17:11 15:55 01:04 16:59
+029: COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Islas Malvinas   Estimado->17:44 28 17:11 17:00 00:44 17:44
+030: CUT112AEP Cutral-Co        Cutral-Co        LADE     AIRBUS A320 C.A.B.A.         Islas Malvinas   Programado      28 17:11 18:05 01:12 19:17
+031: FTE886AEP El Calafate      Comandante Arman LADE     AIRBUS A380 C.A.B.A.         Islas Malvinas   Programado      28 17:11 19:10 02:11 21:21
+032: GPO506AEP General Pico     General Pico     FLYBONDI AIRBUS A350 C.A.B.A.         Islas Malvinas   Programado      28 17:11 20:15 00:30 20:45
+033: IGR119USH Puerto Iguazu    My. Carlos E. Kr FLYBONDI AIRBUS A380 Ushuaia          Malvinas Argenti Programado      28 17:11 21:20 03:23 00:43
+034: IGR229MDQ Puerto Iguazu    My. Carlos E. Kr A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Programado      28 17:11 22:25 01:24 23:49
+035: IGR381NQN Puerto Iguazu    My. Carlos E. Kr JETSMART AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 06:50 02:11 09:01
+036: IGR542AEP Puerto Iguazu    My. Carlos E. Kr JETSMART AIRBUS A380 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 07:55 01:02 08:57
+037: IRJ417PRA La Rioja         Cap. Vicente A.  ANDES LA BOING 737   Parana           Gral. Justo J.de Arribo          28 17:11 09:00 00:57 09:57
+038: IRJ875PRA La Rioja         Cap. Vicente A.  A.ARG.   BOING 737   Parana           Gral. Justo J.de Arribo          28 17:11 10:05 00:55 11:00
+039: JUJ102NQN San Salvador de  Gob. Horacio Guz LADE     AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 11:10 01:45 12:55
+040: JUJ736USH San Salvador de  Gob. Horacio Guz FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Arribo          28 17:11 12:15 03:48 16:03
+041: JUJ881AEP San Salvador de  Gob. Horacio Guz A.ARG.   BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 13:20 01:32 14:52
+042: LUQ203AEP San Luis         Brig. May. Cesar A.ARG.   AIRBUS A380 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 14:25 00:44 15:09
+043: LUQ962AEP San Luis         Brig. May. Cesar FLYBONDI BOING 737   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 15:30 00:50 16:20
+044: MDQ187AEP Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 16:35 00:27 17:02
+045: MDQ443IGR Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Programado      28 17:11 17:40 01:22 19:02
+046: MDZ111RSA Mendoza          Gob. Gabrielli/E A.ARG.   AIRBUS A350 Santa Rosa       Santa Rosa       Programado      28 17:11 18:45 00:39 19:24
+047: MDZ229USH Mendoza          Gob. Gabrielli/E FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Programado      28 17:11 19:50 02:45 22:35
+048: MDZ375PRA Mendoza          Gob. Gabrielli/E JETSMART BOING 787   Parana           Gral. Justo J.de Programado      28 17:11 20:55 00:47 21:42
+049: MDZ421AEP Mendoza          Gob. Gabrielli/E FLYBONDI AIRBUS A380 C.A.B.A.         Islas Malvinas   Programado      28 17:11 22:00 00:58 22:58
+050: MDZ432SLA Mendoza          Gob. Gabrielli/E A.ARG.   BOING 787   Salta            Gral. Guemes     Arribo          28 17:11 06:25 00:43 07:08
+051: MDZ639VDM Mendoza          Gob. Gabrielli/E JETSMART BOING 787   Viedma           Gobernador Caste Arribo          28 17:11 07:30 01:05 08:35
+052: MDZ795USH Mendoza          Gob. Gabrielli/E FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Arribo          28 17:11 08:35 02:45 11:20
+053: NQN201IGR Neuquen          Presidente Peron A.ARG.   BOING 737   Puerto Iguazu    My. Carlos E. Kr Arribo          28 17:11 09:40 02:15 11:55
+054: NQN338MDQ Neuquen          Presidente Peron JETSMART BOING 737   Mar del Plata    Astor Piazzolla  Estimado->21:45 28 17:11 10:45 11:00 21:45
+055: NQN363RSA Neuquen          Presidente Peron FLYBONDI AIRBUS A320 Santa Rosa       Santa Rosa       Arribo          28 17:11 11:50 00:35 12:25
+056: NQN417USH Neuquen          Presidente Peron A.ARG.   AIRBUS A380 Ushuaia          Malvinas Argenti Arribo          28 17:11 12:55 01:38 14:33
+057: NQN439SLA Neuquen          Presidente Peron JETSMART BOING 787   Salta            Gral. Guemes     Arribo          28 17:11 14:00 01:49 15:49
+058: NQN461AEP Neuquen          Presidente Peron FLYBONDI AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 15:05 01:06 16:11
+059: NQN882JUJ Neuquen          Presidente Peron FLYBONDI AIRBUS A350 San Salvador de  Gob. Horacio Guz Estimado->17:57 28 17:11 16:10 01:47 17:57
+060: NQN942SDE Neuquen          Presidente Peron JETSMART AIRBUS A320 Sgo. del Estero  Com. De La Paz A Programado      28 17:11 17:15 01:30 18:45
+061: PMY629AEP Puerto Madryn    El Tehuelche     LADE     AIRBUS A350 C.A.B.A.         Islas Malvinas   Programado      28 17:11 18:20 01:12 19:32
+062: PRA113IRJ Parana           Gral. Justo J.de FLYBONDI AIRBUS A350 La Rioja         Cap. Vicente A.  Programado      28 17:11 19:25 00:55 20:20
+063: PRA196IRJ Parana           Gral. Justo J.de A.ARG.   BOING 737   La Rioja         Cap. Vicente A.  Programado      28 17:11 20:30 00:55 21:25
+064: PRA396MDZ Parana           Gral. Justo J.de LADE     BOING 737   Mendoza          Gob. Gabrielli/E Programado      28 17:11 21:35 00:48 22:23
+065: PRA725USH Parana           Gral. Justo J.de FLYBONDI AIRBUS A350 Ushuaia          Malvinas Argenti Arribo          28 17:11 06:10 02:17 08:27
+066: PSS114AEP Posadas          Lib. Gral. J. de FLYBONDI BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 07:15 00:58 08:13
+067: PSS372MDZ Posadas          Lib. Gral. J. de FLYBONDI BOING 787   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 08:20 06:30 14:50
+068: RES653MDQ Resistencia      Jose de San Mart A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Arribo          28 17:11 09:25 01:32 10:57
+069: ROS274USH Rosario          Islas Malvinas   ANDES LA BOING 737   Ushuaia          Malvinas Argenti Arribo          28 17:11 10:30 02:54 13:24
+070: ROS856AEP Rosario          Islas Malvinas   A.ARG.   AIRBUS A380 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 11:35 00:17 11:52
+071: ROS915AEP Rosario          Islas Malvinas   FLYBONDI AIRBUS A350 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 12:40 00:20 13:00
+072: RSA123AEP Santa Rosa       Santa Rosa       FLYBONDI AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 13:45 00:20 14:05
+073: RSA375MDZ Santa Rosa       Santa Rosa       A.ARG.   BOING 737   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 14:50 00:40 15:30
+074: RSA544JUJ Santa Rosa       Santa Rosa       ANDES LA AIRBUS A350 San Salvador de  Gob. Horacio Guz Estimado->17:25 28 17:11 15:55 01:30 17:25
+075: RSA719SLA Santa Rosa       Santa Rosa       A.ARG.   BOING 787   Salta            Gral. Guemes     Estimado->18:38 28 17:11 17:00 01:38 18:38
+076: RSA975NQN Santa Rosa       Santa Rosa       JETSMART BOING 737   Neuquen          Presidente Peron Programado      28 17:11 18:05 00:36 18:41
+077: SDE297COR Sgo. del Estero  Com. De La Paz A FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Programado      28 17:11 19:10 00:27 19:37
+078: SDE384AEP Sgo. del Estero  Com. De La Paz A A.ARG.   AIRBUS A320 C.A.B.A.         Islas Malvinas   Programado      28 17:11 20:15 01:03 21:18
+079: SDE703NQN Sgo. del Estero  Com. De La Paz A LADE     AIRBUS A350 Neuquen          Presidente Peron Programado      28 17:11 21:20 01:27 22:47
+080: SFN384AEP Santa Fe         Sauce Viejo      A.ARG.   BOING 737   C.A.B.A.         Islas Malvinas   Programado      28 17:11 22:25 00:48 23:13
+081: SFN434MDQ Santa Fe         Sauce Viejo      FLYBONDI AIRBUS A320 Mar del Plata    Astor Piazzolla  Arribo          28 17:11 06:40 00:40 07:20
+082: SFN612AEP Santa Fe         Sauce Viejo      LADE     AIRBUS A350 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 07:45 00:27 08:12
+083: SLA462NQN Salta            Gral. Guemes     ANDES LA AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 08:50 01:45 10:35
+084: SLA741RSA Salta            Gral. Guemes     LADE     BOING 737   Santa Rosa       Santa Rosa       Arribo          28 17:11 09:55 03:24 13:19
+085: SLA762AEP Salta            Gral. Guemes     FLYBONDI BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 11:00 01:24 12:24
+086: SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 12:05 02:10 14:15
+087: SLA887NQN Salta            Gral. Guemes     JETSMART AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 13:10 01:45 14:55
+088: UAQ309AEP San Juan         Domingo Faustino JETSMART BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 14:15 01:10 15:25
+089: UAQ630USH San Juan         Domingo Faustino JETSMART AIRBUS A350 Ushuaia          Malvinas Argenti Estimado->18:55 28 17:11 15:20 03:35 18:55
+090: UAQ896NQN San Juan         Domingo Faustino A.ARG.   AIRBUS A320 Neuquen          Presidente Peron Estimado->18:06 28 17:11 16:25 01:41 18:06
+091: USH109AEP Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A350 C.A.B.A.         Islas Malvinas   Programado      28 17:11 17:30 02:43 20:13
+092: USH206UAQ Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 San Juan         Domingo Faustino Programado      28 17:11 18:35 03:40 22:15
+093: USH319NQN Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A320 Neuquen          Presidente Peron Programado      28 17:11 19:40 01:51 21:31
+094: USH322PRA Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A350 Parana           Gral. Justo J.de Programado      28 17:11 20:45 02:39 23:24
+095: USH342AEP Ushuaia          Malvinas Argenti FLYBONDI AIRBUS A380 C.A.B.A.         Islas Malvinas   Programado      28 17:11 21:50 02:19 00:09
+096: USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Programado      28 17:11 22:55 03:46 02:41
+097: USH396MDZ Ushuaia          Malvinas Argenti FLYBONDI BOING 737   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 06:30 02:47 09:17
+098: USH646JUJ Ushuaia          Malvinas Argenti JETSMART BOING 787   San Salvador de  Gob. Horacio Guz Arribo          28 17:11 07:35 03:54 11:29
+099: USH735VDM Ushuaia          Malvinas Argenti A.ARG.   BOING 787   Viedma           Gobernador Caste Arribo          28 17:11 08:40 01:24 10:04
+100: VDM338USH Viedma           Gobernador Caste FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Arribo          28 17:11 09:45 01:26 11:11
+101: VDM761MDZ Viedma           Gobernador Caste A.ARG.   AIRBUS A320 Mendoza          Gob. Gabrielli/E Arribo          28 17:11 10:50 01:07 11:57
+102: AEP637JUJ C.A.B.A.         Islas Malvinas   FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Programado      28 17:11 20:45 01:28 22:13
+103: COR741AEP Cordoba          A.Taravella/Paja JETSMART BOING 737   C.A.B.A.         Islas Malvinas   Estimado->17:44 28 17:11 17:00 00:44 17:44
+104: NQN461AEP Neuquen          Presidente Peron FLYBONDI AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 15:05 01:06 16:11
+105: USH374IGR Ushuaia          Malvinas Argenti A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Programado      28 17:11 22:55 03:46 02:41
+106: EZE523BRC Ezeiza           Ministro Pistari A.ARG.   BOING 787   Bariloche        Tte. Luis Candel Arribo          28 17:11 11:55 01:28 13:23
+107: AEP117SLA C.A.B.A.         Islas Malvinas   A.ARG.   AIRBUS A320 Salta            Gral. Guemes     Arribo          28 17:11 06:35 01:25 08:00
+108: MDZ421AEP Mendoza          Gob. Gabrielli/E FLYBONDI AIRBUS A380 C.A.B.A.         Islas Malvinas   Programado      28 17:11 22:00 00:58 22:58
+109: JUJ736USH San Salvador de  Gob. Horacio Guz FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Arribo          28 17:11 12:15 03:48 16:03
+110: SLA812MDZ Salta            Gral. Guemes     LADE     BOING 737   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 12:05 02:10 14:15
+111: NQN417USH Neuquen          Presidente Peron A.ARG.   AIRBUS A380 Ushuaia          Malvinas Argenti Arribo          28 17:11 12:55 01:38 14:33
+112: PSS114AEP Posadas          Lib. Gral. J. de FLYBONDI BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 07:15 00:58 08:13
+113: IGR229MDQ Puerto Iguazu    My. Carlos E. Kr A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Programado      28 17:11 22:25 01:24 23:49
+114: UAQ630USH San Juan         Domingo Faustino JETSMART AIRBUS A350 Ushuaia          Malvinas Argenti Estimado->18:55 28 17:11 15:20 03:35 18:55
+115: ROS856AEP Rosario          Islas Malvinas   A.ARG.   AIRBUS A380 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 11:35 00:17 11:52
+116: COR409AEP Cordoba          A.Taravella/Paja A.ARG.   AIRBUS A350 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 14:50 00:45 15:35
+117: AEP995SFN C.A.B.A.         Islas Malvinas   A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Arribo          28 17:11 11:35 00:27 12:02
+118: MDQ443IGR Mar del Plata    Astor Piazzolla  FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Programado      28 17:11 17:40 01:22 19:02
+119: VDM761MDZ Viedma           Gobernador Caste A.ARG.   AIRBUS A320 Mendoza          Gob. Gabrielli/E Arribo          28 17:11 10:50 01:07 11:57
+120: AEP339MDZ C.A.B.A.         Islas Malvinas   A.ARG.   BOING 787   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 08:50 01:05 09:55
+121: COR525PSS Cordoba          A.Taravella/Paja LADE     BOING 787   Posadas          Lib. Gral. J. de Arribo          28 17:11 15:55 01:04 16:59
+122: RSA719SLA Santa Rosa       Santa Rosa       A.ARG.   BOING 787   Salta            Gral. Guemes     Estimado->18:38 28 17:11 17:00 01:38 18:38
+123: USH646JUJ Ushuaia          Malvinas Argenti JETSMART BOING 787   San Salvador de  Gob. Horacio Guz Arribo          28 17:11 07:35 03:54 11:29
+124: 
+125: =============================================================================================================================================
+126: 
+127:                      Listado Salidas Aerop. Origen a otros Aerop. Llegada, del dia 28
+128: 
+129: Aerop. origen: AEP  Islas Malvinas                  Ciudad: C.A.B.A.                 
+130: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+131: AEP117SLA A.ARG.   AIRBUS A320 Salta            Gral. Guemes     Arribo          28 17:11 06:35 01:25 08:00
+132: AEP212FTE A.ARG.   AIRBUS A380 El Calafate      Comandante Arman Arribo          28 17:11 07:45 02:10 09:55
+133: AEP339MDZ A.ARG.   BOING 787   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 08:50 01:05 09:55
+134: AEP371NQN A.ARG.   BOING 787   Neuquen          Presidente Peron Arribo          28 17:11 09:55 01:05 11:00
+135: AEP402LUQ JETSMART AIRBUS A350 San Luis         Brig. May. Cesar Arribo          28 17:11 11:00 00:49 11:49
+136: AEP411GPO A.ARG.   BOING 737   General Pico     General Pico     Arribo          28 17:11 12:05 00:30 12:35
+137: AEP429USH FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Arribo          28 17:11 13:10 02:45 15:55
+138: AEP431ROS A.ARG.   AIRBUS A380 Rosario          Islas Malvinas   Arribo          28 17:11 14:15 00:17 14:32
+139: AEP462USH JETSMART BOING 787   Ushuaia          Malvinas Argenti Estimado->17:58 28 17:11 15:20 02:38 17:58
+140: AEP483SFN FLYBONDI BOING 737   Santa Fe         Sauce Viejo      Arribo          28 17:11 16:25 00:27 16:52
+141: AEP608UAQ FLYBONDI BOING 787   San Juan         Domingo Faustino Programado      28 17:11 17:30 01:09 18:39
+142: AEP609COR FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Programado      28 17:11 18:35 00:43 19:18
+143: AEP633COR A.ARG.   BOING 787   Cordoba          A.Taravella/Paja Programado      28 17:11 19:40 00:43 20:23
+144: AEP637JUJ FLYBONDI BOING 737   San Salvador de  Gob. Horacio Guz Programado      28 17:11 20:45 01:28 22:13
+145: AEP639PSS ANDES LA AIRBUS A320 Posadas          Lib. Gral. J. de Programado      28 17:11 21:50 00:57 22:47
+146: AEP642CUT FLYBONDI BOING 737   Cutral-Co        Cutral-Co        Programado      28 17:11 22:55 01:09 00:04
+147: AEP789RSA LADE     AIRBUS A320 Santa Rosa       Santa Rosa       Arribo          28 17:11 07:15 00:20 07:35
+148: AEP891ROS JETSMART AIRBUS A350 Rosario          Islas Malvinas   Arribo          28 17:11 08:20 00:20 08:40
+149: AEP905AOL A.ARG.   AIRBUS A380 Paso de los Libr Paso de los Libr Arribo          28 17:11 09:25 00:39 10:04
+150: AEP973IGR A.ARG.   BOING 787   Puerto Iguazu    My. Carlos E. Kr Arribo          28 17:11 10:30 01:10 11:40
+151: AEP995SFN A.ARG.   BOING 737   Santa Fe         Sauce Viejo      Arribo          28 17:11 11:35 00:27 12:02
+152: 
+153: Aerop. origen: AOL  Paso de los Libres              Ciudad: Paso de los Libres       
+154: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+155: AOL762AEP A.ARG.   AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 12:40 00:45 13:25
+156: 
+157: Aerop. origen: COR  A.Taravella/Pajas Blancas       Ciudad: Cordoba                  
+158: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+159: COR227USH JETSMART BOING 737   Ushuaia          Malvinas Argenti Arribo          28 17:11 13:45 02:54 16:39
+160: COR409AEP A.ARG.   AIRBUS A350 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 14:50 00:45 15:35
+161: COR525PSS LADE     BOING 787   Posadas          Lib. Gral. J. de Arribo          28 17:11 15:55 01:04 16:59
+162: COR741AEP JETSMART BOING 737   C.A.B.A.         Islas Malvinas   Estimado->17:44 28 17:11 17:00 00:44 17:44
+163: 
+164: Aerop. origen: CUT  Cutral-Co                       Ciudad: Cutral-Co                
+165: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+166: CUT112AEP LADE     AIRBUS A320 C.A.B.A.         Islas Malvinas   Programado      28 17:11 18:05 01:12 19:17
+167: 
+168: Aerop. origen: EZE  Ministro Pistarini              Ciudad: Ezeiza                   
+169: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+170: EZE523BRC A.ARG.   BOING 787   Bariloche        Tte. Luis Candel Arribo          28 17:11 11:55 01:28 13:23
+171: 
+172: Aerop. origen: FTE  Comandante Armando Tola         Ciudad: El Calafate              
+173: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+174: FTE886AEP LADE     AIRBUS A380 C.A.B.A.         Islas Malvinas   Programado      28 17:11 19:10 02:11 21:21
+175: 
+176: Aerop. origen: GPO  General Pico                    Ciudad: General Pico             
+177: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+178: GPO506AEP FLYBONDI AIRBUS A350 C.A.B.A.         Islas Malvinas   Programado      28 17:11 20:15 00:30 20:45
+179: 
+180: Aerop. origen: IGR  My. Carlos E. Krause            Ciudad: Puerto Iguazu            
+181: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+182: IGR119USH FLYBONDI AIRBUS A380 Ushuaia          Malvinas Argenti Programado      28 17:11 21:20 03:23 00:43
+183: IGR229MDQ A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Programado      28 17:11 22:25 01:24 23:49
+184: IGR381NQN JETSMART AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 06:50 02:11 09:01
+185: IGR542AEP JETSMART AIRBUS A380 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 07:55 01:02 08:57
+186: 
+187: Aerop. origen: IRJ  Cap. Vicente A. Almonacid       Ciudad: La Rioja                 
+188: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+189: IRJ417PRA ANDES LA BOING 737   Parana           Gral. Justo J.de Arribo          28 17:11 09:00 00:57 09:57
+190: IRJ875PRA A.ARG.   BOING 737   Parana           Gral. Justo J.de Arribo          28 17:11 10:05 00:55 11:00
+191: 
+192: Aerop. origen: JUJ  Gob. Horacio Guzman             Ciudad: San Salvador de Jujuy    
+193: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+194: JUJ102NQN LADE     AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 11:10 01:45 12:55
+195: JUJ736USH FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Arribo          28 17:11 12:15 03:48 16:03
+196: JUJ881AEP A.ARG.   BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 13:20 01:32 14:52
+197: 
+198: Aerop. origen: LUQ  Brig. May. Cesar Raul Ojeda     Ciudad: San Luis                 
+199: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+200: LUQ203AEP A.ARG.   AIRBUS A380 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 14:25 00:44 15:09
+201: LUQ962AEP FLYBONDI BOING 737   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 15:30 00:50 16:20
+202: 
+203: Aerop. origen: MDQ  Astor Piazzolla                 Ciudad: Mar del Plata            
+204: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+205: MDQ187AEP FLYBONDI AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 16:35 00:27 17:02
+206: MDQ443IGR FLYBONDI AIRBUS A380 Puerto Iguazu    My. Carlos E. Kr Programado      28 17:11 17:40 01:22 19:02
+207: 
+208: Aerop. origen: MDZ  Gob. Gabrielli/El Plumerillo    Ciudad: Mendoza                  
+209: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+210: MDZ111RSA A.ARG.   AIRBUS A350 Santa Rosa       Santa Rosa       Programado      28 17:11 18:45 00:39 19:24
+211: MDZ229USH FLYBONDI AIRBUS A320 Ushuaia          Malvinas Argenti Programado      28 17:11 19:50 02:45 22:35
+212: MDZ375PRA JETSMART BOING 787   Parana           Gral. Justo J.de Programado      28 17:11 20:55 00:47 21:42
+213: MDZ421AEP FLYBONDI AIRBUS A380 C.A.B.A.         Islas Malvinas   Programado      28 17:11 22:00 00:58 22:58
+214: MDZ432SLA A.ARG.   BOING 787   Salta            Gral. Guemes     Arribo          28 17:11 06:25 00:43 07:08
+215: MDZ639VDM JETSMART BOING 787   Viedma           Gobernador Caste Arribo          28 17:11 07:30 01:05 08:35
+216: MDZ795USH FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Arribo          28 17:11 08:35 02:45 11:20
+217: 
+218: Aerop. origen: NQN  Presidente Peron                Ciudad: Neuquen                  
+219: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+220: NQN201IGR A.ARG.   BOING 737   Puerto Iguazu    My. Carlos E. Kr Arribo          28 17:11 09:40 02:15 11:55
+221: NQN338MDQ JETSMART BOING 737   Mar del Plata    Astor Piazzolla  Estimado->21:45 28 17:11 10:45 11:00 21:45
+222: NQN363RSA FLYBONDI AIRBUS A320 Santa Rosa       Santa Rosa       Arribo          28 17:11 11:50 00:35 12:25
+223: NQN417USH A.ARG.   AIRBUS A380 Ushuaia          Malvinas Argenti Arribo          28 17:11 12:55 01:38 14:33
+224: NQN439SLA JETSMART BOING 787   Salta            Gral. Guemes     Arribo          28 17:11 14:00 01:49 15:49
+225: NQN461AEP FLYBONDI AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 15:05 01:06 16:11
+226: NQN882JUJ FLYBONDI AIRBUS A350 San Salvador de  Gob. Horacio Guz Estimado->17:57 28 17:11 16:10 01:47 17:57
+227: NQN942SDE JETSMART AIRBUS A320 Sgo. del Estero  Com. De La Paz A Programado      28 17:11 17:15 01:30 18:45
+228: 
+229: Aerop. origen: PMY  El Tehuelche                    Ciudad: Puerto Madryn            
+230: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+231: PMY629AEP LADE     AIRBUS A350 C.A.B.A.         Islas Malvinas   Programado      28 17:11 18:20 01:12 19:32
+232: 
+233: Aerop. origen: PRA  Gral. Justo J.de Urquiza        Ciudad: Parana                   
+234: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+235: PRA113IRJ FLYBONDI AIRBUS A350 La Rioja         Cap. Vicente A.  Programado      28 17:11 19:25 00:55 20:20
+236: PRA196IRJ A.ARG.   BOING 737   La Rioja         Cap. Vicente A.  Programado      28 17:11 20:30 00:55 21:25
+237: PRA396MDZ LADE     BOING 737   Mendoza          Gob. Gabrielli/E Programado      28 17:11 21:35 00:48 22:23
+238: PRA725USH FLYBONDI AIRBUS A350 Ushuaia          Malvinas Argenti Arribo          28 17:11 06:10 02:17 08:27
+239: 
+240: Aerop. origen: PSS  Lib. Gral. J. de San Martin     Ciudad: Posadas                  
+241: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+242: PSS114AEP FLYBONDI BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 07:15 00:58 08:13
+243: PSS372MDZ FLYBONDI BOING 787   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 08:20 06:30 14:50
+244: 
+245: Aerop. origen: RES  Jose de San Martin              Ciudad: Resistencia              
+246: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+247: RES653MDQ A.ARG.   AIRBUS A380 Mar del Plata    Astor Piazzolla  Arribo          28 17:11 09:25 01:32 10:57
+248: 
+249: Aerop. origen: ROS  Islas Malvinas                  Ciudad: Rosario                  
+250: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+251: ROS274USH ANDES LA BOING 737   Ushuaia          Malvinas Argenti Arribo          28 17:11 10:30 02:54 13:24
+252: ROS856AEP A.ARG.   AIRBUS A380 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 11:35 00:17 11:52
+253: ROS915AEP FLYBONDI AIRBUS A350 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 12:40 00:20 13:00
+254: 
+255: Aerop. origen: RSA  Santa Rosa                      Ciudad: Santa Rosa               
+256: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+257: RSA123AEP FLYBONDI AIRBUS A320 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 13:45 00:20 14:05
+258: RSA375MDZ A.ARG.   BOING 737   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 14:50 00:40 15:30
+259: RSA544JUJ ANDES LA AIRBUS A350 San Salvador de  Gob. Horacio Guz Estimado->17:25 28 17:11 15:55 01:30 17:25
+260: RSA719SLA A.ARG.   BOING 787   Salta            Gral. Guemes     Estimado->18:38 28 17:11 17:00 01:38 18:38
+261: RSA975NQN JETSMART BOING 737   Neuquen          Presidente Peron Programado      28 17:11 18:05 00:36 18:41
+262: 
+263: Aerop. origen: SDE  Com. De La Paz Aragones         Ciudad: Sgo. del Estero          
+264: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+265: SDE297COR FLYBONDI BOING 787   Cordoba          A.Taravella/Paja Programado      28 17:11 19:10 00:27 19:37
+266: SDE384AEP A.ARG.   AIRBUS A320 C.A.B.A.         Islas Malvinas   Programado      28 17:11 20:15 01:03 21:18
+267: SDE703NQN LADE     AIRBUS A350 Neuquen          Presidente Peron Programado      28 17:11 21:20 01:27 22:47
+268: 
+269: Aerop. origen: SFN  Sauce Viejo                     Ciudad: Santa Fe                 
+270: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+271: SFN384AEP A.ARG.   BOING 737   C.A.B.A.         Islas Malvinas   Programado      28 17:11 22:25 00:48 23:13
+272: SFN434MDQ FLYBONDI AIRBUS A320 Mar del Plata    Astor Piazzolla  Arribo          28 17:11 06:40 00:40 07:20
+273: SFN612AEP LADE     AIRBUS A350 C.A.B.A.         Islas Malvinas   Arribo          28 17:11 07:45 00:27 08:12
+274: 
+275: Aerop. origen: SLA  Gral. Guemes                    Ciudad: Salta                    
+276: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+277: SLA462NQN ANDES LA AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 08:50 01:45 10:35
+278: SLA741RSA LADE     BOING 737   Santa Rosa       Santa Rosa       Arribo          28 17:11 09:55 03:24 13:19
+279: SLA762AEP FLYBONDI BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 11:00 01:24 12:24
+280: SLA812MDZ LADE     BOING 737   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 12:05 02:10 14:15
+281: SLA887NQN JETSMART AIRBUS A320 Neuquen          Presidente Peron Arribo          28 17:11 13:10 01:45 14:55
+282: 
+283: Aerop. origen: UAQ  Domingo Faustino Sarmiento      Ciudad: San Juan                 
+284: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+285: UAQ309AEP JETSMART BOING 787   C.A.B.A.         Islas Malvinas   Arribo          28 17:11 14:15 01:10 15:25
+286: UAQ630USH JETSMART AIRBUS A350 Ushuaia          Malvinas Argenti Estimado->18:55 28 17:11 15:20 03:35 18:55
+287: UAQ896NQN A.ARG.   AIRBUS A320 Neuquen          Presidente Peron Estimado->18:06 28 17:11 16:25 01:41 18:06
+288: 
+289: Aerop. origen: USH  Malvinas Argentinas             Ciudad: Ushuaia                  
+290: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+291: USH109AEP A.ARG.   AIRBUS A350 C.A.B.A.         Islas Malvinas   Programado      28 17:11 17:30 02:43 20:13
+292: USH206UAQ FLYBONDI AIRBUS A350 San Juan         Domingo Faustino Programado      28 17:11 18:35 03:40 22:15
+293: USH319NQN FLYBONDI AIRBUS A320 Neuquen          Presidente Peron Programado      28 17:11 19:40 01:51 21:31
+294: USH322PRA FLYBONDI AIRBUS A350 Parana           Gral. Justo J.de Programado      28 17:11 20:45 02:39 23:24
+295: USH342AEP FLYBONDI AIRBUS A380 C.A.B.A.         Islas Malvinas   Programado      28 17:11 21:50 02:19 00:09
+296: USH374IGR A.ARG.   AIRBUS A320 Puerto Iguazu    My. Carlos E. Kr Programado      28 17:11 22:55 03:46 02:41
+297: USH396MDZ FLYBONDI BOING 737   Mendoza          Gob. Gabrielli/E Arribo          28 17:11 06:30 02:47 09:17
+298: USH646JUJ JETSMART BOING 787   San Salvador de  Gob. Horacio Guz Arribo          28 17:11 07:35 03:54 11:29
+299: USH735VDM A.ARG.   BOING 787   Viedma           Gobernador Caste Arribo          28 17:11 08:40 01:24 10:04
+300: 
+301: Aerop. origen: VDM  Gobernador Castello             Ciudad: Viedma                   
+302: NroVue.   Empresa  Marca       Ciu.Dest.        Nom.Aerop.Dest.  Estado          dia hhAct hhSa t.V.  hhLl 
+303: VDM338USH FLYBONDI BOING 787   Ushuaia          Malvinas Argenti Arribo          28 17:11 09:45 01:26 11:11
+304: VDM761MDZ A.ARG.   AIRBUS A320 Mendoza          Gob. Gabrielli/E Arribo          28 17:11 10:50 01:07 11:57
